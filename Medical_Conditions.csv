@@ -1,0 +1,262 @@
+Medical Conditions Breakdown by Season (data downloaded on 5/17/2023)
+SEASON,MEDICAL CONDITION,CHILDREN-PERCENT(%),ADULTS-PERCENT(%),FEMALES (15-44 YR)-PERCENT(%)
+2003-04,Asthma,17.7,N/A,N/A
+2004-05,Asthma,19.0,N/A,N/A
+2005-06,Asthma,18.6,16.2,N/A
+2006-07,Asthma,15.5,17.2,N/A
+2007-08,Asthma,19.2,15.6,N/A
+2008-09,Asthma,20.1,21.9,N/A
+2009-10,Asthma,30.0,29.0,N/A
+2010-11,Asthma,18.9,19.3,N/A
+2011-12,Asthma,19.7,21.3,N/A
+2012-13,Asthma,22.5,18.6,N/A
+2013-14,Asthma,26.2,22.6,N/A
+2014-15,Asthma,25.9,17.4,N/A
+2015-16,Asthma,21.8,21.0,N/A
+2016-17,Asthma,29.2,20.0,N/A
+2017-18,Asthma,27.1,19.4,N/A
+2018-19,Asthma,25.9,21.4,N/A
+2019-20,Asthma,22.9,20.2,N/A
+2020-21,Asthma,N/A,N/A,N/A
+2021-22,Asthma,28.1,21.8,N/A
+2022-23,Asthma,28.4,23.9,N/A
+2003-04,Cardiovascular disease,2.1,N/A,N/A
+2004-05,Cardiovascular disease,3.7,N/A,N/A
+2005-06,Cardiovascular disease,2.7,43.5,N/A
+2006-07,Cardiovascular disease,3.8,38.5,N/A
+2007-08,Cardiovascular disease,3.3,44.0,N/A
+2008-09,Cardiovascular disease,4.0,26.9,N/A
+2009-10,Cardiovascular disease,4.1,20.3,N/A
+2010-11,Cardiovascular disease,4.5,36.8,N/A
+2011-12,Cardiovascular disease,5.0,37.0,N/A
+2012-13,Cardiovascular disease,6.6,46.3,N/A
+2013-14,Cardiovascular disease,7.9,37.2,N/A
+2014-15,Cardiovascular disease,7.7,51.4,N/A
+2015-16,Cardiovascular disease,8.7,40.8,N/A
+2016-17,Cardiovascular disease,8.7,52.7,N/A
+2017-18,Cardiovascular disease,8.4,51.3,N/A
+2018-19,Cardiovascular disease,7.3,47.3,N/A
+2019-20,Cardiovascular disease,7.4,48.6,N/A
+2020-21,Cardiovascular disease,N/A,N/A,N/A
+2021-22,Cardiovascular disease,5.0,44.1,N/A
+2022-23,Cardiovascular disease,6.6,49.5,N/A
+2003-04,Chronic lung disease,2.2,N/A,N/A
+2004-05,Chronic lung disease,2.8,N/A,N/A
+2005-06,Chronic lung disease,3.7,26.1,N/A
+2006-07,Chronic lung disease,5.9,21.6,N/A
+2007-08,Chronic lung disease,2.2,24.5,N/A
+2008-09,Chronic lung disease,3.4,23.1,N/A
+2009-10,Chronic lung disease,3.8,18.8,N/A
+2010-11,Chronic lung disease,4.8,23.1,N/A
+2011-12,Chronic lung disease,6.2,26.1,N/A
+2012-13,Chronic lung disease,5.6,27.9,N/A
+2013-14,Chronic lung disease,7.3,29.6,N/A
+2014-15,Chronic lung disease,6.1,29.1,N/A
+2015-16,Chronic lung disease,7.0,30.2,N/A
+2016-17,Chronic lung disease,8.1,29.9,N/A
+2017-18,Chronic lung disease,6.5,29.5,N/A
+2018-19,Chronic lung disease,6.4,31.2,N/A
+2019-20,Chronic lung disease,6.4,38.0,N/A
+2020-21,Chronic lung disease,N/A,N/A,N/A
+2021-22,Chronic lung disease,6.6,32.5,N/A
+2022-23,Chronic lung disease,5.0,37.3,N/A
+2003-04,Immune suppression,1.9,N/A,N/A
+2004-05,Immune suppression,4.6,N/A,N/A
+2005-06,Immune suppression,4.7,10.6,N/A
+2006-07,Immune suppression,4.8,12.6,N/A
+2007-08,Immune suppression,4.8,10.6,N/A
+2008-09,Immune suppression,4.4,14.9,N/A
+2009-10,Immune suppression,4.3,12.3,N/A
+2010-11,Immune suppression,5.0,12.4,N/A
+2011-12,Immune suppression,3.9,18.3,N/A
+2012-13,Immune suppression,8.1,16.5,N/A
+2013-14,Immune suppression,7.8,19.0,N/A
+2014-15,Immune suppression,7.9,16.0,N/A
+2015-16,Immune suppression,7.9,17.8,N/A
+2016-17,Immune suppression,10.2,17.4,N/A
+2017-18,Immune suppression,8.2,17.5,N/A
+2018-19,Immune suppression,7.2,19.1,N/A
+2019-20,Immune suppression,6.3,15.1,N/A
+2020-21,Immune suppression,N/A,N/A,N/A
+2021-22,Immune suppression,7.0,11.1,N/A
+2022-23,Immune suppression,8.2,14.3,N/A
+2003-04,Metabolic disease,1.1,N/A,N/A
+2004-05,Metabolic disease,1.8,N/A,N/A
+2005-06,Metabolic disease,2.7,29.1,N/A
+2006-07,Metabolic disease,4.8,33.6,N/A
+2007-08,Metabolic disease,2.7,35.5,N/A
+2008-09,Metabolic disease,3.4,29.5,N/A
+2009-10,Metabolic disease,3.1,28.0,N/A
+2010-11,Metabolic disease,3.8,35.7,N/A
+2011-12,Metabolic disease,3.5,35.6,N/A
+2012-13,Metabolic disease,3.6,40.3,N/A
+2013-14,Metabolic disease,3.7,37.2,N/A
+2014-15,Metabolic disease,4.7,44.8,N/A
+2015-16,Metabolic disease,3.9,39.0,N/A
+2016-17,Metabolic disease,6.0,44.7,N/A
+2017-18,Metabolic disease,4.7,44.8,N/A
+2018-19,Metabolic disease,4.2,44.2,N/A
+2019-20,Metabolic disease,4.0,43.3,N/A
+2020-21,Metabolic disease,N/A,N/A,N/A
+2021-22,Metabolic disease,6.2,40.3,N/A
+2022-23,Metabolic disease,5.1,44.7,N/A
+2011-12,Neurologic disease,13.3,20.2,N/A
+2012-13,Neurologic disease,16.1,22.6,N/A
+2013-14,Neurologic disease,14.4,19.9,N/A
+2014-15,Neurologic disease,15.6,27.4,N/A
+2015-16,Neurologic disease,15.9,21.7,N/A
+2016-17,Neurologic disease,21.7,28.8,N/A
+2017-18,Neurologic disease,18.2,23.4,N/A
+2018-19,Neurologic disease,17.1,20.5,N/A
+2019-20,Neurologic disease,17.2,20.3,N/A
+2020-21,Neurologic disease,N/A,N/A,N/A
+2021-22,Neurologic disease,16.9,20.4,N/A
+2022-23,Neurologic disease,15.2,22.6,N/A
+2004-05,Gastrointestinal/liver disease,N/A,N/A,N/A
+2005-06,Gastrointestinal/liver disease,N/A,N/A,N/A
+2006-07,Gastrointestinal/liver disease,N/A,N/A,N/A
+2007-08,Gastrointestinal/liver disease,N/A,N/A,N/A
+2008-09,Gastrointestinal/liver disease,N/A,N/A,N/A
+2009-10,Gastrointestinal/liver disease,N/A,N/A,N/A
+2010-11,Gastrointestinal/liver disease,N/A,N/A,N/A
+2011-12,Gastrointestinal/liver disease,0.2,2.2,N/A
+2012-13,Gastrointestinal/liver disease,0.5,2.2,N/A
+2013-14,Gastrointestinal/liver disease,0.6,4.6,N/A
+2014-15,Gastrointestinal/liver disease,0.2,3.4,N/A
+2015-16,Gastrointestinal/liver disease,0.3,5.3,N/A
+2016-17,Gastrointestinal/liver disease,0.7,4.7,N/A
+2017-18,Gastrointestinal/liver disease,0.8,4.9,N/A
+2018-19,Gastrointestinal/liver disease,0.6,5.3,N/A
+2019-20,Gastrointestinal/liver disease,1.5,6.5,N/A
+2020-21,Gastrointestinal/liver disease,N/A,N/A,N/A
+2021-22,Gastrointestinal/liver disease,0.9,6.2,N/A
+2022-23,Gastrointestinal/liver disease,0.7,7.3,N/A
+2003-04,Hypertension,N/A,N/A,N/A
+2004-05,Hypertension,N/A,N/A,N/A
+2005-06,Hypertension,N/A,N/A,N/A
+2006-07,Hypertension,N/A,N/A,N/A
+2007-08,Hypertension,N/A,N/A,N/A
+2008-09,Hypertension,N/A,N/A,N/A
+2009-10,Hypertension,N/A,N/A,N/A
+2010-11,Hypertension,N/A,N/A,N/A
+2011-12,Hypertension,N/A,N/A,N/A
+2012-13,Hypertension,N/A,N/A,N/A
+2013-14,Hypertension,N/A,N/A,N/A
+2014-15,Hypertension,N/A,N/A,N/A
+2015-16,Hypertension,N/A,N/A,N/A
+2016-17,Hypertension,N/A,N/A,N/A
+2017-18,Hypertension,N/A,N/A,N/A
+2018-19,Hypertension,N/A,N/A,N/A
+2019-20,Hypertension,N/A,N/A,N/A
+2020-21,Hypertension,N/A,N/A,N/A
+2021-22,Hypertension,1.3,58.5,N/A
+2022-23,Hypertension,1.4,64.7,N/A
+2009-10,Obesity,N/A,N/A,N/A
+2010-11,Obesity,N/A,N/A,N/A
+2011-12,Obesity,7.9,35.3,N/A
+2012-13,Obesity,7.9,32.0,N/A
+2013-14,Obesity,7.7,42.3,N/A
+2014-15,Obesity,9.4,32.8,N/A
+2015-16,Obesity,8.2,40.7,N/A
+2016-17,Obesity,9.7,33.9,N/A
+2017-18,Obesity,14.0,36.1,N/A
+2018-19,Obesity,15.5,39.0,N/A
+2019-20,Obesity,14.1,41.5,N/A
+2020-21,Obesity,N/A,N/A,N/A
+2021-22,Obesity,13.3,37.3,N/A
+2022-23,Obesity,12.5,40.4,N/A
+2005-06,Pregnancy,N/A,N/A,24.3
+2006-07,Pregnancy,N/A,N/A,19.5
+2007-08,Pregnancy,N/A,N/A,25.1
+2008-09,Pregnancy,N/A,N/A,20.2
+2009-10,Pregnancy,N/A,N/A,30.1
+2010-11,Pregnancy,N/A,N/A,30.3
+2011-12,Pregnancy,N/A,N/A,33.5
+2012-13,Pregnancy,N/A,N/A,28.5
+2013-14,Pregnancy,N/A,N/A,23.9
+2014-15,Pregnancy,N/A,N/A,29.7
+2015-16,Pregnancy,N/A,N/A,25.5
+2016-17,Pregnancy,N/A,N/A,29.4
+2017-18,Pregnancy,N/A,N/A,28.1
+2018-19,Pregnancy,N/A,N/A,26.1
+2019-20,Pregnancy,N/A,N/A,25.1
+2020-21,Pregnancy,N/A,N/A,N/A
+2021-22,Pregnancy,N/A,N/A,37.4
+2022-23,Pregnancy,N/A,N/A,36.9
+2003-04,Renal disease,0.5,N/A,N/A
+2004-05,Renal disease,1.8,N/A,N/A
+2005-06,Renal disease,2.4,12.0,N/A
+2006-07,Renal disease,1.9,14.6,N/A
+2007-08,Renal disease,1.5,15.8,N/A
+2008-09,Renal disease,1.9,13.0,N/A
+2009-10,Renal disease,1.3,9.8,N/A
+2010-11,Renal disease,1.4,15.3,N/A
+2011-12,Renal disease,2.3,16.7,N/A
+2012-13,Renal disease,2.3,18.4,N/A
+2013-14,Renal disease,1.8,16.2,N/A
+2014-15,Renal disease,2.3,21.5,N/A
+2015-16,Renal disease,2.1,17.7,N/A
+2016-17,Renal disease,2.4,23.4,N/A
+2017-18,Renal disease,2.2,21.6,N/A
+2018-19,Renal disease,2.2,19.9,N/A
+2019-20,Renal disease,1.9,20.6,N/A
+2020-21,Renal disease,N/A,N/A,N/A
+2021-22,Renal disease,1.7,17.7,N/A
+2022-23,Renal disease,1.9,19.3,N/A
+2003-04,No known condition,76.9,N/A,N/A
+2004-05,No known condition,2.3,N/A,N/A
+2005-06,No known condition,N/A,N/A,N/A
+2006-07,No known condition,N/A,N/A,N/A
+2007-08,No known condition,N/A,N/A,N/A
+2008-09,No known condition,3.9,2.5,N/A
+2009-10,No known condition,1.3,0.0,N/A
+2010-11,No known condition,0.6,0.0,N/A
+2011-12,No known condition,56.4,9.0,N/A
+2012-13,No known condition,53.6,7.7,N/A
+2013-14,No known condition,50.2,8.6,N/A
+2014-15,No known condition,46.1,6.6,N/A
+2015-16,No known condition,49.3,8.2,N/A
+2016-17,No known condition,41.1,6.3,N/A
+2017-18,No known condition,27.0,6.8,N/A
+2018-19,No known condition,30.2,6.6,N/A
+2019-20,No known condition,33.1,7.1,N/A
+2020-21,No known condition,N/A,N/A,N/A
+2021-22,No known condition,34.3,5.9,N/A
+2022-23,No known condition,33.7,2.9,N/A
+2003-04,Autoimmune disease,N/A,N/A,N/A
+2004-05,Autoimmune disease,N/A,N/A,N/A
+2005-06,Autoimmune disease,N/A,N/A,N/A
+2006-07,Autoimmune disease,N/A,N/A,N/A
+2007-08,Autoimmune disease,N/A,N/A,N/A
+2008-09,Autoimmune disease,N/A,N/A,N/A
+2009-10,Autoimmune disease,N/A,N/A,N/A
+2010-11,Autoimmune disease,N/A,N/A,N/A
+2011-12,Autoimmune disease,N/A,N/A,N/A
+2012-13,Autoimmune disease,N/A,N/A,N/A
+2013-14,Autoimmune disease,N/A,N/A,N/A
+2014-15,Autoimmune disease,N/A,N/A,N/A
+2015-16,Autoimmune disease,N/A,N/A,N/A
+2016-17,Autoimmune disease,N/A,N/A,N/A
+2017-18,Autoimmune disease,N/A,N/A,N/A
+2018-19,Autoimmune disease,N/A,N/A,N/A
+2019-20,Autoimmune disease,0.6,4.9,N/A
+2020-21,Autoimmune disease,N/A,N/A,N/A
+2021-22,Autoimmune disease,0.4,3.8,N/A
+2022-23,Autoimmune disease,0.7,4.2,N/A
+
+"The Influenza Hospitalization Surveillance Network (FluSurv-NET) data are preliminary and subject to change as more data become available. The denominator for each underlying condition is the total number of patients with non-missing data for that condition."
+"Asthma includes a medical diagnosis of asthma or reactive airway disease."
+"Autoimmune conditions include rheumatologic and inflammatory conditions such as ankylosing spondylitis, polyarteritis nodosum, rheumatoid arthritis, systemic lupus erythematosus, and vasculitis."
+"Cardiovascular disease includes conditions such as coronary artery disease, cardiac valve disorders, arrhythmias, congestive heart failure, and pulmonary hypertension. This category excludes people who have hypertension only."
+"Chronic lung disease excludes asthma, and includes conditions such as chronic obstructive pulmonary disease, bronchiolitis obliterans, cystic fibrosis, interstitial lung disease and obstructive sleep apnea. "
+"Gastrointestinal/liver disease includes conditions such as hepatitis, cirrhosis, Crohn's disease, and ulcerative colitis."
+"Hypertension includes a medical diagnosis of hypertension. "
+"Immune suppression includes conditions such as HIV/AIDS, complement deficiency, immunoglobulin deficiency, leukemia, lymphoma, solid organ malignancy, and individuals taking immunosuppressive medications."
+"Metabolic disease includes conditions such as diabetes mellitus, adrenal disorders, and thyroid dysfunction."
+"Neurologic diseases include conditions such as seizure disorders, cerebral palsy, cognitive dysfunction, multiple sclerosis, and muscular dystrophy."
+"Obesity is assigned if body mass index (BMI) > 30 kg/m2, or if BMI is missing, if a diagnosis of obesity is indicated in a patient's medial chart."
+"Pregnancy percentage is calculated prior to the 2022-2023 season using the number of female cases aged between 15 and 44 years of age as the denominator. Staring with the 2022-2023 season, pregnancy percentage is calculated using the number of female cases aged between 15 and 49 years of age as the denominator."
+"Renal disease includes conditions such as chronic kidney diseases/chronic renal insufficiency, nephrotic syndrome, glomerulonephritis, and end state renal disease. "
+"Other condition includes blood disorders, pediatric conditions not captured by other categories, feeding tube-dependent, trach or vent-dependent, and wheelchair dependent, as well as other conditions not captured by other existing categories. "
+"No known condition indicates that the case did not have any known underlying medical condition indicated in the medical chart at the time of hospitalization."
+"Underlying medical conditions of pregnant women are included when 'Adults' and/or 'Pediatrics' is selected."

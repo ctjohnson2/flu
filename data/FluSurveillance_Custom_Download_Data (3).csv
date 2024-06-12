@@ -1,0 +1,717 @@
+"Influenza Hospitalization Rates (per 100,000 population) for the FluSurv-NET Network (downloaded on "Oct-31-2023)
+Influenza Division - Centers for Disease Control and Prevention.
+CATCHMENT,NETWORK,YEAR,MMWR-YEAR,MMWR-WEEK,AGE CATEGORY,SEX CATEGORY,RACE CATEGORY,CUMULATIVE RATE,WEEKLY RATE 
+Entire Network,FluSurv-NET,2023-24,2023,40,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,Overall,Overall,Overall,0.2,0.2
+Entire Network,FluSurv-NET,2023-24,2023,41,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,Overall,Overall,Overall,0.4,0.2
+Entire Network,FluSurv-NET,2023-24,2023,42,Overall,Overall,Overall,0.5,0.2
+Entire Network,FluSurv-NET,2023-24,2023,42,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,Overall,Female,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,Overall,Overall,American Indian/Alaska Native,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,Overall,Male,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,Overall,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,Overall,Overall,White,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,Overall,Overall,Black,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,Overall,Overall,Hispanic/Latino,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,Overall,Overall,Asian/Pacific Islander,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,0-4 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,5-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,18-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,50-64 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,65+ yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,65-74 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,75-84 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,85+,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,18-29 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,30-39 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,40-49 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,5-11  yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,41,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,42,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,43,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,12-17 yr,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,< 18,Overall,Overall,0.1,0.1
+Entire Network,FluSurv-NET,2023-24,2023,41,< 18,Overall,Overall,0.3,0.1
+Entire Network,FluSurv-NET,2023-24,2023,42,< 18,Overall,Overall,0.3,0.1
+Entire Network,FluSurv-NET,2023-24,2023,43,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,< 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,40,>= 18,Overall,Overall,0.2,0.2
+Entire Network,FluSurv-NET,2023-24,2023,41,>= 18,Overall,Overall,0.4,0.2
+Entire Network,FluSurv-NET,2023-24,2023,42,>= 18,Overall,Overall,0.6,0.2
+Entire Network,FluSurv-NET,2023-24,2023,43,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,44,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,45,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,46,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,47,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,48,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,49,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,50,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,51,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2023,52,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,1,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,2,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,3,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,4,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,5,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,6,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,7,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,8,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,9,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,10,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,11,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,12,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,13,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,14,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,15,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,16,>= 18,Overall,Overall,null,null
+Entire Network,FluSurv-NET,2023-24,2024,17,>= 18,Overall,Overall,null,null
+
+Disclaimer:
+The Influenza Hospitalization Surveillance Network (FluSurv-NET) data are preliminary and subject
+"to change as more data become available. In particular, case counts and rates for recent hospital"
+"admissions are subject to reporting delays. As data are received each week, prior case counts and"
+rates are updated accordingly. FluSurv-NET conducts population-based surveillance for
+laboratory-confirmed influenza-associated hospitalizations in children <18 years of age and adults.
+The FluSurv-NET catchment area includes more than 90 selected counties or county equivalents in
+"California, Colorado, Connecticut, Georgia, Maryland, Michigan, Minnesota, New Mexico, New York,"
+"North Carolina, Ohio, Oregon, Tennessee, and Utah. Additional counties in Idaho (2010 to 2011),"
+"Iowa (2012 to 2013, 2020 to 2022), Oklahoma (2010 to 2011), and Rhode Island (2010 to 2013) have"
+"also contributed to the network. Incidence rates (per 100,000 population) are calculated using"
+either the National Center for Health Statistics' (NCHS) vintage bridged-race postcensal population
+estimates (for years prior to 2020) or U.S. Census vintage unbridged-race postcensal population
+estimates (for 2020 through present) for the counties or county equivalents included in the
+surveillance catchment area. The rates provided are likely to be underestimated as
+influenza-associated hospitalizations might be missed due to test availability and provider or
+"facility testing practices. In all influenza seasons except 2009-10 and 2021-22, rates reflect"
+cases hospitalized during October 1 - April 30 of each influenza season. Cases hospitalized during
+"MMWR Week 39 are included in the totals for MMWR Week 40, while cases hospitalized during MMWR Week"
+"18 are included in the totals for MMWR Week 17. In 2009-10, rates reflect cases hospitalized during"
+"Sept 1 2009 through April 30 2010 (MMWR Week 35 - MMWR Week 17). In 2021-22, rates reflect cases"
+"hospitalized beginning October 1 2021 (MMWR Week 39), but given late influenza season activity, the"
+"season was extended to June 11, 2022 (MMWR Week 23)."

@@ -1,0 +1,4 @@
+starting log for model: C:\Users\christopher.johnson\Documents\GitHub\flu\lstm_real.pth
+Train loss: 20.88648772819988 Val loss: 2.331976693352317 Time: 0.9906818000599742
+Train loss: 14.74566840546817 Val loss: 2.2272203896864085 Time: 1.2009618999436498
+Train loss: 15.003797280161209 Val loss: 2.2517931768961716 Time: 1.0639825999969617
