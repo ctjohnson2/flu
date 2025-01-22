@@ -4,4 +4,4 @@ WHO data available at https://www.who.int/teams/global-influenza-programme/surve
 
 CDC data available at https://gis.cdc.gov/GRASP/Fluview/FluHospRates.html
 
-![alt text](https://github.com/ctjohnson2/flu/tree/main/Pictures/Forecasts.png?raw=true)
+![plot](https://github.com/ctjohnson2/flu/tree/main/Pictures/Forecasts.png?raw=true)
