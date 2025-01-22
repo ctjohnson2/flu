@@ -6,5 +6,8 @@ WHO data available at https://www.who.int/teams/global-influenza-programme/surve
 
 CDC data available at https://gis.cdc.gov/GRASP/Fluview/FluHospRates.html
 
-![Plot](Pictures/Forecasts.png)
+
+<p>
+    <img src="Pictures/Forecasts.png" width="220" height="240" />
+</p>
 
