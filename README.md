@@ -11,5 +11,6 @@ CDC data available at https://gis.cdc.gov/GRASP/Fluview/FluHospRates.html
 
 <p>
     <img src="./Pictures/Forecasts.png" width="1000" height="500" />
+    <caption>The seasons in blue were both done using the previous season as the validation set. Due to Covid and previous data availability, the 22-23 season (red) was the first season used as validation to stop the training and therefore carries a bias. </caption>
 </p>
 
