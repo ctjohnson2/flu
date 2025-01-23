@@ -16,7 +16,7 @@ CDC data available at https://gis.cdc.gov/GRASP/Fluview/FluHospRates.html
 The target data used to estimate influenza severity is CDC's FluSurv-NET dataset, which details patient hospitalization information in participating hospitals representing ~9% of the U.S. population. This was chosen because patients that have undergone viral testing in a hospital setting likely have reliable results. The most accurate publicly available influenza dataset for global rates belongs to the WHO, where I first determine which countrys' flu seasons are highly correlated with the U.S.
 
 <p>
-    <img src="./Pictures/SH_Corrs.png" width="1000" height="500" />
+    <img src="./Pictures/SH_Corrs.PNG" width="1000" height="500" />
     <caption>Countries with highest correlation with the U.S. flu season in the "sweet spot" (~5-6months before the U.S. season). </caption>
 </p>
 
