@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.24)  27 SEP 2024 16:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.24)  4 FEB 2025 22:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -225,91 +225,101 @@ File: Pictures/flu_cases.png Graphic file (type png)
 Package pdftex.def Info: Pictures/flu_cases.png  used on input line 73.
 (pdftex.def)             Requested size: 396.58066pt x 237.58704pt.
  [3 <./Pictures/flu_cases.png>] [4]
-<Pictures/model_arch.png, id=33, 1017.8025pt x 316.18124pt>
+<Pictures/model_arch.png, id=33, 998.73125pt x 299.1175pt>
 File: Pictures/model_arch.png Graphic file (type png)
 <use Pictures/model_arch.png>
 Package pdftex.def Info: Pictures/model_arch.png  used on input line 147.
-(pdftex.def)             Requested size: 508.90001pt x 158.09023pt.
+(pdftex.def)             Requested size: 499.3644pt x 149.55838pt.
  [5 <./Pictures/model_arch.png>]
 <Pictures/hy_model.png, id=41, 635.37375pt x 443.40656pt>
 File: Pictures/hy_model.png Graphic file (type png)
 <use Pictures/hy_model.png>
 Package pdftex.def Info: Pictures/hy_model.png  used on input line 166.
 (pdftex.def)             Requested size: 317.6861pt x 221.70273pt.
-<Pictures/flu_train.png, id=42, 524.55975pt x 299.9205pt>
-File: Pictures/flu_train.png Graphic file (type png)
-<use Pictures/flu_train.png>
-Package pdftex.def Info: Pictures/flu_train.png  used on input line 183.
-(pdftex.def)             Requested size: 314.73827pt x 179.95367pt.
-<Pictures/lstm_model.png, id=43, 640.64343pt x 442.65375pt>
-File: Pictures/lstm_model.png Graphic file (type png)
-<use Pictures/lstm_model.png>
-Package pdftex.def Info: Pictures/lstm_model.png  used on input line 193.
-(pdftex.def)             Requested size: 384.38902pt x 265.59428pt.
+<Pictures/TrainEx.png, id=42, 648.17157pt x 371.13657pt>
+File: Pictures/TrainEx.png Graphic file (type png)
+<use Pictures/TrainEx.png>
+Package pdftex.def Info: Pictures/TrainEx.png  used on input line 183.
+(pdftex.def)             Requested size: 388.90594pt x 222.68365pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <./Pictures/hy_model.png> <./Pictures/flu_train.png>]
-<Pictures/full_ensemble.png, id=49, 737.154pt x 474.0912pt>
-File: Pictures/full_ensemble.png Graphic file (type png)
-<use Pictures/full_ensemble.png>
-Package pdftex.def Info: Pictures/full_ensemble.png  used on input line 202.
-(pdftex.def)             Requested size: 442.29582pt x 284.45691pt.
-<Pictures/forecast.png, id=50, 737.154pt x 474.0912pt>
-File: Pictures/forecast.png Graphic file (type png)
-<use Pictures/forecast.png>
-Package pdftex.def Info: Pictures/forecast.png  used on input line 212.
-(pdftex.def)             Requested size: 442.29582pt x 284.45691pt.
+[6 <./Pictures/hy_model.png>]
+<Pictures/ModelVariation.PNG, id=47, 1221.06187pt x 590.95781pt>
+File: Pictures/ModelVariation.PNG Graphic file (type png)
+<use Pictures/ModelVariation.PNG>
+Package pdftex.def Info: Pictures/ModelVariation.PNG  used on input line 202.
+(pdftex.def)             Requested size: 549.47276pt x 265.92856pt.
+
+Overfull \hbox (37.32314pt too wide) in paragraph at lines 202--203
+ [] 
+ []
+
+<Pictures/modelvariationzoom.png, id=48, 1180.41pt x 520.94624pt>
+File: Pictures/modelvariationzoom.png Graphic file (type png)
+<use Pictures/modelvariationzoom.png>
+Package pdftex.def Info: Pictures/modelvariationzoom.png  used on input line 21
+2.
+(pdftex.def)             Requested size: 531.1796pt x 234.42365pt.
+
+Overfull \hbox (19.02997pt too wide) in paragraph at lines 212--213
+ [] 
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7 <./Pictures/lstm_model.png> <./Pictures/full_ensemble.png>]
-<Pictures/forecast_shade.png, id=57, 737.154pt x 474.0912pt>
-File: Pictures/forecast_shade.png Graphic file (type png)
-<use Pictures/forecast_shade.png>
-Package pdftex.def Info: Pictures/forecast_shade.png  used on input line 221.
-(pdftex.def)             Requested size: 442.29582pt x 284.45691pt.
- [8 <./Pictures/forecast.png> <./Pictures/forecast_shade.png>]
-<Pictures/flu_models.png, id=63, 686.565pt x 444.15938pt>
-File: Pictures/flu_models.png Graphic file (type png)
-<use Pictures/flu_models.png>
-Package pdftex.def Info: Pictures/flu_models.png  used on input line 238.
-(pdftex.def)             Requested size: 514.92249pt x 333.1187pt.
+[7 <./Pictures/TrainEx.png> <./Pictures/ModelVariation.PNG>]
+<Pictures/lorenzians.png, id=55, 761.84625pt x 337.26pt>
+File: Pictures/lorenzians.png Graphic file (type png)
+<use Pictures/lorenzians.png>
+Package pdftex.def Info: Pictures/lorenzians.png  used on input line 221.
+(pdftex.def)             Requested size: 533.28874pt x 236.08038pt.
 
-Overfull \hbox (2.77286pt too wide) in paragraph at lines 238--239
+Overfull \hbox (21.13911pt too wide) in paragraph at lines 221--222
+ [] 
+ []
+
+[8 <./Pictures/modelvariationzoom.png> <./Pictures/lorenzians.png>]
+<Pictures/Forecasts.png, id=61, 1218.80344pt x 591.71063pt>
+File: Pictures/Forecasts.png Graphic file (type png)
+<use Pictures/Forecasts.png>
+Package pdftex.def Info: Pictures/Forecasts.png  used on input line 238.
+(pdftex.def)             Requested size: 548.45648pt x 266.26732pt.
+
+Overfull \hbox (36.30685pt too wide) in paragraph at lines 238--239
  [][] 
  []
 
-[9 <./Pictures/flu_models.png>] (./flu.aux) ) 
+[9 <./Pictures/Forecasts.png>] (./flu.aux) ) 
 Here is how much of TeX's memory you used:
- 2328 strings out of 478268
- 37608 string characters out of 5846347
- 337817 words of memory out of 5000000
- 20523 multiletter control sequences out of 15000+600000
+ 2321 strings out of 478268
+ 37441 string characters out of 5846347
+ 336807 words of memory out of 5000000
+ 20516 multiletter control sequences out of 15000+600000
  476400 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,10n,62p,1325b,269s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy8.pfb>
-Output written on flu.pdf (9 pages, 1247274 bytes).
+</usr/local/texlive/2022/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb>
+Output written on flu.pdf (9 pages, 1990433 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
+ 125 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

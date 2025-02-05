@@ -8,7 +8,7 @@
 \usepackage{placeins}
 \begin{document}
 
-\title{Flu Forecasting Tool}
+\title{Flu Forecasting Project DRAFT}
 \author{Chris Johnson}
 \maketitle
 
@@ -180,26 +180,26 @@ We can see that the peak severity is mostly captured by the model, as well as th
 
 	\begin{figure}[h!]
 		\begin{center}
-		\includegraphics[scale=0.6]{Pictures/flu_train.png}
-		\caption{Training curve for LSTM model. This is a mean-squared-error loss function.}
+		\includegraphics[scale=0.6]{Pictures/TrainEx.png}
+		\caption{Training curve example for one of the model choices.  Training curve is a simple mean-squared-error while validation curve is the hybrid curve explained in this section.}
 		\end{center}
 		\label{fig:lstm_train}
 	\end{figure}
 \FloatBarrier
 
 
-	\begin{figure}[h!]
-		\begin{center}
-		\includegraphics[scale=0.6]{Pictures/lstm_model.png}
-		\caption{LSTM model results (red), the data used in the training is dashed. Notice 2015-2016 was also not included in the training set.}
-		\end{center}
-		\label{fig:lstm_model}
-	\end{figure}
-\FloatBarrier
+%	\begin{figure}[h!]
+%		\begin{center}
+%		\includegraphics[scale=0.6]{Pictures/lstm_model.png}
+%		\caption{LSTM model results (red), the data used in the training is dashed. Notice 2015-2016 was also not included in the training set.}
+%		\end{center}
+%		\label{fig:lstm_model}
+%	\end{figure}
+%\FloatBarrier
 
 \begin{figure}[h!]
 		\begin{center}
-		\includegraphics[scale=0.6]{Pictures/full_ensemble.png}
+		\includegraphics[scale=0.45]{Pictures/ModelVariation.PNG}
 		\caption{}
 		\end{center}
 		\label{fig:full}
@@ -209,7 +209,7 @@ We can see that the peak severity is mostly captured by the model, as well as th
 
 \begin{figure}[h!]
 		\begin{center}
-		\includegraphics[scale=0.6]{Pictures/forecast.png}
+		\includegraphics[scale=0.45]{Pictures/modelvariationzoom.png}
 		\caption{}
 		\end{center}
 		\label{fig:f}
@@ -218,7 +218,7 @@ We can see that the peak severity is mostly captured by the model, as well as th
 
 \begin{figure}[h!]
 		\begin{center}
-		\includegraphics[scale=0.6]{Pictures/forecast_shade.png}
+		\includegraphics[scale=0.7]{Pictures/lorenzians.png}
 		\caption{}
 		\end{center}
 		\label{fig:f_shade}
@@ -235,8 +235,8 @@ Figure 8 displays the two ``promising" models together, and sum of the current s
 
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[scale=0.75]{Pictures/flu_models.png}
-		\caption{Both models are displayed together, LSTM (green), Hybrid (red), with dashed lines indicated that data was used in training, and solid line represents a prediction.}
+		\includegraphics[scale=0.45]{Pictures/Forecasts.png}
+		\caption{}
 		\label{fig:flu_models}
 	\end{figure}
 
