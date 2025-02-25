@@ -1,4 +1,4 @@
-Influenza-Associated Hospitalizations by Virus Type Percent (data downloaded on 12/31/2024)
+Influenza-Associated Hospitalizations by Virus Type Percent (data downloaded on 2/23/2025)
 Season,WEEK_NUMBER,INFLUENZA A,INFLUENZA B,INFLUENZA A AND B,UNKNOWN
 2003-04,2003-40,0.0,0.0,0.0,0.0
 2003-04,2003-41,100.0,0.0,0.0,0.0
@@ -628,10 +628,10 @@ Season,WEEK_NUMBER,INFLUENZA A,INFLUENZA B,INFLUENZA A AND B,UNKNOWN
 2023-24,2024-1,87.3,12.0,0.4,0.4
 2023-24,2024-2,88.8,10.6,0.4,0.2
 2023-24,2024-3,86.3,13.0,0.2,0.5
-2023-24,2024-4,85.2,14.6,0.1,0.1
+2023-24,2024-4,85.2,14.7,0.1,0.1
 2023-24,2024-5,85.9,13.8,0.1,0.2
 2023-24,2024-6,81.1,17.9,0.6,0.4
-2023-24,2024-7,81.6,18.1,0.2,0.1
+2023-24,2024-7,81.5,18.2,0.2,0.1
 2023-24,2024-8,81.5,18.2,0.1,0.2
 2023-24,2024-9,78.4,20.9,0.4,0.3
 2023-24,2024-10,76.6,22.9,0.0,0.5
@@ -639,7 +639,7 @@ Season,WEEK_NUMBER,INFLUENZA A,INFLUENZA B,INFLUENZA A AND B,UNKNOWN
 2023-24,2024-12,73.0,26.5,0.0,0.5
 2023-24,2024-13,77.3,22.2,0.0,0.6
 2023-24,2024-14,72.6,27.0,0.2,0.2
-2023-24,2024-15,74.0,25.8,0.0,0.3
+2023-24,2024-15,74.0,25.7,0.0,0.3
 2023-24,2024-16,77.5,21.8,0.4,0.4
 2023-24,2024-17,76.0,22.6,0.5,1.0
 2023-24,2024-18,80.6,19.4,0.0,0.0
@@ -663,7 +663,37 @@ Season,WEEK_NUMBER,INFLUENZA A,INFLUENZA B,INFLUENZA A AND B,UNKNOWN
 2023-24,2024-36,67.9,32.1,0.0,0.0
 2023-24,2024-37,57.7,42.3,0.0,0.0
 2023-24,2024-38,70.3,29.7,0.0,0.0
-2023-24,2024-39,80.6,16.7,2.8,0.0
+2023-24,2024-39,81.1,16.2,2.7,0.0
+2024-25,2024-40,80.0,20.0,0.0,0.0
+2024-25,2024-41,74.4,25.6,0.0,0.0
+2024-25,2024-42,70.9,25.5,3.6,0.0
+2024-25,2024-43,81.3,18.8,0.0,0.0
+2024-25,2024-44,85.3,14.7,0.0,0.0
+2024-25,2024-45,84.1,13.4,1.2,1.2
+2024-25,2024-46,90.9,8.3,0.8,0.0
+2024-25,2024-47,91.5,7.8,0.7,0.0
+2024-25,2024-48,90.3,9.1,0.0,0.6
+2024-25,2024-49,95.8,3.9,0.0,0.3
+2024-25,2024-50,96.2,3.6,0.0,0.2
+2024-25,2024-51,97.7,1.7,0.2,0.4
+2024-25,2024-52,98.4,1.2,0.2,0.3
+2024-25,2025-1,98.3,1.2,0.1,0.5
+2024-25,2025-2,98.1,1.4,0.0,0.5
+2024-25,2025-3,98.6,1.0,0.0,0.4
+2024-25,2025-4,98.5,1.1,0.1,0.3
+2024-25,2025-5,98.6,1.0,0.0,0.3
+2024-25,2025-6,98.1,1.0,0.1,0.8
+2024-25,2025-7,98.1,1.5,0.0,0.4
+2024-25,2025-8,0.0,0.0,0.0,0.0
+2024-25,2025-9,0.0,0.0,0.0,0.0
+2024-25,2025-10,0.0,0.0,0.0,0.0
+2024-25,2025-11,0.0,0.0,0.0,0.0
+2024-25,2025-12,0.0,0.0,0.0,0.0
+2024-25,2025-13,0.0,0.0,0.0,0.0
+2024-25,2025-14,0.0,0.0,0.0,0.0
+2024-25,2025-15,0.0,0.0,0.0,0.0
+2024-25,2025-16,0.0,0.0,0.0,0.0
+2024-25,2025-17,0.0,0.0,0.0,0.0
 
 "1. The Influenza Hospitalization Surveillance Network (FluSurv-NET) data are preliminary and subject to change as more data become available. In particular, case counts and rates for recent hospital admissions are subject to reporting delays. As data are received each week, prior case counts and rates are updated accordingly. FluSurv-NET conducts population-based surveillance for laboratory-confirmed influenza-associated hospitalizations in children <18 years of age and adults. The FluSurv-NET catchment area includes more than 90 selected counties or county equivalents in California, Colorado, Connecticut, Georgia, Maryland, Michigan, Minnesota, New Mexico, New York, North Carolina, Ohio, Oregon, Tennessee, and Utah. Additional counties in Idaho (2010 to 2011), Iowa (2012 to 2013, 2020-2022), Oklahoma (2010 to 2011), and Rhode Island (2010 to 2013) have also contributed to the network. Incidence rates (per 100,000 population) are calculated using either the National Center for Health Statistics' (NCHS) vintage bridged-race postcensal population estimates (for years prior to 2020) or U.S. Census vintage unbridged-race postcensal population estimates (for 2020 through present) for the counties or county equivalents included in the surveillance catchment area. The rates provided are likely to be underestimated as influenza-associated hospitalizations might be missed due to test availability and provider or facility testing practices."
-"2. In all influenza seasons except 2009-10 and 2021-22, case counts reflect cases hospitalized during October 1 – April 30 of each influenza season. Cases hospitalized during Week 39 are included in the totals for Week 40, while cases hospitalized during Week 18 are included in the totals for Week 17. In 2009-10, case counts reflect cases hospitalized during Sept 1, 2009 through April 30, 2010 (Week 35 – Week 17). In the 2021-22, rates reflect cases hospitalized beginning October 1, 2021 (Week 39), but given late influenza season activity, the season was extended to June 11, 2022 (Week 23)."
+"2. In most influenza seasons, case counts reflect cases hospitalized during October 1 – April 30 of each influenza season. Cases hospitalized during Week 39 are included in the totals for Week 40, while cases hospitalized during Week 18 are included in the totals for Week 17. In 2009-10, case counts reflect cases hospitalized during Sept 1, 2009 through April 30, 2010 (Week 35 – Week 17). In the 2021-22, rates reflect cases hospitalized beginning October 1, 2021 (Week 39), but given late influenza season activity, the season was extended to June 11, 2022 (Week 23). In 2023-2024, surveillance was extended to September 28, 2024 (Week 39) for situational awareness during the ongoing outbreak of highly pathogenic avian influenza (HPAI) A(H5N1) virus among birds, poultry, dairy cattle, and other animals in the United States (H5N1 Bird Flu: Current Situation Summary | Avian Influenza (Flu) (cdc.gov))."
