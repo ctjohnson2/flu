@@ -12,33 +12,47 @@
 \author{Chris Johnson}
 \maketitle
 
-\begin{abstract}
-Each year, influenza epidemics result in significant morbidity, mortality, and cause adverse effects to the economy. Predicting annual influenza outbreaks can prepare jurisdictions to reduce detrimental outcomes through targeted vaccinations, health care preparations, and other programs to reduce exposure. Since probability of exposure among individuals is enhanced through increased human density, we used incidence data from the Southern hemisphere during the winter to predict future influenza rates in the Northern hemisphere. The model predicted a 30\% increase in the winter of 2025 in North America which closely tracked actual incidence. We maintain models populated with data from other jurisdictions can be useful to predict relative incidence and be used to more effectively allocate resources from which to protect public health.  
-\end{abstract}
+Predicting influenza rates has use cases mostly to aid hospitals/urgent care facilities to know how many patients to expect in the up-coming few weeks. In my current position working for Red Oak Sourcing, we are interested in how severe the flu-season from a pharmaceutical stock perspective; making sure there is enough cough/cold/flu related drugs in CVS and CAH supply. That being the case it is most important we accurately forecast the total flu- severity and primary peak location, and we need to do so in the summer time, $\sim 20$-$25$ weeks before the season begins. I present a forecasting model composed of a series of Recurrent Neural Networks (RNNs) that makes 21-week predictions using southern hemisphere influenza data as input.
 
 \section{Introduction}
 
-Annual influenza outbreaks cause considerable morbidity, mortality, and economic effects. There is also widespread concern amongst public health professionals regarding the deadly potential of a future influenza pandemic (Doshi 2008). Pathogenic airborne viruses increase transmission proportionally within higher areas of human density. Such increases occur annually during winter in temperate regions when people spend greater time indoors (Simonsen 1999). Tempo-spatial patterns can be useful in predicting influenza outbreaks (Onozuka and Akihito 2008, Shaman and Karspeck 2012) and can be used in modeling approaches to better prepare certain jurisdictions to focus public health resources. 
 
-Motivate need for long range forecasts, drug suppliers, vaccine influence etc.
 
-Current state of the art forecasts are done using an ensemble of models from teams in CDC, but produce forecasts in 1-4 weeks.
 
-The strength of an influenza outbreak can be dependent on a variety of factors such as the dominant strain(s) of the virus $H(i)N(j)$,  efficacy of the vaccine itself, and proportion of population that received a timely vaccination.  Vaccine efficacy in the U.S. is related to how accurately one can forecast the dominant viral strains likely to infect humans and has had a relatively small variance in the past 10 years with a 36(9)\% reduction in infection. 
+\begin{figure}[h]
+		\begin{center}
+		\includegraphics[width=0.45\textwidth]{Pictures/cdc_model.png}
+		\caption{CDC model: A one and two-week forecast shown for Jan 7-21 (2023) for combined ensemble models.}
+		\end{center}
+		\label{fig:cdcc}
+	\end{figure}
 
-Rather than studying the virus evolution itself one can use the southern hemisphere as a testing ground for the upcoming season.
+	
+\FloatBarrier
 
-Here we present a model designed to predict future influenza incidence in the Northern hemisphere using data collected during the winter season from the Southern hemisphere.
+
+
+Influenza modeling/forecasting is a famously difficult task due to the constantly evolving virus, vaccine efficacy/compliance among many other factors. If we can reliably forecast the influenza season we can ensure popular cough/cold/flu medications will be gathered and shipped to the parents for patient availability. We have been constructing models to forecast influenza hospitalizations with the belief that more influenza hospitalizations is highly correlated with more flu drug related purchases. To the best of our knowledge, the CDC provides 1-4 week forecasts freely available on their website; our goal is to not necessarily outperform their model, but increase the forecast range. The results presented in this work use $\sim 21$-week lag data so they have up to $21$-week predictive power. This may not give us the total predictive power we desire, but it is 3-4 month improvement of what is available on the CDC website.
+
+
+
+\section{CDC}
+
+
+
+
+The CDC pulls together a variety of teams' models and displays 1-4 week forecasts. An example forecast is shown in Figure \ref{fig:cdcc} where Jan-14 and Jan-21 2023 are predicted using data up to Jan-7 2023. I do not attempt to compare my model to the CDC because we are making different forecasts from different data. My goal is to make broader, longer forecasts that can help us decide what ballpark of an impact the flu season will have. I present this CDC model as an example of what is believed to be state of the art, and acknowledge that it does not provide a meaningfully long forecast to be of much use here at ROS. 
+
 
 
 
 \section{Southern Hemisphere Countries}
 
-The nature of the Earth's tilt, with respect to its orbit around the Sun, provides a phase difference for the seasons of northern and southern hemisphere locations making winters $\sim\frac{1}{2}$ years apart. Given the ease one can travel the globe, it is reasonable to assume there exist countries in the southern hemisphere that can provide a picture of what we can expect in the US. We select a list of relevant ``candidates" by borrowing influenza records from the WHO and compute their correlations with the U.S. hospitalizations records given by the CDC (specifically this is the flu-surv dataset which represents $\sim10\%$ of the population)\footnote{We could just as well have used WHO data as the target as well, but CDC hospitalizations were chosen to avoid bias from having the entire project built on a single data source.}.  
+The countries in the southern hemisphere provide a rough predictive picture of what we can expect in the US due to the phase difference in our seasons.  This model borrows influenza records by every compliant country with the WHO as input into a model that predicts the U.S. hospitalizations records given by the CDC (specifically this is the flu-surv dataset which represents $\sim10\%$ of the population)\footnote{We could just as well have used WHO data as the target as well, but CDC hospitalizations were chosen to avoid bias from having the entire project built on a single data source.}.  
 
 \begin{figure}[h!]
 		\begin{center}
-		\includegraphics[scale=0.5]{../Pictures/SH_Corrs.PNG}
+		\includegraphics[scale=0.75]{Pictures/so_country_corrs.png}
 		\caption{The absolute value of correlations between a select few southern hemisphere country's' influenza case records and the US total influenza hospitalization rates. The correlations are with respect to the number of lagged previous weeks ($\delta t$).}
 		\end{center}
 		\label{fig:so_corrs}
