@@ -59,11 +59,11 @@ where $x^{\alpha}_t$ represents the number of positive cases reported for countr
 As seen in Figure \ref{fig:so_corrs}, we find the countries Australia, Chile, Paraguay, Argentina, and Uruguay have the clearest signal in our target window of $\delta t\geq 20$. These countries have clear peaks and allow us at least a 20 week forecast from a given week. 
 
 
-We can see in figure \ref{fig:so_cases} that although some peaks seam to match in relative strength to the US peak, it is not a complete pattern. For example, the Australia peak for the 2020 and 2022 season seems comparable to the US peak, however in 2018 the peaks are clearly discrepant. There may be a non-linear relationship between these countries and United States flu season that could be determined via some model. We now move to creating models that can make an improved prediction than just examining southern countries by eye.
+We can see in Figure \ref{fig:so_cases} that there is no single candidate or obvious linear combination of the group that could represent the target. Each candidate has its own peak height and location. There may be a non-linear relationship that can be captured via tuning neural network. We now move to creating models that can make an improved prediction than just examining southern countries by eye.
 
 	\begin{figure}[h!]
 		\begin{center}
-		\includegraphics[scale=0.75]{Pictures/flu_cases.png}
+		\includegraphics[scale=0.5]{../Pictures/flu_cases.png}
 		\caption{The US hospitalizations (black, dashed) between 2015 and the beginning of 2023 compared to the 5 southern hemisphere countries total influenza cases documented by WHO. All countries are normalized such that 1 reflects the most severe week that country experienced as documented by the WHO and the CDC.}
 		\end{center}
 		\label{fig:so_cases}
@@ -73,12 +73,11 @@ We can see in figure \ref{fig:so_cases} that although some peaks seam to match i
 
 \section{Models}
 
-
-\subsection{RNN}
+Mention efforts for attempting linear relationships with lagged features. Complain about seasonality with weeks.
 
 RNNs were once the state of the art for sequence learning commonly used in things like time-series forecasting and text sequence generation. These are now largely replaced by CNNs and transformer models. An advantage for small datasets could be RNNs.
 
-We employ RNNs to utilize feedback connections that enable them to learn long sequences of data where ordering is important. These have the particular advantage of not needing a parametric description to capture the seasonality. The input features the 5 southern countries and the US influenza cases in batches of 26 week long sequences shifted by 20 weeks. 
+We employ RNNs to utilize feedback connections that enable them to learn long sequences of data where ordering is important. These have the particular advantage of not needing a parametric description to capture the seasonality. The input features the 5 southern countries and the US influenza cases in batches of 26 week long sequences shifted by 20 weeks. Each country is normalized such that the maximum rate in the time window 2013-2021 is 1.
 
 %\begin{wrapfigure}{r}{0.5\textwidth}
 %		\includegraphics[width=0.25\textwidth]{Pictures/lstm_diagram.png}
@@ -96,67 +95,54 @@ where the separable pieces $\mathbf{A},\mathbf{B}$ are defined as
 \mathbf{A}_{\mu'\nu',\mu\nu} &\equiv  \mathbf{A}_{\mu_N'\nu_N',\mu_1\nu_1} = \left(\prod_{n=1}^N \mathbf{L}^{(n)}_{\nu_n'\nu_n''}\mathbf{\sigma}^{(n)}_{\mu_n'\nu_n'',\mu_n''\nu_n}\mathbf{R}^{(n)}_{\mu_n''\mu_n}\right)\\
 \mathbf{B}_{\mu\nu} &=\mathbf{L}_{\gamma'''_N}\left(\prod_{n=1}^N\mathbf{L}_{\gamma_n'''\gamma_n''}^{(n)}\mathbf{D}(p)^{(n)}_{\gamma_n''\gamma_n'}\mathbf{\sigma}^{(n)}_{\gamma_n',\gamma_n}\right)\mathbf{F}_{\mu\cdot\nu\equiv \gamma} 
 \end{align}
-where $\mathbf{L}_{\gamma\gamma'}$ is a linear transformation of shape $[\gamma,\gamma']$ (if only one index is included than it is assumed that $\gamma = 1$), $\mathbf{\sigma}$ is the activation function (generally RELU unless otherwise stated), $\mathbf{D}(p)$ is a dropout tensor with probability $p$, $\mathbf{F}$ is a flattening tensor, and $\mathbf{R}$ is the RNN where we make use of the slight different flavors of GRUs, LSTMs, and conventional RNN. The model architecture is visually represented in figure \ref{fig:arch}
+where $\mathbf{L}_{\gamma\gamma'}$ is a linear layer of shape $[\gamma,\gamma']$ (if only one index is included than it is assumed that $\gamma = 1$), $\mathbf{\sigma}$ is the activation function (generally RELU unless otherwise stated), $\mathbf{D}(p)$ is a dropout tensor with probability $p$, $\mathbf{F}$ is a flattening tensor, and $\mathbf{R}$ is the RNN where we make use of the slight different flavors of GRUs, LSTMs, and conventional RNN. The model architecture is visually represented in figure \ref{fig:arch}
 
 \begin{figure}[h!]
 		\begin{center}
-		\includegraphics[scale=0.5]{Pictures/model_arch.png}
+		\includegraphics[scale=0.5]{../Pictures/model_arch.png}
 		\caption{Model archetype composed of two varying combinations of RNNs and sequential layers.}
 		\end{center}
 		\label{fig:arch}
 	\end{figure}
 \FloatBarrier
 
-The $\mathbf{A}$ piece of the model is inspired by the auto-encoder RNN design (cite here), with the intention to capture the time-dependence of our data. The $\mathbf{B}$ portion is designed to find the possible non-linear combinations of the individual countries that may best describe the U.S. flu season, as well as force a natural minima in the training process without over-fitting via the drop-out layers. We explore different combinations of the separable pieces of our architecture to produce an ensemble keeping all models that well describe the 22-23 season, and we use the 23-24 season as our test set. 
+The $\mathbf{A}$ piece of the model is inspired by the auto-encoder RNN design (cite here), with the intention of the first layer to encode the relevant features from the input from the candidates and the second RNN layer to act as the decoder. We include The $\mathbf{B}$ portion is designed to find the possible non-linear combinations of the individual countries that may best describe the U.S. flu season, as well as controlling over-fitting via the drop-out layers. This formulation allows for infinite model architectures to choose from and we explore a select few combinations creating an ensemble of models.
 
-This is an input tensor of shape $[T_{window},26,6]$ where $T_{window}$ is the total weeks included in the fitting procedure. The input tensor has a $21$-week lag in the time-sequenced index, so for a given week $t$, there will be $t-20,t-21,...,t-(20+26)$ sequenced data. This shift allows us to predict a data point that is 21 weeks away from the time the data is collected, and the sequence of 26 weeks is chosen such that is a sufficiently long enough window for the RNN to learn the pattern. 
-
-
-	
-\section{Results}
-We now discuss the models qualitatively in how well they predict the highest peak severity, location (week of the most cases), and width (when does the season start and end).
-\subsection{Hybrid model}
-
-	\begin{figure}[h!]
-		\begin{center}
-		\includegraphics[scale=0.5]{Pictures/hy_model.png}
-		\caption{Hybrid model results (red), the data used in the training is dashed. The black line is a 5-week centered rolling average of the result.}
-		\end{center}
-		\label{fig:hy_model}
-	\end{figure}
-\FloatBarrier
-
-To train the model we used data ranging from the first week of 2012 to week 26 of 2022, spanning a little more than 10 years. Week 27 of 2022 through 23 were not included in the model and serve to display how well the model can actually forecast. The results are displayed in Figure 5 in a raw (red) and rolling averaged form (black). 
-
-We can see that the peak severity is mostly captured by the model, as well as the center, but not the width of the season. So we would conclude as it stands this model checks 2 of the 3 boxes. 
+This is an input tensor of shape $[T_{window},26,6]$ where $T_{window}$ is the total weeks included in the fitting procedure. The input tensor has a $21$-week lag in the time-sequenced index, so for a given week $t$, there will be $t-20,t-21,...,t-(20+26)$ sequenced data. This shift allows us to predict a data point that is 21 weeks away from the time the data is collected, and the sequence of 26 weeks is chosen such that is a sufficiently long enough window for the RNN to learn the pattern. Due to the nature of the normalization, insignificant pieces of the tensor will be nearly zero and will be suppressed compared to the peaks in the gradient when updating parameters.
 
 
-%\subsection{LSTM}
+Covid input was replaced with zeros.
 
+Paper attempts to predict both of the 23-24 and 24-25 seasons using the previous year's season as validation. 
 
-	\begin{figure}[h!]
-		\begin{center}
-		\includegraphics[scale=0.6]{Pictures/TrainEx.png}
-		\caption{Training curve example for one of the model choices.  Training curve is a simple mean-squared-error while validation curve is the hybrid curve explained in this section.}
-		\end{center}
-		\label{fig:lstm_train}
-	\end{figure}
-\FloatBarrier
+Unrealistic to think a model with such a long forecast and no input of United States feature can capture week-to-week behavior. 
+
+Create an adjusted training metric that aims to capture most importantly the peak height, secondly location.
+
+Training metric is 
+\begin{equation}
+MSE^{adj}= \sqrt{\left(y^{max}_{val} - y^{pred, max}_{val}\right)^2 + \alpha^2\left(\left(t^{max}_{val} - t^{pred, max}_{val}\right)^2 +MSE_{train}\right)}
+\end{equation}
+
+Training metric used to choose model is a hybrid of training MSE and how well the peak height and location are described in the validation season. The training MSE is included to ensure the model has trained sufficiently but is suppressed by a factor of $\alpha =0.1$ so that the peak height is still the dominant feature when searching for a minima or plateau in the training curve.
 
 
 %	\begin{figure}[h!]
 %		\begin{center}
-%		\includegraphics[scale=0.6]{Pictures/lstm_model.png}
-%		\caption{LSTM model results (red), the data used in the training is dashed. Notice 2015-2016 was also not included in the training set.}
+%		\includegraphics[scale=0.6]{Pictures/TrainEx.png}
+%		\caption{Training curve example for one of the model choices.  Training curve is a simple mean-squared-error while validation curve is the hybrid curve explained in this section.}
 %		\end{center}
-%		\label{fig:lstm_model}
+%		\label{fig:lstm_train}
 %	\end{figure}
 %\FloatBarrier
 
+
+
+
 \begin{figure}[h!]
 		\begin{center}
-		\includegraphics[scale=0.45]{Pictures/ModelVariation.PNG}
-		\caption{}
+		\includegraphics[scale=0.5]{../Pictures/ModelVariation.PNG}
+		\caption{Dashed line represents the target U.S. hospitalization rate. Different colors represent different accepted models with the dashed in the training region and solid lines are outside. Red shaded region includes the validation region, and blue shaded represents the test region.}
 		\end{center}
 		\label{fig:full}
 	\end{figure}
@@ -165,16 +151,23 @@ We can see that the peak severity is mostly captured by the model, as well as th
 
 \begin{figure}[h!]
 		\begin{center}
-		\includegraphics[scale=0.45]{Pictures/modelvariationzoom.png}
+		\includegraphics[scale=0.5]{../Pictures/modelvariationzoom.png}
 		\caption{}
 		\end{center}
 		\label{fig:f}
 	\end{figure}
 \FloatBarrier
 
+
+A simple average of the model variation will produce a poor description of the data due to the seasonality. One must first capture the phase differences and shift accordingly. A parametric solution to combining 
+is the following renormalized hybrid Lorentzian distribution
+\begin{equation}
+L(t) =  A \frac{\left(\frac{\Gamma}{2}\right)^2}{(t-t_0)^2+\left(\frac{\Gamma}{2}\right)^2}
+\end{equation}
+where $A$ is the peak height, $t_0$ peak location, and $\Gamma$ is the half width. A typical Lorentzian has a defined normalization that we have removed to control the height. All three of the parameters can be computed for each model and their averages and deviations can be used to estimate the model variance. We note the validation model has over-predicted the width by roughly a factor of $2$ which we can account for in the test piece.
 \begin{figure}[h!]
 		\begin{center}
-		\includegraphics[scale=0.7]{Pictures/lorenzians.png}
+		\includegraphics[scale=0.5]{../Pictures/lorenzians.png}
 		\caption{}
 		\end{center}
 		\label{fig:f_shade}
@@ -182,19 +175,20 @@ We can see that the peak severity is mostly captured by the model, as well as th
 \FloatBarrier
 
 
-Training neural networks requires minimizing a ``loss" function (a formula that reflects how in agreement a model is with the data). Figure 6 demonstrates that as the model ``learns" the data the loss function decreases and eventually plateaus. This minimum point reflects that the model can no longer improve or only modestly improve the description of the data. We can see the result of the model in Figure 7 where I have used 2016-01 (week 1 of 2016) through 2022-26 (week 26 of 2022) as input data to train the model. After 2022-26 is the models 20 week forecast. By this I mean each data point was predicted from 20 week old data so that in principle, one can forecast a flu peak before it occurs. We can see that the model does describe the peak near 2023-01 quite well, the severity, peak location and width all pass the eye-test. The model does lack the ability to capture the little bumps before hand, but I claim that is actually reassuring. If we revisit figure \ref{fig:so_cases} we see that there was no flu activity in any of the southern countries between 2020-01 and 2021-50. So the model did not ``invent" something that was not there. Likely there was no flu activity in this time period for pandemic related reasons, whether it was extensive lock-downs or just under-reporting.
 
-\section{Conclusion}
+Repeat the same procedures for next season.
 
-Figure 8 displays the two ``promising" models together, and sum of the current status of the project. There is much more model experimentation that needs to be performed, if I can produce a variety of models that predict well than I can make forecasts that are more resistant to model bias. I emphasize that flu modeling is difficult, and this is merely meant to be another tool in the toolbox. As for implementing the tool, I envision this as potentially another dashboard that displays the current model results, updating each week when new flu data arrives.
-
-
-	\begin{figure}[h!]
+\begin{figure}[h!]
 		\centering
-		\includegraphics[scale=0.45]{Pictures/Forecasts.png}
+		\includegraphics[scale=0.5]{../Pictures/Forecasts.png}
 		\caption{}
 		\label{fig:flu_models}
 	\end{figure}
+\FloatBarrier
+Captures dominant peak behavior but it appears to produce same peak location as previous season. Description also lacks the ability to capture the double peak behavior the flu season experiences.
+
+\section{Conclusion}
+
 
 
 \end{document}
