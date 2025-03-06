@@ -160,11 +160,30 @@ Training metric used to choose model is a hybrid of training MSE and how well th
 
 
 A simple average of the model variation will produce a poor description of the data due to the seasonality. One must first capture the phase differences and shift accordingly. A parametric solution to combining 
-is the following renormalized hybrid Lorentzian distribution
+is the following sum of renormalized hybrid Lorentzian distribution
 \begin{equation}
-L(t) =  A \frac{\left(\frac{\Gamma}{2}\right)^2}{(t-t_0)^2+\left(\frac{\Gamma}{2}\right)^2}
+L(t) =  \sum_i A_i \frac{\left(\frac{\Gamma_i}{2}\right)^2}{(t-t_i)^2+\left(\frac{\Gamma_i}{2}\right)^2}
 \end{equation}
-where $A$ is the peak height, $t_0$ peak location, and $\Gamma$ is the half width. A typical Lorentzian has a defined normalization that we have removed to control the height. All three of the parameters can be computed for each model and their averages and deviations can be used to estimate the model variance. We note the validation model has over-predicted the width by roughly a factor of $2$ which we can account for in the test piece.
+where $A_i$ is the peak height, $t_i$ peak location, and $\Gamma_i$ is the half width. A typical Lorentzian has a defined normalization that we have removed to control the height. All three of the parameters can be computed for each model and their averages and deviations can be used to estimate the model variance.
+Use a sum due to the double peak nature of some seasons.
+
+Below figure demonstrates these parameterizations work remarkably well.
+
+
+
+\begin{figure}[h!]
+		\begin{center}
+		\includegraphics[scale=0.3]{../Pictures/TwoPeakFits.PNG}
+		\caption{Double Peak fits.}
+		\end{center}
+		\label{fig:peakfits}
+	\end{figure}
+\FloatBarrier
+
+Make a single peak approximation due to the sensitivity of the data.
+
+
+ We note the validation model has over-predicted the width by roughly a factor of $2$ which we can account for in the test piece.
 \begin{figure}[h!]
 		\begin{center}
 		\includegraphics[scale=0.5]{../Pictures/lorenzians.png}
@@ -173,7 +192,6 @@ where $A$ is the peak height, $t_0$ peak location, and $\Gamma$ is the half widt
 		\label{fig:f_shade}
 	\end{figure}
 \FloatBarrier
-
 
 
 Repeat the same procedures for next season.
@@ -185,6 +203,10 @@ Repeat the same procedures for next season.
 		\label{fig:flu_models}
 	\end{figure}
 \FloatBarrier
+
+Remark one could in principle use fit parameters as targets and reduce the dimensionality of the problem, however training becomes challenging because each year is reduced to a single data point. Note factors that influence multi peak behavior.
+
+
 Captures dominant peak behavior but it appears to produce same peak location as previous season. Description also lacks the ability to capture the double peak behavior the flu season experiences.
 
 \section{Conclusion}
