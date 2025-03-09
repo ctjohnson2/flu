@@ -20,28 +20,20 @@ Each year, influenza epidemics result in significant morbidity, mortality, and c
 
 Annual influenza outbreaks cause considerable morbidity, mortality, and economic effects. There is also widespread concern amongst public health professionals regarding the deadly potential of a future influenza pandemic (Doshi 2008). Pathogenic airborne viruses increase transmission proportionally within higher areas of human density. Such increases occur annually during winter in temperate regions when people spend greater time indoors (Simonsen 1999). Tempo-spatial patterns can be useful in predicting influenza outbreaks (Onozuka and Akihito 2008, Shaman and Karspeck 2012) and can be used in modeling approaches to better prepare certain jurisdictions to focus public health resources. 
 
-Motivate need for long range forecasts, drug suppliers, vaccine influence etc.
 
-Current state of the art forecasts are done using an ensemble of models from teams in CDC, but produce forecasts in 1-4 weeks.
+Current state of the art forecasts provided by the CDC (Flu-SIte, find better citation and explanation of their work) are done using an ensemble of models that produce forecasts and confidence intervals for 1-4 weeks. We aim to push the forecasting power to 21 weeks which will naturally sacrifice some week-to-week accuracy. These forecasts were originally designed to aid in pharmaceutical planning with manufacturers who require months to produce and ship flu related products. Add more reasons why longer forecasts are good.
 
-The strength of an influenza outbreak can be dependent on a variety of factors such as the dominant strain(s) of the virus $H(i)N(j)$,  efficacy of the vaccine itself, and proportion of population that received a timely vaccination.  Vaccine efficacy in the U.S. is related to how accurately one can forecast the dominant viral strains likely to infect humans and has had a relatively small variance in the past 10 years with a 36(9)\% reduction in infection. 
+The strength of an influenza outbreak can be dependent on a variety of factors such as the dominant strain(s) of the virus $H(i)N(j)$,  efficacy of the vaccine itself, and proportion of population that received a timely vaccination.  Vaccine efficacy in the U.S. is relies on the accuracy of the CDC to forecasts the dominant viral strains likely to infect humans come the flu season. Vaccine creation is done by analyzing the current dominant strains effecting humans in countries where and test how the mutate. This does vary year-to-year but has had a relatively small variance in the past 10 years with a 36(9)\% estimated reduction in infection. Vaccine efficacy sadly has no dependance on the population to obtain the vaccine as well.
 
-Rather than studying the virus evolution itself one can use the southern hemisphere as a testing ground for the upcoming season.
-
-Here we present a model designed to predict future influenza incidence in the Northern hemisphere using data collected during the winter season from the Southern hemisphere.
-
-
-
+Rather than studying the viral properties we propose countries in the southern hemisphere can act as confounding variables where the necessary viral properties manifest themselves. We present a model designed to predict broad future influenza incidence in the Northern hemisphere using data collected during the winter season from the Southern hemisphere with roughly $\frac{1}{2}$ year forecasting power.
 \section{Southern Hemisphere Countries}
 
-The nature of the Earth's tilt, with respect to its orbit around the Sun, provides a phase difference for the seasons of northern and southern hemisphere locations making winters $\sim\frac{1}{2}$ years apart. Given the ease one can travel the globe, it is reasonable to assume there exist countries in the southern hemisphere that can provide a picture of what we can expect in the US. 
 
 
+The nature of the Earth's tilt, with respect to its orbit around the Sun, provides a phase difference for the seasons of northern and southern hemisphere locations making winters $\sim\frac{1}{2}$ years apart. Given the ease people travel the globe, we assume the viral strains dominating the infections in the southern hemisphere will be similar to the strains dominating the northern hemisphere in the following season.
 
 
-We select a list of relevant ``candidates" by borrowing influenza records from the WHO and compute their lagged correlations with the U.S. hospitalizations records given by the CDC (specifically this is the flu-surv dataset which represents $\sim10\%$ of the population)\footnote{We could just as well have used WHO data as the target as well, but CDC hospitalizations were chosen to avoid bias from having the entire project built on a single data source.}.  
-
-Specifically we compute
+A country's size and latitude will generally dictate the significance of season change, so not every country in the southern hemisphere will have a winter to observe a flu season. We select a list of relevant ``candidates" by borrowing influenza records from the WHO and compute their lagged correlations with the U.S. hospitalizations records given by the CDC (specifically this is the flu-surv dataset which represents $\sim10\%$ of the population)\footnote{We could just as well have used WHO data as the target as well, but CDC hospitalizations were chosen to avoid bias from having the entire project built on a single data source.}. Specifically, we compute
 \begin{equation}
 C_{\alpha}(\delta t) =\frac{\sum_t(x^{US}_t - \bar{x}^{US})(x^{\alpha}_{t-\delta t}-\bar{x}^{\alpha})}{\sqrt{\sum_t(x^{US}_t - \bar{x}^{US})\sum_t(x^{\alpha}_{t-\delta t} - \bar{x}^{\alpha})}}
 \end{equation}
@@ -50,21 +42,21 @@ where $x^{\alpha}_t$ represents the number of positive cases reported for countr
 \begin{figure}[h!]
 		\begin{center}
 		\includegraphics[scale=0.5]{../Pictures/SH_Corrs.PNG}
-		\caption{The absolute value of correlations between a select few southern hemisphere country's' influenza case records and the US total influenza hospitalization rates. The correlations are with respect to the number of lagged previous weeks ($\delta t$).}
+		\caption{The magnitude of the correlations computed between southern hemisphere countries influenza case records with the strongest signal withthe US influenza hospitalization rates. The correlations are with respect to the number of lagged previous weeks ($\delta t$).}
 		\end{center}
 		\label{fig:so_corrs}
 	\end{figure}
 \FloatBarrier
 
-As seen in Figure \ref{fig:so_corrs}, we find the countries Australia, Chile, Paraguay, Argentina, and Uruguay have the clearest signal in our target window of $\delta t\geq 20$. These countries have clear peaks and allow us at least a 20 week forecast from a given week. 
+Australia, Chile, Paraguay, Argentina, and Uruguay have the clearest signal and we show this in Figure \ref{fig:so_corrs}. These countries have clear peaks and allow us $\sim\frac{1}{2}$ year forecast from a given week. 
 
 
-We can see in Figure \ref{fig:so_cases} that there is no single candidate or obvious linear combination of the group that could represent the target. Each candidate has its own peak height and location. There may be a non-linear relationship that can be captured via tuning neural network. We now move to creating models that can make an improved prediction than just examining southern countries by eye.
+We can see in Figure \ref{fig:so_cases} that there is no single candidate or obvious linear combination of the group that could represent the target. Each candidate has its own peak height and location. There may be a non-linear relationship that can be captured via tuning a neural network.
 
 	\begin{figure}[h!]
 		\begin{center}
 		\includegraphics[scale=0.5]{../Pictures/flu_cases.png}
-		\caption{The US hospitalizations (black, dashed) between 2015 and the beginning of 2023 compared to the 5 southern hemisphere countries total influenza cases documented by WHO. All countries are normalized such that 1 reflects the most severe week that country experienced as documented by the WHO and the CDC.}
+		\caption{The US hospitalizations (black, dashed) between 2015 and the beginning of 2025 compared to the 5 southern hemisphere countries total influenza cases documented by WHO. All countries are normalized to the most severe week that country experienced as documented by the WHO and the CDC.}
 		\end{center}
 		\label{fig:so_cases}
 	\end{figure}
@@ -73,11 +65,11 @@ We can see in Figure \ref{fig:so_cases} that there is no single candidate or obv
 
 \section{Models}
 
-Mention efforts for attempting linear relationships with lagged features. Complain about seasonality with weeks.
+Mention efforts for attempting linear relationships with lagged features. Complain about seasonality of weeks
 
-RNNs were once the state of the art for sequence learning commonly used in things like time-series forecasting and text sequence generation. These are now largely replaced by CNNs and transformer models. An advantage for small datasets could be RNNs.
+RNNs (Recurrent Neural Networks) were once the state of the art for sequence learning commonly used in things like time-series forecasting and text sequence generation. They have lost popularity with the emergence of transformer models, but can still be preferable in small data situations with significant temporal dependancies. 
 
-We employ RNNs to utilize feedback connections that enable them to learn long sequences of data where ordering is important. These have the particular advantage of not needing a parametric description to capture the seasonality. The input features the 5 southern countries and the US influenza cases in batches of 26 week long sequences shifted by 20 weeks. Each country is normalized such that the maximum rate in the time window 2013-2021 is 1.
+We employ RNNs to utilize feedback connections that enable them to learn sequences of data where ordering is important. These have the particular advantage of not needing a parametric description to capture the seasonality. The input features the 5 southern countries and the US influenza cases in batches of 26 week long sequences shifted by 21 weeks. 
 
 %\begin{wrapfigure}{r}{0.5\textwidth}
 %		\includegraphics[width=0.25\textwidth]{Pictures/lstm_diagram.png}
@@ -106,7 +98,7 @@ where $\mathbf{L}_{\gamma\gamma'}$ is a linear layer of shape $[\gamma,\gamma']$
 	\end{figure}
 \FloatBarrier
 
-The $\mathbf{A}$ piece of the model is inspired by the auto-encoder RNN design (cite here), with the intention of the first layer to encode the relevant features from the input from the candidates and the second RNN layer to act as the decoder. We include The $\mathbf{B}$ portion is designed to find the possible non-linear combinations of the individual countries that may best describe the U.S. flu season, as well as controlling over-fitting via the drop-out layers. This formulation allows for infinite model architectures to choose from and we explore a select few combinations creating an ensemble of models.
+The $\mathbf{A}$ piece of the model is inspired by the auto-encoder RNN design (cite here), with the intention of the first layer to encode the relevant features from the input from the candidates and the second RNN layer to act as the decoder. We include The $\mathbf{B}$ portion is designed to find the possible non-linear combinations of the individual countries that may best describe the U.S. flu season, as well as controlling over-fitting via the drop-out layers. This formulation allows for infinite model architectures to choose from and we explore a select few combinations creating an ensemble of models. 
 
 This is an input tensor of shape $[T_{window},26,6]$ where $T_{window}$ is the total weeks included in the fitting procedure. The input tensor has a $21$-week lag in the time-sequenced index, so for a given week $t$, there will be $t-20,t-21,...,t-(20+26)$ sequenced data. This shift allows us to predict a data point that is 21 weeks away from the time the data is collected, and the sequence of 26 weeks is chosen such that is a sufficiently long enough window for the RNN to learn the pattern. Due to the nature of the normalization, insignificant pieces of the tensor will be nearly zero and will be suppressed compared to the peaks in the gradient when updating parameters.
 
@@ -167,7 +159,7 @@ L(t) =  \sum_i A_i \frac{\left(\frac{\Gamma_i}{2}\right)^2}{(t-t_i)^2+\left(\fra
 where $A_i$ is the peak height, $t_i$ peak location, and $\Gamma_i$ is the half width. A typical Lorentzian has a defined normalization that we have removed to control the height. All three of the parameters can be computed for each model and their averages and deviations can be used to estimate the model variance.
 Use a sum due to the double peak nature of some seasons.
 
-Below figure demonstrates these parameterizations work remarkably well.
+Figure \ref{fig:peakfits} demonstrates these parameterizations work remarkably well and each flu season can be reduced to 6 parameters..
 
 
 
@@ -180,7 +172,7 @@ Below figure demonstrates these parameterizations work remarkably well.
 	\end{figure}
 \FloatBarrier
 
-Make a single peak approximation due to the sensitivity of the data.
+We acknowledge that our data may capture the relative strength of the flu season, but cannot distinguish timing or whether the season is single or double-peaked. We carry forward with a single peak approximation due to the sensitivity of the data.
 
 
  We note the validation model has over-predicted the width by roughly a factor of $2$ which we can account for in the test piece.
