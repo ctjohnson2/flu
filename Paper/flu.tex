@@ -9,7 +9,7 @@
 \begin{document}
 
 \title{Flu Forecasting Project DRAFT}
-\author{Chris Johnson}
+\author{Mark \& Chris Johnson}
 \maketitle
 
 \begin{abstract}
@@ -63,75 +63,84 @@ We can see in Figure \ref{fig:so_cases} that there is no single candidate or obv
 \FloatBarrier
 
 
+\begin{wrapfigure}{r}{0.4\textwidth}
+		\begin{center}
+		\includegraphics[width = 0.3\textwidth]{../Pictures/modelarchsum.png}
+		\end{center}
+		\caption{Model archetype composed of two varying combinations of RNNs and sequential layers.}
+		\label{fig:arch}
+\end{wrapfigure}
+
+
 \section{Models}
 
-Mention efforts for attempting linear relationships with lagged features. Complain about seasonality of weeks
 
-RNNs (Recurrent Neural Networks) were once the state of the art for sequence learning commonly used in things like time-series forecasting and text sequence generation. They have lost popularity with the emergence of transformer models, but can still be preferable in small data situations with significant temporal dependancies. 
+RNNs (Recurrent Neural Networks) were once the state of the art for sequence learning commonly applied in time-series forecasting and text sequence generation. They have lost popularity with the emergence of transformer models, but can still be preferable for small datasets with significant temporal dependancies. 
 
-We employ RNNs to utilize feedback connections that enable them to learn sequences of data where ordering is important. These have the particular advantage of not needing a parametric description to capture the seasonality. The input features the 5 southern countries and the US influenza cases in batches of 26 week long sequences shifted by 21 weeks. 
+We employ RNNs to utilize their feedback connections that enable them to learn sequences of data where ordering is important. These have the particular advantage of not needing a parametric description to capture the seasonality, which can be challenging for weekly inputs where the week start date and year start date do not coincide. The input features the 5 southern countries in batches of 26 week long sequences shifted by 21 weeks making the input tensor of shape $[T_{window},26,5]$ where $T_{window}$ is the total weeks included in the fitting procedure.
 
-%\begin{wrapfigure}{r}{0.5\textwidth}
-%		\includegraphics[width=0.25\textwidth]{Pictures/lstm_diagram.png}
-%		\caption{A visual representation of the neural network. Features an input followed by LSTM (sequence length = 26), a linear layer (26x26), another LSTM (sequence length = 26), an output layer (output dim = 1), with ReLU activation between each layer.}
-%		\label{fig:lstm_diag}
-%	\end{wrapfigure}
+The model architecture featured in this calculation can be split into a RNN piece and a sequential piece. The RNN piece may feature a single RNN or two RNNs with a linear layer acting as a feature transformation in between. This general architecture has been used in original text sequence generation techniques where the first RNN acts to capture the semantic meaning of the sentence, the linear layer transforms this semantic representation, and the second RNN is used to predict the next word. We borrow this technique to apply to weekly influenza rates where the first RNN captures the behavior the Southern Hemisphere flu behavior, linear layer transforms into a new representation where the second RNN can than apply to predict the United States flu behavior. The sequential layers are used in dimensionality reduction with the hope they capture the remaining behavior. These layers are illustrated in Figure \ref{fig:archtypes}.
+
 	
-The architecture of the models follows the general recipe
-\begin{equation}
-o^t = \mathbf{B}_{\mu'\nu'}\mathbf{A}_{\mu'\nu',\mu\nu}\mathbf{i}^t_{\mu\nu}
-\end{equation}
-where the separable pieces $\mathbf{A},\mathbf{B}$ are defined as 
-\begin{align}
-%\mathbf{A}^t_{\mu\nu} &=\left(\prod_{n} \mathbf{RNN}^{t,n}_{\mu'\nu'}\mathbf{ReLU}^{t,n}_{\mu''\nu'',\mu\nu''}\mathbf{Lin}^{t,n}_{\nu''\nu}\right)\\
-\mathbf{A}_{\mu'\nu',\mu\nu} &\equiv  \mathbf{A}_{\mu_N'\nu_N',\mu_1\nu_1} = \left(\prod_{n=1}^N \mathbf{L}^{(n)}_{\nu_n'\nu_n''}\mathbf{\sigma}^{(n)}_{\mu_n'\nu_n'',\mu_n''\nu_n}\mathbf{R}^{(n)}_{\mu_n''\mu_n}\right)\\
-\mathbf{B}_{\mu\nu} &=\mathbf{L}_{\gamma'''_N}\left(\prod_{n=1}^N\mathbf{L}_{\gamma_n'''\gamma_n''}^{(n)}\mathbf{D}(p)^{(n)}_{\gamma_n''\gamma_n'}\mathbf{\sigma}^{(n)}_{\gamma_n',\gamma_n}\right)\mathbf{F}_{\mu\cdot\nu\equiv \gamma} 
-\end{align}
-where $\mathbf{L}_{\gamma\gamma'}$ is a linear layer of shape $[\gamma,\gamma']$ (if only one index is included than it is assumed that $\gamma = 1$), $\mathbf{\sigma}$ is the activation function (generally RELU unless otherwise stated), $\mathbf{D}(p)$ is a dropout tensor with probability $p$, $\mathbf{F}$ is a flattening tensor, and $\mathbf{R}$ is the RNN where we make use of the slight different flavors of GRUs, LSTMs, and conventional RNN. The model architecture is visually represented in figure \ref{fig:arch}
+% I think we will scrap this
+
+%The architecture of the models follows the general recipe
+%\begin{equation}
+%o^t = \mathbf{B}_{\mu'\nu'}\mathbf{A}_{\mu'\nu',\mu\nu}\mathbf{i}^t_{\mu\nu}
+%\end{equation}
+%where the separable pieces $\mathbf{A},\mathbf{B}$ are defined as 
+%\begin{align}
+%\mathbf{A}_{\mu'\nu',\mu\nu} &\equiv  \mathbf{A}_{\mu_N'\nu_N',\mu_1\nu_1} = \left(\prod_{n=1}^N \mathbf{L}^{(n)}_{\nu_n'\nu_n''}\mathbf{\sigma}^{(n)}_{\mu_n'\nu_n'',\mu_n''\nu_n}\mathbf{R}^{(n)}_{\mu_n''\mu_n}\right)\\
+%\mathbf{B}_{\mu\nu} &=\mathbf{L}_{\gamma'''_N}\left(\prod_{n=1}^N\mathbf{L}_{\gamma_n'''\gamma_n''}^{(n)}\mathbf{D}(p)^{(n)}_{\gamma_n''\gamma_n'}\mathbf{\sigma}^{(n)}_{\gamma_n',\gamma_n}\right)\mathbf{F}_{\mu\cdot\nu\equiv \gamma} 
+%\end{align}
+%where $\mathbf{L}_{\gamma\gamma'}$ is a linear layer of shape $[\gamma,\gamma']$ (if only one index is included than it is assumed that $\gamma = 1$), $\mathbf{\sigma}$ is the activation function (generally RELU unless otherwise stated), $\mathbf{D}(p)$ is a dropout tensor with probability $p$, $\mathbf{F}$ is a flattening tensor, and $\mathbf{R}$ is the RNN where we make use of the slight different flavors of GRUs, LSTMs, and conventional RNN. The model architecture is visually represented in figure \ref{fig:arch}
+
+
+
+%The $\mathbf{A}$ piece of the model is inspired by the auto-encoder RNN design (cite here), with the intention of the first layer to encode the relevant features from the input from the candidates and the second RNN layer to act as the decoder. We include The $\mathbf{B}$ portion is designed to find the possible non-linear combinations of the individual countries that may best describe the U.S. flu season, as well as controlling over-fitting via the drop-out layers. This formulation allows for infinite model architectures to choose from and we explore a select few combinations creating an ensemble of models. 
+
+%This is an input tensor of shape $[T_{window},26,5]$ where $T_{window}$ is the total weeks included in the fitting procedure. The input tensor has a $21$-week lag in the time-sequenced index, so for a given week $t$, there will be $t-20,t-21,...,t-(20+26)$ sequenced data. This shift allows us to predict a data point that is 21 weeks away from the time the data is collected, and the sequence of 26 weeks is chosen such that is a sufficiently long enough window for the RNN to learn the pattern. Due to the nature of the normalization, insignificant pieces of the tensor will be nearly zero and will be suppressed compared to the peaks in the gradient when updating parameters.
+
+
 
 \begin{figure}[h!]
 		\begin{center}
-		\includegraphics[scale=0.5]{../Pictures/model_arch.png}
+		\includegraphics[scale=0.5]{../Pictures/modelarchtypes.png}
 		\caption{Model archetype composed of two varying combinations of RNNs and sequential layers.}
 		\end{center}
-		\label{fig:arch}
+		\label{fig:archtypes}
 	\end{figure}
 \FloatBarrier
 
-The $\mathbf{A}$ piece of the model is inspired by the auto-encoder RNN design (cite here), with the intention of the first layer to encode the relevant features from the input from the candidates and the second RNN layer to act as the decoder. We include The $\mathbf{B}$ portion is designed to find the possible non-linear combinations of the individual countries that may best describe the U.S. flu season, as well as controlling over-fitting via the drop-out layers. This formulation allows for infinite model architectures to choose from and we explore a select few combinations creating an ensemble of models. 
+We omit seasons 20-21 and 21-22 due to the damaging effect Covid-19 had on the seasonality. The input during that time period were replaced with zeros to not damage the continuity of the dataset, but we acknowledge we could have just as easily removed that period entirely from training. 
 
-This is an input tensor of shape $[T_{window},26,6]$ where $T_{window}$ is the total weeks included in the fitting procedure. The input tensor has a $21$-week lag in the time-sequenced index, so for a given week $t$, there will be $t-20,t-21,...,t-(20+26)$ sequenced data. This shift allows us to predict a data point that is 21 weeks away from the time the data is collected, and the sequence of 26 weeks is chosen such that is a sufficiently long enough window for the RNN to learn the pattern. Due to the nature of the normalization, insignificant pieces of the tensor will be nearly zero and will be suppressed compared to the peaks in the gradient when updating parameters.
+We attempt to predict an entire season from previous seasons' data in this so it as natural to use a full season as validation when training the model in an effort to minimize the inevitable overfitting that neural networks are guilty of. Using weekly data has an advantage over monthly by increasing the sample size, and it is a more natural stratum of influenza records given the rapid change in the season, but does not increase it large enough to avoid overfitting alone. We utilize early stopping and drop out layers in the sequential piece in an effort to combat the overfitting nature of neural networks. 
 
 
-Covid input was replaced with zeros.
-
-Paper attempts to predict both of the 23-24 and 24-25 seasons using the previous year's season as validation. 
-
-Unrealistic to think a model with such a long forecast and no input of United States feature can capture week-to-week behavior. 
-
-Create an adjusted training metric that aims to capture most importantly the peak height, secondly location.
-
-Training metric is 
+	
+	
+Mean squared error was a loss function for back-propagation, however we invent a slight hybrid to the conventional mean squared error function to evaluate the validation set for early stopping. Our validation metric is the following 
 \begin{equation}
 MSE^{adj}= \sqrt{\left(y^{max}_{val} - y^{pred, max}_{val}\right)^2 + \alpha^2\left(\left(t^{max}_{val} - t^{pred, max}_{val}\right)^2 +MSE_{train}\right)}
 \end{equation}
 
-Training metric used to choose model is a hybrid of training MSE and how well the peak height and location are described in the validation season. The training MSE is included to ensure the model has trained sufficiently but is suppressed by a factor of $\alpha =0.1$ so that the peak height is still the dominant feature when searching for a minima or plateau in the training curve.
+\begin{wrapfigure}{r}{0.6\textwidth}
+		\begin{center}
+		\includegraphics[scale=0.5]{Pictures/TrainEx.png}
+		\caption{Training curve example for one of the model choices.  Training curve is a simple mean-squared-error while validation curve is the hybrid curve explained in this section.}
+		\end{center}
+		\label{fig:lstm_train}
+	\end{wrapfigure}
+	
+where $y^{max}$ is the peak height, $t^{max}$ is the peak location, and the $MSE_{train}$ is the mean squared error of the training set. We invent this metric to ensure the loss function is not penalized for not capturing the exact week-to-week behavior, but rather the ``spirit" of the season. The training mean squared error is included to ensure the model has trained sufficiently but is suppressed by a factor of $\alpha =0.1$ so that the peak height is still the dominant feature when searching for a minima or plateau in the training curve. We suppress the peak location difference as well to keep it on the same relative scale as the peak height.
+
+We found $MSE^{adj}\sim0.2$ adequately described the validation peaks while simultaneously allowing the model to describe the training set. The accepted model variations with $\min\left(MSE^{adj}\right)\leq 0.2$ are displayed in Figure \ref{fig:full}.  talkjsdf talk about fllooopy parts outside flu zone
 
 
-%	\begin{figure}[h!]
-%		\begin{center}
-%		\includegraphics[scale=0.6]{Pictures/TrainEx.png}
-%		\caption{Training curve example for one of the model choices.  Training curve is a simple mean-squared-error while validation curve is the hybrid curve explained in this section.}
-%		\end{center}
-%		\label{fig:lstm_train}
-%	\end{figure}
-%\FloatBarrier
 
 
 
-
-\begin{figure}[h!]
+\begin{figure}[b!]
 		\begin{center}
 		\includegraphics[scale=0.5]{../Pictures/ModelVariation.PNG}
 		\caption{Dashed line represents the target U.S. hospitalization rate. Different colors represent different accepted models with the dashed in the training region and solid lines are outside. Red shaded region includes the validation region, and blue shaded represents the test region.}
