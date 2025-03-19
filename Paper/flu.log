@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.24)  12 MAR 2025 22:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.24)  18 MAR 2025 21:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -158,41 +158,66 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen152
+\captionmargin=\dimen153
+\caption@leftmargin=\dimen154
+\caption@rightmargin=\dimen155
+\caption@width=\dimen156
+\caption@indent=\dimen157
+\caption@parindent=\dimen158
+\caption@hangindent=\dimen159
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count303
+\c@continuedfloat=\count304
+Package caption Info: wrapfig package is loaded.
+)
+\c@subfigure=\count305
+\c@subtable=\count306
+)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count303
+\l__color_backend_stack_int=\count307
 \l__pdf_internal_box=\box53
 )
 (./flu.aux)
 \openout1 = `flu.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count304
-\scratchdimen=\dimen152
+\scratchcounter=\count308
+\scratchdimen=\dimen160
 \scratchbox=\box54
-\nofMPsegments=\count305
-\nofMParguments=\count306
+\nofMPsegments=\count309
+\nofMParguments=\count310
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count307
-\MPscratchDim=\dimen153
-\MPnumerator=\count308
-\makeMPintoPDFobject=\count309
+\MPscratchCnt=\count311
+\MPscratchDim=\dimen161
+\MPnumerator=\count312
+\makeMPintoPDFobject=\count313
 \everyMPtoPDFconversion=\toks24
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -203,119 +228,138 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 <../Pictures/SH_Corrs.PNG, id=13, 1055.945pt x 592.2125pt>
 File: ../Pictures/SH_Corrs.PNG Graphic file (type png)
 <use ../Pictures/SH_Corrs.PNG>
-Package pdftex.def Info: ../Pictures/SH_Corrs.PNG  used on input line 44.
-(pdftex.def)             Requested size: 527.9712pt x 296.10551pt.
-
-Overfull \hbox (15.82158pt too wide) in paragraph at lines 44--45
- [] 
- []
-
+Package pdftex.def Info: ../Pictures/SH_Corrs.PNG  used on input line 56.
+(pdftex.def)             Requested size: 256.07481pt x 143.61588pt.
 <../Pictures/flu_cases.png, id=15, 1033.8625pt x 570.13pt>
 File: ../Pictures/flu_cases.png Graphic file (type png)
 <use ../Pictures/flu_cases.png>
-Package pdftex.def Info: ../Pictures/flu_cases.png  used on input line 58.
-(pdftex.def)             Requested size: 516.93pt x 285.0643pt.
-
-Overfull \hbox (4.78036pt too wide) in paragraph at lines 58--59
- [] 
- []
+Package pdftex.def Info: ../Pictures/flu_cases.png  used on input line 62.
+(pdftex.def)             Requested size: 256.07481pt x 141.20982pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Reference `fig:so_corrs' on page 2 undefined on input line 68.
 
-[2 <../Pictures/SH_Corrs.PNG>]
-<../Pictures/modelarchsum.png, id=25, 278.03876pt x 434.62375pt>
+
+LaTeX Warning: Reference `fig:so_cases' on page 2 undefined on input line 71.
+
+[2 <../Pictures/SH_Corrs.PNG> <../Pictures/flu_cases.png>]
+
+Package caption Warning: \label without proper reference on input line 129.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:archtypes' on page 3 undefined on input line 93.
+
+<../Pictures/modelarchsum.png, id=27, 269.005pt x 432.61626pt>
 File: ../Pictures/modelarchsum.png Graphic file (type png)
 <use ../Pictures/modelarchsum.png>
-Package pdftex.def Info: ../Pictures/modelarchsum.png  used on input line 68.
-(pdftex.def)             Requested size: 153.64644pt x 240.17784pt.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 75
-.
-
-[3 <../Pictures/flu_cases.png> <../Pictures/modelarchsum.png>]
-<../Pictures/modelarchtypes.png, id=31, 1006.76125pt x 564.1075pt>
+Package pdftex.def Info: ../Pictures/modelarchsum.png  used on input line 117.
+(pdftex.def)             Requested size: 153.64644pt x 247.09552pt.
+<../Pictures/modelarchtypes.png, id=28, 1008.76875pt x 565.11125pt>
 File: ../Pictures/modelarchtypes.png Graphic file (type png)
 <use ../Pictures/modelarchtypes.png>
-Package pdftex.def Info: ../Pictures/modelarchtypes.png  used on input line 108
+Package pdftex.def Info: ../Pictures/modelarchtypes.png  used on input line 126
 .
-(pdftex.def)             Requested size: 503.3794pt x 282.05305pt.
-<Pictures/TrainEx.png, id=32, 648.17157pt x 371.13657pt>
+(pdftex.def)             Requested size: 504.38315pt x 282.55493pt.
+[3 <../Pictures/modelarchtypes.png> <../Pictures/modelarchsum.png>]
+Overfull \hbox (78.79951pt too wide) detected at line 141
+[]\OML/cmm/m/it/12 MSE[] \OT1/cmr/m/n/12 = []
+ []
+
+<Pictures/TrainEx.png, id=34, 648.17157pt x 371.13657pt>
 File: Pictures/TrainEx.png Graphic file (type png)
 <use Pictures/TrainEx.png>
-Package pdftex.def Info: Pictures/TrainEx.png  used on input line 129.
+Package pdftex.def Info: Pictures/TrainEx.png  used on input line 145.
 (pdftex.def)             Requested size: 324.08499pt x 185.56783pt.
 
-Overfull \hbox (16.7921pt too wide) in paragraph at lines 129--130
+Overfull \hbox (16.7921pt too wide) in paragraph at lines 145--146
  [] 
  []
 
-[4 <../Pictures/modelarchtypes.png>]
-Underfull \hbox (badness 5288) in paragraph at lines 137--138
+
+Package caption Warning: \label without proper reference on input line 164.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:full' on page 4 undefined on input line 153.
+
+
+Underfull \hbox (badness 5288) in paragraph at lines 153--154
 \OT1/cmr/m/n/12 while si-mul-ta-ne-ously al-low-ing the
  []
 
-<../Pictures/ModelVariation.PNG, id=37, 1062.97125pt x 571.13374pt>
+<../Pictures/ModelVariation.PNG, id=35, 1062.97125pt x 571.13374pt>
 File: ../Pictures/ModelVariation.PNG Graphic file (type png)
 <use ../Pictures/ModelVariation.PNG>
-Package pdftex.def Info: ../Pictures/ModelVariation.PNG  used on input line 145
+Package pdftex.def Info: ../Pictures/ModelVariation.PNG  used on input line 161
 .
 (pdftex.def)             Requested size: 531.48433pt x 285.56618pt.
 
-Overfull \hbox (19.3347pt too wide) in paragraph at lines 145--146
+Overfull \hbox (19.3347pt too wide) in paragraph at lines 161--162
  [] 
  []
 
-[5 <./Pictures/TrainEx.png> <../Pictures/ModelVariation.PNG>]
-<../Pictures/modelvariationzoom.png, id=43, 1061.9675pt x 570.13pt>
+[4 <./Pictures/TrainEx.png>] [5 <../Pictures/ModelVariation.PNG>]
+<../Pictures/modelvariationzoom.png, id=44, 1061.9675pt x 570.13pt>
 File: ../Pictures/modelvariationzoom.png Graphic file (type png)
 <use ../Pictures/modelvariationzoom.png>
 Package pdftex.def Info: ../Pictures/modelvariationzoom.png  used on input line
- 155.
+ 171.
 (pdftex.def)             Requested size: 530.98245pt x 285.0643pt.
 
-Overfull \hbox (18.83282pt too wide) in paragraph at lines 155--156
+Overfull \hbox (18.83282pt too wide) in paragraph at lines 171--172
  [] 
  []
 
-<../Pictures/TwoPeakFits.PNG, id=44, 1725.0849pt x 2279.3958pt>
+
+Package caption Warning: \label without proper reference on input line 196.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:peakfits' on page 6 undefined on input line 187.
+
+<../Pictures/TwoPeakFits.PNG, id=45, 1725.0849pt x 2279.3958pt>
 File: ../Pictures/TwoPeakFits.PNG Graphic file (type png)
 <use ../Pictures/TwoPeakFits.PNG>
-Package pdftex.def Info: ../Pictures/TwoPeakFits.PNG  used on input line 177.
+Package pdftex.def Info: ../Pictures/TwoPeakFits.PNG  used on input line 193.
 (pdftex.def)             Requested size: 517.52946pt x 683.82404pt.
 
-Overfull \hbox (5.37984pt too wide) in paragraph at lines 177--178
+Overfull \hbox (5.37984pt too wide) in paragraph at lines 193--194
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <../Pictures/modelvariationzoom.png>] [7 <../Pictures/TwoPeakFits.PNG>]
-<../Pictures/lorenzians.png, id=55, 1061.9675pt x 575.14874pt>
+[6
+
+ <../Pictures/modelvariationzoom.png>] [7 <../Pictures/TwoPeakFits.PNG>]
+<../Pictures/lorenzians.png, id=56, 1061.9675pt x 575.14874pt>
 File: ../Pictures/lorenzians.png Graphic file (type png)
 <use ../Pictures/lorenzians.png>
-Package pdftex.def Info: ../Pictures/lorenzians.png  used on input line 190.
+Package pdftex.def Info: ../Pictures/lorenzians.png  used on input line 206.
 (pdftex.def)             Requested size: 530.98245pt x 287.57367pt.
 
-Overfull \hbox (18.83282pt too wide) in paragraph at lines 190--191
+Overfull \hbox (18.83282pt too wide) in paragraph at lines 206--207
  [] 
  []
 
-<../Pictures/Forecasts.png, id=56, 1062.97125pt x 569.12625pt>
+<../Pictures/Forecasts.png, id=57, 1062.97125pt x 569.12625pt>
 File: ../Pictures/Forecasts.png Graphic file (type png)
 <use ../Pictures/Forecasts.png>
-Package pdftex.def Info: ../Pictures/Forecasts.png  used on input line 202.
+Package pdftex.def Info: ../Pictures/Forecasts.png  used on input line 218.
 (pdftex.def)             Requested size: 531.48433pt x 284.56242pt.
 
-Overfull \hbox (19.3347pt too wide) in paragraph at lines 202--203
+Overfull \hbox (19.3347pt too wide) in paragraph at lines 218--219
  [][] 
  []
 
@@ -324,33 +368,37 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [8
 
- <../Pictures/lorenzians.png>] [9 <../Pictures/Forecasts.png>] (./flu.aux) ) 
+ <../Pictures/lorenzians.png>] [9 <../Pictures/Forecasts.png>] (./flu.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2318 strings out of 478268
- 37595 string characters out of 5846347
- 333785 words of memory out of 5000000
- 20513 multiletter control sequences out of 15000+600000
- 475773 words of font info for 51 fonts, out of 8000000 for 9000
+ 3749 strings out of 478268
+ 65495 string characters out of 5846347
+ 361090 words of memory out of 5000000
+ 21935 multiletter control sequences out of 15000+600000
+ 476920 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,62p,964b,263s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</u
-sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr
-/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
-local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/loc
-al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local
-/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
-exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
-live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texli
-ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
-2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/202
-2/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on flu.pdf (9 pages, 3741874 bytes).
+ 67i,8n,77p,996b,528s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/t
+exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
+ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
+/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on flu.pdf (9 pages, 3747171 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 125 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
