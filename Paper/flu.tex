@@ -21,20 +21,19 @@ Each year, influenza epidemics result in significant morbidity, mortality, and c
 
 Annual influenza outbreaks cause considerable morbidity, mortality, and economic effects. There is also widespread concern amongst public health professionals regarding the deadly potential of a future influenza pandemic (Doshi 2008). Pathogenic airborne viruses increase transmission proportionally within higher areas of human density. Such increases occur annually during winter in temperate regions when people spend greater time indoors (Simonsen 1999). Tempo-spatial patterns can be useful in predicting influenza outbreaks (Onozuka and Akihito 2008, Shaman and Karspeck 2012) and can be used in modeling approaches to better prepare certain jurisdictions to focus public health resources. 
 
-The strength of an influenza outbreak can be dependent on a variety of factors such as the dominant strain(s) of the virus $H(i)N(j)$,  efficacy of the vaccine, and proportion of population that received a timely vaccination.  Vaccine efficacy in the U.S. relies on the accuracy of the CDC to forecasts the dominant viral strains likely to infect humans come the flu season. Vaccine creation is done by analyzing the current dominant strains effecting humans in countries where and test how the mutate. This does vary year-to-year but has had a relatively small variance in the past 10 years with a 36(9)\% estimated reduction in infection. Rather than studying the viral properties which has already shown to be very challenging with vaccine efficacy never exceeding $50\%$, we propose countries in the southern hemisphere can act as confounding variables where the necessary viral properties and human behavior are hidden in severity rates from different countries. 
+The strength of an influenza outbreak can be dependent on a variety of factors such as the dominant strain(s) of the virus $H(i)N(j)$,  vaccination efficacy and adherence, timing of close human activity etc.  Vaccine efficacy in the U.S. relies on the accuracy of one's ability to predict the dominant viral strains likely to infect humans. Vaccines are created by analyzing the current dominant strains effecting humans around the globe to select ``candidate vaccine viruses" (CVVs) to include in the new vaccine formulation where the mutation behaviors are studied. Vaccine efficacy varies year-to-year but has had a relatively small variance in the past 10 years with a 36(9)\% estimated reduction in infection. Rather than studying the viral mutations, which has already shown to be very challenging as evident by vaccine efficacy never exceeding $50\%$, we propose countries in the southern hemisphere can act as confounding variables where the necessary viral properties and human behavior are hidden and manifest themselves in each country's respective severity rate. Long range influenza forecasts are scarce due to the high variability of the influenza season year-to-year. The current state-of-the-art models provided by the CDC (Flu-Site, find better citation and explanation of their work) are done using an ensemble that predict 1-4 weeks influenza hospitalization rates. Their work is mostly motivated to aid hospitals to prepare for potentially overwhelming influenza patients. Longer forecasts can be beneficial for pharmaceutical manufacturers who need warning months in advance to scale up production, and can be hesitant to make more products that will go unsold. 
 
-We first present a subset of countries whose influenza rates may be heavily related to the US, and feed that data into a model designed to predict broad future influenza incidence in the United States with roughly $\frac{1}{2}$ year forecasting power. Long range influenza forecasts are scarce with the current ``state-of-the-art" forecasts provided by the CDC (Flu-Site, find better citation and explanation of their work) are done using an ensemble of models that produce forecasts and confidence intervals for 1-4 weeks and generally describe the weekly rates quite well. This work attempts to push the forecasting range, sacrificing some week-to-week accuracy, but capture the spirit of the influenza season. 
-
+This work aims to push the flu modeling forecasting range to approximately $\frac{1}{2}$-year, sacrificing some week-to-week accuracy, but captures the spirit of the influenza season. We first present a subset of countries whose influenza rates may be heavily related to the U.S. Following a proper ``candidate" determination and preprocessing of the data, we propose model architectures built from Recurrent Neural Networks (RNNs), that have the ability to \textit{learn} temporal relationships of the data to forecast the U.S. season. Following model declaration, we explain the model \textit{tuning} process and compare influenza forecasts for the 23-24 and 24-25 seasons.
 
 
 \section{Southern Hemisphere Countries}
 
 
 
-The nature of the Earth's tilt, with respect to its orbit around the Sun, provides a phase difference for the seasons of northern and southern hemisphere locations making winters $\sim\frac{1}{2}$ years apart. Given the ease people travel the globe, we assume the viral strains dominating the infections in the southern hemisphere will be related to the strains dominating the northern hemisphere and are not isolated in a way that would cause significant deviations in mutations.
+The nature of the Earth's tilt, with respect to its orbit around the Sun, creates a phase difference for northern and southern hemisphere seasons, making winters $\sim\frac{1}{2}$ year apart. Given the ease people travel the globe, we assume the viral strains dominating the infections in the southern hemisphere will be related to the strains dominating the northern hemisphere and are not isolated in a way that would cause significant deviations in strains.
 
 
-A country's size and latitude will generally dictate the significance of season change, so not every country in the southern hemisphere will have a winter to observe a flu season. We select a list of relevant ``candidates" by borrowing influenza records from the WHO and compute their lagged correlations with the U.S. hospitalizations records given by the CDC (specifically this is the flu-surv dataset which represents $\sim10\%$ of the population)\footnote{We could just as well have used WHO data as the target as well, but CDC hospitalizations were chosen to avoid bias from having the entire project built on a single data source.}. Specifically, we compute
+A country's size and latitude will generally dictate the significance of season change, so not every country in the southern hemisphere will serve as an equal predictor of the U.S. season. We select a list of relevant ``candidates" by borrowing influenza records from the W.H.O. (cite) and compute their lagged correlations with the U.S. hospitalizations records given by the CDC (specifically this is the flu-surv dataset which represents $\sim10\%$ of the population)\footnote{We could just as well have used WHO data as the target as well, but CDC hospitalizations were chosen to avoid bias from having the entire project built on a single data source.}. Specifically, we compute
 \begin{equation}
 C_{\alpha}(\delta t) =\frac{\sum_t(x^{US}_t - \bar{x}^{US})(x^{\alpha}_{t-\delta t}-\bar{x}^{\alpha})}{\sqrt{\sum_t(x^{US}_t - \bar{x}^{US})\sum_t(x^{\alpha}_{t-\delta t} - \bar{x}^{\alpha})}}
 \end{equation}
@@ -51,24 +50,24 @@ where $x^{\alpha}_t$ represents the number of positive cases reported for countr
 
 \begin{figure}[t!]
     \centering
-    \begin{subfigure}[l]{0.5\textwidth}
+    \begin{subfigure}[t]{0.5\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{../Pictures/SH_Corrs.PNG}
+        \includegraphics[width=0.95\textwidth]{../Pictures/SH_Corrs.PNG}
         \caption{The magnitude of the correlations computed between southern hemisphere countries influenza case records with the strongest signal with the US influenza hospitalization rates. The correlations are with respect to the number of lagged previous weeks ($\delta t$).}
+        \label{fig:so_corrs}
     \end{subfigure}%
-  %  ~ 
-    \begin{subfigure}[r]{0.5\textwidth}
+    ~ 
+    \begin{subfigure}[t]{0.5\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{../Pictures/flu_cases.png}
+        \includegraphics[width=0.95\textwidth]{../Pictures/flu_cases.png}
         \caption{The US hospitalizations (black, dashed) between 2015 and the beginning of 2025 compared to the 5 southern hemisphere countries total influenza cases documented by WHO. All countries are normalized to the most severe week that country experienced as documented by the WHO and the CDC.}
+        \label{fig:so_cases}
     \end{subfigure}
-    \caption{Caption place holder}
 \end{figure}
 
-Australia, Chile, Paraguay, Argentina, and Uruguay have the clearest signal and we show this in Figure \ref{fig:so_corrs}. These countries have clear peaks and allow us $\sim\frac{1}{2}$ year forecast from a given week. 
+Australia, Chile, Paraguay, Argentina, and Uruguay have the clearest signal as evident by their peak structures shown in Figure \ref{fig:so_corrs}. These countries have clear peaks in the $\delta t = 20 - 35$ week lags making them suitable candidates for our half-year forecasting goal.
 
-
-We can see in Figure \ref{fig:so_cases} that there is no single candidate or obvious linear combination of the group that could represent the target. Each candidate has its own peak height and location. There may be a non-linear relationship that can be captured via tuning a neural network.
+It is evident in Figure \ref{fig:so_cases} that there is no single candidate or obvious linear combination of the group that could represent the target. Each candidate has its own peak height, location, and width. There may be a non-linear relationship that can be captured via tuning a neural network.
 
 %	\begin{figure}[h!]
 %		\begin{center}
@@ -89,8 +88,33 @@ RNNs (Recurrent Neural Networks) were once the state of the art for sequence lea
 
 We employ RNNs to utilize their feedback connections that enable them to learn sequences of data where ordering is important. These have the particular advantage of not needing a parametric description to capture the seasonality, which can be challenging for weekly inputs where the week start date and year start date do not coincide. The input features the 5 southern countries in batches of 26 week long sequences shifted by 21 weeks making the input tensor of shape $[T_{window},26,5]$ where $T_{window}$ is the total weeks included in the fitting procedure.
 
+\begin{wrapfigure}{r}{0.4\textwidth}
+		\begin{center}
+		\includegraphics[width = 0.3\textwidth]{../Pictures/modelarchsum.png}
+		\end{center}
+		\caption{Model archetype composed of two varying combinations of RNNs and sequential layers.}
+		\label{fig:arch}
+\end{wrapfigure}
 
-The model architecture featured in this calculation can be split into a RNN piece and a sequential piece. The RNN piece may feature a single RNN or two RNNs with a linear layer acting as a feature transformation in between. This general architecture has been used in original text sequence generation techniques where the first RNN acts to capture the semantic meaning of the sentence, the linear layer transforms this semantic representation, and the second RNN is used to predict the next word. We borrow this technique to apply to weekly influenza rates where the first RNN captures the behavior the Southern Hemisphere flu behavior, linear layer transforms into a new representation where the second RNN can than apply to predict the United States flu behavior. The sequential layers are used in dimensionality reduction with the hope they capture the remaining behavior. These layers are illustrated in Figure \ref{fig:archtypes}.
+
+The model architecture can be separated into a RNN and a sequential portion visually depicted in Figure \ref{fig:arch}. The RNN piece features a single RNN or two RNNs with a linear layer acting as a feature transformation in between. This general architecture has been used in original text sequence generation techniques where the first RNN acts to capture the semantic meaning of the sentence, the linear layer transforms this semantic representation, and the second RNN is used to predict the next word. We borrow this technique to apply to weekly influenza rates where the first RNN captures the behavior the Southern Hemisphere flu behavior, linear layer transforms into a new representation where the second RNN can than apply to predict the United States flu behavior. We make use of three flavors of RNNs by including Gated Rectangular Units (GRUs) and Long Short Term Models (LSTMs) to add additional variability to our model construction in an effort to not bias our forecast via a single model prediction. The sequential layers are used in dimensionality reduction with the hope they capture the remaining behavior via linear layers, RELUs and drop out layers when multiple linear layers are used. \footnote{Did not want to use a dropout layer from the RNN output due to the fact that all of that temporal information is important} The various layer archetypes are illustrated in Figure \ref{loop}.
+
+
+
+We omit seasons 20-21 and 21-22 due to the damaging effect Covid-19 had on the seasonality. The input during that time period were replaced with zeros to not damage the continuity of the dataset, but we acknowledge we could have just as easily removed that period entirely from training. 
+
+We attempt to predict an entire season from previous seasons' data in this so it as natural to use a full season as validation when training the model in an effort to minimize the inevitable overfitting that neural networks are guilty of. Using weekly data has an advantage over monthly by increasing the sample size, and it is a more natural stratum of influenza records given the rapid change in the season, but does not increase it large enough to avoid overfitting alone. We utilize early stopping and drop out layers in the sequential piece in an effort to combat the overfitting nature of neural networks. 
+
+
+\begin{figure}[t!]
+		\begin{center}
+		\includegraphics[scale=0.45]{../Pictures/modelarchtypes.png}
+		
+		\caption{Model archetype composed of two varying combinations of RNNs and sequential layers.}
+		\label{loop}
+		\end{center}
+		
+\end{figure}
 
 	
 % I think we will scrap this
@@ -112,30 +136,12 @@ The model architecture featured in this calculation can be split into a RNN piec
 
 %This is an input tensor of shape $[T_{window},26,5]$ where $T_{window}$ is the total weeks included in the fitting procedure. The input tensor has a $21$-week lag in the time-sequenced index, so for a given week $t$, there will be $t-20,t-21,...,t-(20+26)$ sequenced data. This shift allows us to predict a data point that is 21 weeks away from the time the data is collected, and the sequence of 26 weeks is chosen such that is a sufficiently long enough window for the RNN to learn the pattern. Due to the nature of the normalization, insignificant pieces of the tensor will be nearly zero and will be suppressed compared to the peaks in the gradient when updating parameters.
 
-\begin{wrapfigure}{r}{0.4\textwidth}
-		\begin{center}
-		\includegraphics[width = 0.3\textwidth]{../Pictures/modelarchsum.png}
-		\end{center}
-		\caption{Model archetype composed of two varying combinations of RNNs and sequential layers.}
-		\label{fig:arch}
-\end{wrapfigure}
 
 
-\begin{figure}[h!]
-		\begin{center}
-		\includegraphics[scale=0.5]{../Pictures/modelarchtypes.png}
-		\caption{Model archetype composed of two varying combinations of RNNs and sequential layers.}
-		\end{center}
-		\label{fig:archtypes}
-	\end{figure}
-\FloatBarrier
 
-We omit seasons 20-21 and 21-22 due to the damaging effect Covid-19 had on the seasonality. The input during that time period were replaced with zeros to not damage the continuity of the dataset, but we acknowledge we could have just as easily removed that period entirely from training. 
-
-We attempt to predict an entire season from previous seasons' data in this so it as natural to use a full season as validation when training the model in an effort to minimize the inevitable overfitting that neural networks are guilty of. Using weekly data has an advantage over monthly by increasing the sample size, and it is a more natural stratum of influenza records given the rapid change in the season, but does not increase it large enough to avoid overfitting alone. We utilize early stopping and drop out layers in the sequential piece in an effort to combat the overfitting nature of neural networks. 
 
 	
-Mean squared error was a loss function for back-propagation, however we invent a slight hybrid to the conventional mean squared error function to evaluate the validation set for early stopping. Our validation metric is the following 
+We used mean squared error as the loss function for back-propagation, however invented a slight hybrid to the conventional mean squared error function to evaluate the validation set for early stopping. Our validation metric is the following 
 \begin{equation}
 MSE^{adj}= \sqrt{\left(y^{max}_{val} - y^{pred, max}_{val}\right)^2 + \alpha^2\left(\left(t^{max}_{val} - t^{pred, max}_{val}\right)^2 +MSE_{train}\right)}
 \end{equation}
@@ -148,83 +154,106 @@ MSE^{adj}= \sqrt{\left(y^{max}_{val} - y^{pred, max}_{val}\right)^2 + \alpha^2\l
 		\label{fig:lstm_train}
 	\end{wrapfigure}
 	
-where $y^{max}$ is the peak height, $t^{max}$ is the peak location, and the $MSE_{train}$ is the mean squared error of the training set. We invent this metric to ensure the loss function is not penalized for not capturing the exact week-to-week behavior, but rather the ``spirit" of the season. The training mean squared error is included to ensure the model has trained sufficiently but is suppressed by a factor of $\alpha =0.1$ so that the peak height is still the dominant feature when searching for a minima or plateau in the training curve. We suppress the peak location difference as well to keep it on the same relative scale as the peak height.
+where $y^{max}$ is the peak height, $t^{max}$ is the peak location, and the $MSE_{train}$ is the mean squared error of the training set. This metric ensures the loss function is not totally penalized for not capturing the exact week-to-week behavior, but can still capture maximum weekly rate and location. The training mean squared error is included to ensure the model represents the training set, but is suppressed by a factor of $\alpha =0.1$ so that the peak height is still the dominant feature when searching for a minima or plateau in the training curve. We suppress the peak location difference as well to keep it on the same relative scale as the peak height. 
 
-We found $MSE^{adj}\sim0.2$ adequately described the validation peaks while simultaneously allowing the model to describe the training set. The accepted model variations with $\min\left(MSE^{adj}\right)\leq 0.2$ are displayed in Figure \ref{fig:full}. These models capture the peak height and even location well but possess spurious movement outside of the flu season and we remove these from the predictions.
-
-
+We found $MSE^{adj}\sim0.2$ adequately described the validation peaks while simultaneously allowing the model to describe the training set. The accepted model variations with $\min\left(MSE^{adj}\right)\leq 0.2$ are displayed in Figure \ref{fig:full}. These models capture the peak height and location but possess spurious movement outside of the flu season and we remove these from the final forecasts.
 
 
-
-\begin{figure}[b!]
+\begin{figure}[t!]
 		\begin{center}
-		\includegraphics[scale=0.5]{../Pictures/ModelVariation.PNG}
-		\caption{Dashed line represents the target U.S. hospitalization rate. Different colors represent different accepted models with the dashed in the training region and solid lines are outside. Red shaded region includes the validation region, and blue shaded represents the test region.}
-		\end{center}
+		\includegraphics[scale=0.45]{../Pictures/ModelVariation.PNG}
+		\caption{Dashed line represents the target U.S. hospitalization rate. Different colors represent model variations appear as dashed in the training region and solid in the validation and test region. Validation and test regions are represented with red and blue shaded backgrounds respectively.}
 		\label{fig:full}
-	\end{figure}
-\FloatBarrier
-
-
-\begin{figure}[h!]
-		\begin{center}
-		\includegraphics[scale=0.5]{../Pictures/modelvariationzoom.png}
-		\caption{}
 		\end{center}
-		\label{fig:f}
+		
 	\end{figure}
-\FloatBarrier
 
 
+\begin{wrapfigure}{t!}{0.45\textwidth}
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+       
+        \includegraphics[width=0.95\textwidth]{../Pictures/modelvariationzoom.png}
+        \caption{Model variations validated in 22-23 season (red) for 23-24 forecast (blue). }
+	\label{zoom}
+    \end{subfigure}%
+    
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+         \includegraphics[width=0.95\textwidth]{../Pictures/lorenzians.png}
+	\caption{Single-peaked parameterization for validation and test set with parameters means and standard deviations are used to create model parameterization's mean and uncertainty.}
+        \label{fig:lor}
+    \end{subfigure}
+\end{wrapfigure}
 A naive weekly average of the model variation will produce a poor description of the data due to the seasonality where a any small phase difference of two otherwise completely equivalent descriptions would wash away the peak behavior. One must first capture the phase differences and shift accordingly. A parametric solution to combining 
 is the following sum of renormalized hybrid Lorentzian distribution
 \begin{equation}
-L(t) =  \sum_i A_i \frac{\left(\frac{\Gamma_i}{2}\right)^2}{(t-t_i)^2+\left(\frac{\Gamma_i}{2}\right)^2}
+L(t) =  \sum_i^2 A_i \frac{\left(\frac{\Gamma_i}{2}\right)^2}{(t-t_i)^2+\left(\frac{\Gamma_i}{2}\right)^2}
 \end{equation}
-where $A_i$ is the peak height, $t_i$ peak location, and $\Gamma_i$ is the half width. A typical Lorentzian has a defined normalization that we have removed to control the height. All three of the parameters can be computed for each model and their averages and deviations can be used to estimate the model variance.
-Use a sum due to the double peak nature of some seasons.
+where $A_i$ is the peak height, $t_i$ peak location, and $\Gamma_i$ is the half width. A typical Lorentzian has a defined normalization that we have removed to control the height. All three of the parameters can be computed for each model and their averages and standard deviations can be used to estimate the parmaterization variance.
 
-Figure \ref{fig:peakfits} demonstrates these parameterizations work remarkably well and each flu season can be reduced to 6 parameters..
-
+Each season appears to have one or two-pronounced peaks meaning we can reduce the $\sim30$-week flu severity rates to three or six parameters. We demonstrate this relationship in Figure \ref{fig:peakfits} where we have used two peak models to fit each season in the past 10 years with mean absolute error varying from $1.6\%$ to $4.0\%$.
 
 
+
+%\begin{figure}[b!]
+%		\begin{center}
+%		\includegraphics[scale=0.5]{../Pictures/modelvariationzoom.png}
+%		\caption{}
+%		\label{zoom}
+%		\end{center}
+%\end{figure}
+
+Our models may be capable of capturing the peak height, but cannot distinguish exact timing or whether the season is single or double-peaked. It may be tempting to use the fit parameters as targets and reduce the dimensionality of the problem, however training becomes challenging because each year is reduced to a single data point. As a reasonable simplification, we carry forward using single-peaked approximations of seasons where the Lorentzian parameters are well defined from model predictions. 
+
+\subsection{23-24}
+We show the results of the model variability and parameterization side-by-side in Figure's \ref{zoom} and \ref{fig:lor} respectively. Peak height and location are simple to interpret from the model results while the half-width is slightly more challenging to measure. This was computed as an average of the half-width defined via the ascent and descent of each individual model. 
+
+\begin{wrapfigure}{t!}{0.45\textwidth}
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+       
+        \includegraphics[width=0.95\textwidth]{../Pictures/zoomvariation2425.png}
+        \caption{Model variations validated in 23-24 season (red) for 24-25 forecast (blue). }
+	\label{zoomnew}
+    \end{subfigure}%
+    
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+         \includegraphics[width=0.95\textwidth]{../Pictures/zoomvariation2425lor.png}
+	\caption{Single-peaked parameterization for validation and test set with parameters means and standard deviations are used to create model parameterization's mean and uncertainty.}
+        \label{fig:lornew}
+    \end{subfigure}
+\end{wrapfigure}
+
+The model produces a peak height of $41.8K(57)$ patients compared to the actual peak height of $40.0K$ patients with a total case count of $406K(104)$ patients to the 23-24 total of $367K$. The peak height maintains $\sim 13\%$ uncertainty with the total case count having $\sim 25\%$ uncertainty. The model remarkably predicts the peak height accurately with reasonable precision. Most of the uncertainty in the model lies in the duration of the season which is unsurprising given that the season durations vary year-to-year and the data input will have no knowledge of that feature. 
+
+\subsection{24-25}
+We repeat the same procedure for the following season and show the model results in Figures \ref{zoomnew} and \ref{fig:lornew}. In this season we have two peaks and we remind the reader we make only an effort to model a single peaked season. We choose to compare to the dominant peak as we did in the previous season. Our model produces a peak height of $60.5K(86)$ patients compared to the actual height of $60.7K$ patients. Our peak height has $\sim 14\%$ uncertainty similar to the previous season, maintaining a relatively accurate and precise dominant peak height, but naturally fails to describe the double peaked nature of the season due to our approximation.
 \begin{figure}[h!]
 		\begin{center}
-		\includegraphics[scale=0.3]{../Pictures/TwoPeakFits.PNG}
+		\includegraphics[scale=0.3]{../Pictures/TwoPeakFits.png}
 		\caption{Double Peak fits.}
-		\end{center}
 		\label{fig:peakfits}
-	\end{figure}
-\FloatBarrier
-
-We acknowledge that our data may capture the relative strength of the flu season, but cannot distinguish timing or whether the season is single or double-peaked. We carry forward with a single peak approximation due to the sensitivity of the data.
-
-
- We note the validation model has over-predicted the width by roughly a factor of $2$ which we can account for in the test piece.
-\begin{figure}[h!]
-		\begin{center}
-		\includegraphics[scale=0.5]{../Pictures/lorenzians.png}
-		\caption{}
 		\end{center}
-		\label{fig:f_shade}
-	\end{figure}
+\end{figure}
 \FloatBarrier
 
 
-Repeat the same procedures for next season.
 
-\begin{figure}[h!]
-		\centering
-		\includegraphics[scale=0.5]{../Pictures/Forecasts.png}
-		\caption{}
-		\label{fig:flu_models}
-	\end{figure}
+
+
 \FloatBarrier
 
-Remark one could in principle use fit parameters as targets and reduce the dimensionality of the problem, however training becomes challenging because each year is reduced to a single data point. Note factors that influence multi peak behavior.
 
+%\begin{figure}[h!]
+%		\centering
+%		\includegraphics[scale=0.5]{../Pictures/Forecasts.png}
+%		\caption{}
+%		\label{fig:flu_models}
+%	\end{figure}
+%\FloatBarrier
 
-Captures dominant peak behavior but it appears to produce same peak location as previous season. Description also lacks the ability to capture the double peak behavior the flu season experiences.
 
 \section{Conclusion}
 
