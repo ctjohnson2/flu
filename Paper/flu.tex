@@ -21,7 +21,9 @@ Each year, influenza epidemics result in significant morbidity, mortality, and c
 
 Annual influenza outbreaks cause considerable morbidity, mortality, and economic effects. There is also widespread concern amongst public health professionals regarding the deadly potential of a future influenza pandemic (Doshi 2008). Pathogenic airborne viruses increase transmission proportionally within higher areas of human density. Such increases occur annually during winter in temperate regions when people spend greater time indoors (Simonsen 1999). Tempo-spatial patterns can be useful in predicting influenza outbreaks (Onozuka and Akihito 2008, Shaman and Karspeck 2012) and can be used in modeling approaches to better prepare certain jurisdictions to focus public health resources. 
 
-The strength of an influenza outbreak can be dependent on a variety of factors such as the dominant strain(s) of the virus $H(i)N(j)$,  vaccination efficacy and adherence, timing of close human activity etc.  Vaccine efficacy in the U.S. relies on the accuracy of one's ability to predict the dominant viral strains likely to infect humans. Vaccines are created by analyzing the current dominant strains effecting humans around the globe to select ``candidate vaccine viruses" (CVVs) to include in the new vaccine formulation where the mutation behaviors are studied. Vaccine efficacy varies year-to-year but has had a relatively small variance in the past 10 years with a 36(9)\% estimated reduction in infection. Rather than studying the viral mutations, which has already shown to be very challenging as evident by vaccine efficacy never exceeding $50\%$, we propose countries in the southern hemisphere can act as confounding variables where the necessary viral properties and human behavior are hidden and manifest themselves in each country's respective severity rate. Long range influenza forecasts are scarce due to the high variability of the influenza season year-to-year. The current state-of-the-art models provided by the CDC (Flu-Site, find better citation and explanation of their work) are done using an ensemble that predict 1-4 weeks influenza hospitalization rates. Their work is mostly motivated to aid hospitals to prepare for potentially overwhelming influenza patients. Longer forecasts can be beneficial for pharmaceutical manufacturers who need warning months in advance to scale up production, and can be hesitant to make more products that will go unsold. 
+Long range influenza forecasts are scarce due to the high variability of the influenza season year-to-year. The current state-of-the-art models provided by the CDC (Flu-Site, find better citation and explanation of their work) are done using an ensemble that predict 1-4 weeks influenza hospitalization rates. Their work is mostly motivated to aid hospitals in preparation for potentially overwhelming flux of patients. Longer forecasts can be beneficial for the pharmaceutical manufacturers who need to scale production months in advance, and can be hesitant to make a surplus of products that will go unsold. 
+ 
+The strength of an influenza outbreak can be dependent on a variety of factors such as the dominant strain(s) of the virus $H(i)N(j)$,  vaccination efficacy and adherence, timing of close human activity etc.  Vaccine efficacy relies on the CDC's ability to predict the dominant viral strains likely to infect humans. Vaccines are created by analyzing the current dominant strains effecting humans around the globe to select ``candidate vaccine viruses" (CVVs) to include in the new vaccine formulation where the mutation behaviors are studied. Vaccine efficacy varies year-to-year but has had a relatively small variance in the past 10 years with a 36(9)\% estimated reduction in infection. Rather than studying the viral mutations, which has already shown to be very challenging as evident by vaccine efficacy never exceeding $50\%$, we propose countries in the southern hemisphere can act as confounding variables where the necessary viral properties and human behavior are hidden and manifest themselves in each country's respective severity rate. 
 
 This work aims to push the flu modeling forecasting range to approximately $\frac{1}{2}$-year, sacrificing some week-to-week accuracy, but captures the spirit of the influenza season. We first present a subset of countries whose influenza rates may be heavily related to the U.S. Following a proper ``candidate" determination and preprocessing of the data, we propose model architectures built from Recurrent Neural Networks (RNNs), that have the ability to \textit{learn} temporal relationships of the data to forecast the U.S. season. Following model declaration, we explain the model \textit{tuning} process and compare influenza forecasts for the 23-24 and 24-25 seasons.
 
@@ -37,7 +39,8 @@ A country's size and latitude will generally dictate the significance of season 
 \begin{equation}
 C_{\alpha}(\delta t) =\frac{\sum_t(x^{US}_t - \bar{x}^{US})(x^{\alpha}_{t-\delta t}-\bar{x}^{\alpha})}{\sqrt{\sum_t(x^{US}_t - \bar{x}^{US})\sum_t(x^{\alpha}_{t-\delta t} - \bar{x}^{\alpha})}}
 \end{equation}
-where $x^{\alpha}_t$ represents the number of positive cases reported for country $\alpha$ on week $t$. 
+where $x^{\alpha}_t$ represents the number of positive cases reported for country $\alpha$ on week $t$. Australia, Chile, Paraguay, Argentina, and Uruguay have the clearest signal as evident by their peak structures shown in Figure \ref{fig:so_corrs}. These countries have clear peaks in the $\delta t = 20 - 35$ week lags making them suitable candidates for our half-year forecasting goal.
+
 
 %\begin{figure}[h!]
 %		\begin{center}
@@ -65,7 +68,6 @@ where $x^{\alpha}_t$ represents the number of positive cases reported for countr
     \end{subfigure}
 \end{figure}
 
-Australia, Chile, Paraguay, Argentina, and Uruguay have the clearest signal as evident by their peak structures shown in Figure \ref{fig:so_corrs}. These countries have clear peaks in the $\delta t = 20 - 35$ week lags making them suitable candidates for our half-year forecasting goal.
 
 It is evident in Figure \ref{fig:so_cases} that there is no single candidate or obvious linear combination of the group that could represent the target. Each candidate has its own peak height, location, and width. There may be a non-linear relationship that can be captured via tuning a neural network.
 
@@ -143,33 +145,18 @@ We attempt to predict an entire season from previous seasons' data in this so it
 	
 We used mean squared error as the loss function for back-propagation, however invented a slight hybrid to the conventional mean squared error function to evaluate the validation set for early stopping. Our validation metric is the following 
 \begin{equation}
-MSE^{adj}= \sqrt{\left(y^{max}_{val} - y^{pred, max}_{val}\right)^2 + \alpha^2\left(\left(t^{max}_{val} - t^{pred, max}_{val}\right)^2 +MSE_{train}\right)}
+MSE^{adj}= \left(y^{max}_{val} - y^{pred, max}_{val}\right)^2 + \alpha^2\left(\left(t^{max}_{val} - t^{pred, max}_{val}\right)^2 +MSE_{train}\right)
 \end{equation}
 
-\begin{wrapfigure}{r}{0.6\textwidth}
-		\begin{center}
-		\includegraphics[scale=0.5]{Pictures/TrainEx.png}
-		\caption{Training curve example for one of the model choices.  Training curve is a simple mean-squared-error while validation curve is the hybrid curve explained in this section.}
-		\end{center}
-		\label{fig:lstm_train}
-	\end{wrapfigure}
+%\begin{wrapfigure}{r}{0.6\textwidth}
+%		\begin{center}
+%		\includegraphics[scale=0.5]{Pictures/TrainEx.png}
+%		\caption{Training curve example for one of the model choices.  Training curve is a simple mean-squared-error while validation curve is the hybrid curve explained in this section.}
+%		\end{center}
+%		\label{fig:lstm_train}
+%	\end{wrapfigure}
 	
-where $y^{max}$ is the peak height, $t^{max}$ is the peak location, and the $MSE_{train}$ is the mean squared error of the training set. This metric ensures the loss function is not totally penalized for not capturing the exact week-to-week behavior, but can still capture maximum weekly rate and location. The training mean squared error is included to ensure the model represents the training set, but is suppressed by a factor of $\alpha =0.1$ so that the peak height is still the dominant feature when searching for a minima or plateau in the training curve. We suppress the peak location difference as well to keep it on the same relative scale as the peak height. 
-
-We found $MSE^{adj}\sim0.2$ adequately described the validation peaks while simultaneously allowing the model to describe the training set. The accepted model variations with $\min\left(MSE^{adj}\right)\leq 0.2$ are displayed in Figure \ref{fig:full}. These models capture the peak height and location but possess spurious movement outside of the flu season and we remove these from the final forecasts.
-
-
-\begin{figure}[t!]
-		\begin{center}
-		\includegraphics[scale=0.45]{../Pictures/ModelVariation.PNG}
-		\caption{Dashed line represents the target U.S. hospitalization rate. Different colors represent model variations appear as dashed in the training region and solid in the validation and test region. Validation and test regions are represented with red and blue shaded backgrounds respectively.}
-		\label{fig:full}
-		\end{center}
-		
-	\end{figure}
-
-
-\begin{wrapfigure}{t!}{0.45\textwidth}
+	\begin{wrapfigure}{t!}{0.45\textwidth}
     \begin{subfigure}{0.5\textwidth}
         \centering
        
@@ -185,10 +172,30 @@ We found $MSE^{adj}\sim0.2$ adequately described the validation peaks while simu
         \label{fig:lor}
     \end{subfigure}
 \end{wrapfigure}
+
+where $y^{max}$ is the peak height, $t^{max}$ is the peak location, and the $MSE_{train}$ is the mean squared error of the training set. This metric ensures the loss function is not totally penalized for not capturing the exact week-to-week behavior, but can still capture maximum weekly rate and location. The training mean squared error is included to ensure the model represents the training set, but is suppressed by a factor of $\alpha =0.1$ so that the peak height is still the dominant feature when searching for a minima or plateau in the training curve. We suppress the peak location difference as well to keep it on the same relative scale as the peak height. 
+
+
+
+We found $MSE^{adj}\sim0.2$ adequately described the validation peaks while simultaneously allowing the model to describe the training set. The accepted model variations with $\min\left(MSE^{adj}\right)\leq 0.2$ are displayed in Figure \ref{fig:full}. These models capture the peak height and location but possess spurious movement outside of the flu season and we remove these from the final forecasts.
+
+
+\begin{figure}[t!]
+		\begin{center}
+		\includegraphics[scale=0.45]{../Pictures/ModelVariation.PNG}
+		\caption{Dashed line represents the target U.S. hospitalization rate. Different colors represent model variations appear as dashed in the training region and solid in the validation and test region. Validation and test regions are represented with red and blue shaded backgrounds respectively.}
+		\label{fig:full}
+		\end{center}
+		
+	\end{figure}
+
+
+
 A naive weekly average of the model variation will produce a poor description of the data due to the seasonality where a any small phase difference of two otherwise completely equivalent descriptions would wash away the peak behavior. One must first capture the phase differences and shift accordingly. A parametric solution to combining 
 is the following sum of renormalized hybrid Lorentzian distribution
 \begin{equation}
 L(t) =  \sum_i^2 A_i \frac{\left(\frac{\Gamma_i}{2}\right)^2}{(t-t_i)^2+\left(\frac{\Gamma_i}{2}\right)^2}
+\label{Loreq}
 \end{equation}
 where $A_i$ is the peak height, $t_i$ peak location, and $\Gamma_i$ is the half width. A typical Lorentzian has a defined normalization that we have removed to control the height. All three of the parameters can be computed for each model and their averages and standard deviations can be used to estimate the parmaterization variance.
 
@@ -230,10 +237,19 @@ The model produces a peak height of $41.8K(57)$ patients compared to the actual 
 
 \subsection{24-25}
 We repeat the same procedure for the following season and show the model results in Figures \ref{zoomnew} and \ref{fig:lornew}. In this season we have two peaks and we remind the reader we make only an effort to model a single peaked season. We choose to compare to the dominant peak as we did in the previous season. Our model produces a peak height of $60.5K(86)$ patients compared to the actual height of $60.7K$ patients. Our peak height has $\sim 14\%$ uncertainty similar to the previous season, maintaining a relatively accurate and precise dominant peak height, but naturally fails to describe the double peaked nature of the season due to our approximation.
+
+\section{Conclusion}
+
+The results of the past two seasons are promising first steps in long-range influenza forecasting. We demonstrated that southern hemisphere countries can serve as leading indicators of the U.S. influenza season and showed that the 30-week flu season can be reduced to three or six parameters depending on whether the season has one or two peaks respectively. The parameters for a single peaked season can be uniquely determined by training a series of RNN architectures on a subset of the southern hemisphere influenza records. The models are able to describe the maximum hospitalization rate with high accuracy and precision, and shows potential of capturing peak locations within $\sim2$ weeks.
+
+As evident in the 24-25 season test case, further work is needed to describe multi-peaked seasons. There was a partial success in determining the multi-peaked season in that the maximum rate was well determined, however the single-peak approximation in this case was clearly not valid. We previously showed that the all seasons can generally be described as two peak seasons, so our future work will be targeting the forecasting of the lesser prominent peak as opposed to the dominant peak. Provided one can predict the second peak and their separation with reasonable accuracy, then the entire flu season can be determined up to some overall translational variance.
+
+We acknowledge the Flu-Surv dataset as well as the W.H.O. for maintaining publicly available datasets used as inputs and targets for this model. 
+
 \begin{figure}[h!]
 		\begin{center}
 		\includegraphics[scale=0.3]{../Pictures/TwoPeakFits.png}
-		\caption{Double Peak fits.}
+		\caption{Six parameter determinations (see equation \ref{Loreq}) of the past 10 significant influenza seasons. These descriptions show a mean absolute error varying between $1.3\% - 4.0\%$.}
 		\label{fig:peakfits}
 		\end{center}
 \end{figure}
@@ -255,7 +271,7 @@ We repeat the same procedure for the following season and show the model results
 %\FloatBarrier
 
 
-\section{Conclusion}
+
 
 
 

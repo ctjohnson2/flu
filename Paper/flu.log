@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.24)  20 MAR 2025 17:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.24)  7 APR 2025 21:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -234,18 +234,18 @@ Package caption Info: End \AtBeginDocument code.
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<../Pictures/SH_Corrs.PNG, id=13, 1055.945pt x 592.2125pt>
+<../Pictures/SH_Corrs.PNG, id=12, 1055.945pt x 592.2125pt>
 File: ../Pictures/SH_Corrs.PNG Graphic file (type png)
 <use ../Pictures/SH_Corrs.PNG>
-Package pdftex.def Info: ../Pictures/SH_Corrs.PNG  used on input line 55.
+Package pdftex.def Info: ../Pictures/SH_Corrs.PNG  used on input line 58.
 (pdftex.def)             Requested size: 243.27028pt x 136.43192pt.
-<../Pictures/flu_cases.png, id=15, 1033.8625pt x 570.13pt>
+<../Pictures/flu_cases.png, id=14, 1033.8625pt x 570.13pt>
 File: ../Pictures/flu_cases.png Graphic file (type png)
 <use ../Pictures/flu_cases.png>
-Package pdftex.def Info: ../Pictures/flu_cases.png  used on input line 62.
+Package pdftex.def Info: ../Pictures/flu_cases.png  used on input line 65.
 (pdftex.def)             Requested size: 243.27028pt x 134.14586pt.
 
-Overfull \hbox (5.22217pt too wide) in paragraph at lines 53--66
+Overfull \hbox (5.22217pt too wide) in paragraph at lines 56--69
  [][]  [] 
  []
 
@@ -253,130 +253,113 @@ Overfull \hbox (5.22217pt too wide) in paragraph at lines 53--66
 <../Pictures/modelarchsum.png, id=28, 269.005pt x 432.61626pt>
 File: ../Pictures/modelarchsum.png Graphic file (type png)
 <use ../Pictures/modelarchsum.png>
-Package pdftex.def Info: ../Pictures/modelarchsum.png  used on input line 93.
+Package pdftex.def Info: ../Pictures/modelarchsum.png  used on input line 95.
 (pdftex.def)             Requested size: 153.64644pt x 247.09552pt.
 <../Pictures/modelarchtypes.png, id=29, 1008.76875pt x 565.11125pt>
 File: ../Pictures/modelarchtypes.png Graphic file (type png)
 <use ../Pictures/modelarchtypes.png>
-Package pdftex.def Info: ../Pictures/modelarchtypes.png  used on input line 111
+Package pdftex.def Info: ../Pictures/modelarchtypes.png  used on input line 113
 .
 (pdftex.def)             Requested size: 453.94174pt x 254.2977pt.
  [3 <../Pictures/modelarchsum.png>]
-<Pictures/TrainEx.png, id=34, 648.17157pt x 371.13657pt>
-File: Pictures/TrainEx.png Graphic file (type png)
-<use Pictures/TrainEx.png>
-Package pdftex.def Info: Pictures/TrainEx.png  used on input line 151.
-(pdftex.def)             Requested size: 324.08499pt x 185.56783pt.
-
-Overfull \hbox (16.7921pt too wide) in paragraph at lines 151--152
- [] 
- []
-
-
-Underfull \hbox (badness 5288) in paragraph at lines 159--160
-\OT1/cmr/m/n/12 while si-mul-ta-ne-ously al-low-ing the
- []
-
-<../Pictures/ModelVariation.PNG, id=35, 1062.97125pt x 571.13374pt>
-File: ../Pictures/ModelVariation.PNG Graphic file (type png)
-<use ../Pictures/ModelVariation.PNG>
-Package pdftex.def Info: ../Pictures/ModelVariation.PNG  used on input line 164
-.
-(pdftex.def)             Requested size: 478.33266pt x 257.00781pt.
-<../Pictures/modelvariationzoom.png, id=36, 1061.9675pt x 570.13pt>
+<../Pictures/modelvariationzoom.png, id=34, 1061.9675pt x 570.13pt>
 File: ../Pictures/modelvariationzoom.png Graphic file (type png)
 <use ../Pictures/modelvariationzoom.png>
 Package pdftex.def Info: ../Pictures/modelvariationzoom.png  used on input line
- 176.
+ 163.
 (pdftex.def)             Requested size: 243.27028pt x 130.59647pt.
 
-Overfull \hbox (25.60905pt too wide) in paragraph at lines 173--180
+Overfull \hbox (25.60905pt too wide) in paragraph at lines 160--167
 [][] 
  []
 
-<../Pictures/lorenzians.png, id=37, 1061.9675pt x 575.14874pt>
+<../Pictures/lorenzians.png, id=35, 1061.9675pt x 575.14874pt>
 File: ../Pictures/lorenzians.png Graphic file (type png)
 <use ../Pictures/lorenzians.png>
-Package pdftex.def Info: ../Pictures/lorenzians.png  used on input line 183.
+Package pdftex.def Info: ../Pictures/lorenzians.png  used on input line 170.
 (pdftex.def)             Requested size: 243.27028pt x 131.74608pt.
 
-Overfull \hbox (25.60905pt too wide) in paragraph at lines 181--187
+Overfull \hbox (25.60905pt too wide) in paragraph at lines 168--174
 [][] 
  []
 
-[4 <../Pictures/modelarchtypes.png> <./Pictures/TrainEx.png>]
-Underfull \hbox (badness 3568) in paragraph at lines 195--196
-[]\OT1/cmr/m/n/12 Each sea-son ap-pears to have one or two-
- []
-
-[5 <../Pictures/ModelVariation.PNG> <../Pictures/modelvariationzoom.png> <../Pi
+<../Pictures/ModelVariation.PNG, id=36, 1062.97125pt x 571.13374pt>
+File: ../Pictures/ModelVariation.PNG Graphic file (type png)
+<use ../Pictures/ModelVariation.PNG>
+Package pdftex.def Info: ../Pictures/ModelVariation.PNG  used on input line 185
+.
+(pdftex.def)             Requested size: 478.33266pt x 257.00781pt.
+[4 <../Pictures/modelarchtypes.png> <../Pictures/modelvariationzoom.png> <../Pi
 ctures/lorenzians.png>]
-<../Pictures/zoomvariation2425.png, id=50, 1061.9675pt x 575.14874pt>
+<../Pictures/zoomvariation2425.png, id=43, 1061.9675pt x 575.14874pt>
 File: ../Pictures/zoomvariation2425.png Graphic file (type png)
 <use ../Pictures/zoomvariation2425.png>
 Package pdftex.def Info: ../Pictures/zoomvariation2425.png  used on input line 
-216.
+223.
 (pdftex.def)             Requested size: 243.27028pt x 131.74608pt.
 
-Overfull \hbox (25.60905pt too wide) in paragraph at lines 213--220
+Overfull \hbox (25.60905pt too wide) in paragraph at lines 220--227
 [][] 
  []
 
-<../Pictures/zoomvariation2425lor.png, id=51, 1059.96pt x 570.13pt>
+<../Pictures/zoomvariation2425lor.png, id=44, 1059.96pt x 570.13pt>
 File: ../Pictures/zoomvariation2425lor.png Graphic file (type png)
 <use ../Pictures/zoomvariation2425lor.png>
 Package pdftex.def Info: ../Pictures/zoomvariation2425lor.png  used on input li
-ne 223.
+ne 230.
 (pdftex.def)             Requested size: 243.27028pt x 130.84875pt.
 
-Overfull \hbox (25.60905pt too wide) in paragraph at lines 221--227
+Overfull \hbox (25.60905pt too wide) in paragraph at lines 228--234
 [][] 
  []
 
-<../Pictures/TwoPeakFits.png, id=52, 1710.6309pt x 2287.3455pt>
+[5 <../Pictures/ModelVariation.PNG>]
+<../Pictures/TwoPeakFits.png, id=50, 1710.6309pt x 2287.3455pt>
 File: ../Pictures/TwoPeakFits.png Graphic file (type png)
 <use ../Pictures/TwoPeakFits.png>
-Package pdftex.def Info: ../Pictures/TwoPeakFits.png  used on input line 235.
+Package pdftex.def Info: ../Pictures/TwoPeakFits.png  used on input line 251.
 (pdftex.def)             Requested size: 513.19324pt x 686.20895pt.
 
-Overfull \hbox (1.04361pt too wide) in paragraph at lines 235--236
+Overfull \hbox (1.04361pt too wide) in paragraph at lines 251--252
  [] 
  []
+
+
+LaTeX Warning: Float too large for page by 9.52034pt on input line 255.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [6 <../Pictures/zoomvariation2425.png> <../Pictures/zoomvariation2425lor.png>]
-[7 <../Pictures/TwoPeakFits.png>] [8
-
-] (./flu.aux) ) 
+[7 <../Pictures/TwoPeakFits.png>] (./flu.aux) ) 
 Here is how much of TeX's memory you used:
- 3765 strings out of 478268
- 65924 string characters out of 5846347
+ 3757 strings out of 478268
+ 65744 string characters out of 5846347
  362090 words of memory out of 5000000
- 21949 multiletter control sequences out of 15000+600000
+ 21943 multiletter control sequences out of 15000+600000
  477267 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,8n,77p,1711b,528s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
-pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pf
-b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
-sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
-local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
-al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on flu.pdf (8 pages, 4278060 bytes).
+ 67i,8n,77p,1439b,528s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmti12.pfb>
+Output written on flu.pdf (7 pages, 4243317 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 124 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
