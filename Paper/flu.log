@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.24)  7 APR 2025 21:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.24)  21 MAY 2025 21:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -314,18 +314,18 @@ Overfull \hbox (25.60905pt too wide) in paragraph at lines 228--234
  []
 
 [5 <../Pictures/ModelVariation.PNG>]
-<../Pictures/TwoPeakFits.png, id=50, 1710.6309pt x 2287.3455pt>
+<../Pictures/TwoPeakFits.png, id=50, 1735.2027pt x 2550.4083pt>
 File: ../Pictures/TwoPeakFits.png Graphic file (type png)
 <use ../Pictures/TwoPeakFits.png>
 Package pdftex.def Info: ../Pictures/TwoPeakFits.png  used on input line 251.
-(pdftex.def)             Requested size: 513.19324pt x 686.20895pt.
+(pdftex.def)             Requested size: 520.56483pt x 765.1284pt.
 
-Overfull \hbox (1.04361pt too wide) in paragraph at lines 251--252
+Overfull \hbox (8.4152pt too wide) in paragraph at lines 251--252
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 9.52034pt on input line 255.
+LaTeX Warning: Float too large for page by 88.43979pt on input line 255.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -356,7 +356,7 @@ blic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmti12.pfb>
-Output written on flu.pdf (7 pages, 4243317 bytes).
+Output written on flu.pdf (7 pages, 4273308 bytes).
 PDF statistics:
  124 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream
