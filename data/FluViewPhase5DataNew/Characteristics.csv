@@ -1,4 +1,4 @@
-Characteristics of Influenza-Associated Hospitalizations (data downloaded on 5/7/2025)
+Characteristics of Influenza-Associated Hospitalizations (data downloaded on 8/17/2026)
 SEASON,CHARACTERTISTIC,AGE_CATEGORY,GROUP,PERCENT
 2003-04,Race,Ages 0-17,White,36.8
 2003-04,Race,Ages 0-17,Black,26.6
@@ -2075,8 +2075,8 @@ SEASON,CHARACTERTISTIC,AGE_CATEGORY,GROUP,PERCENT
 2018-19,Pneumonia Diagnosis,Ages 65+,No        ,71.1
 2018-19,Mechanical Ventilation,Ages 65+,Yes       ,5.2
 2018-19,Mechanical Ventilation,Ages 65+,No        ,94.8
-2018-19,ICU Admission,Ages 65+,Yes       ,15.7
-2018-19,ICU Admission,Ages 65+,No        ,84.3
+2018-19,ICU Admission,Ages 65+,Yes       ,15.8
+2018-19,ICU Admission,Ages 65+,No        ,84.2
 2018-19,Sex,Ages 65+,Male,45.0
 2018-19,Sex,Ages 65+,Female,55.0
 2018-19,Race,Ages 65+,White,70.1
@@ -2099,20 +2099,20 @@ SEASON,CHARACTERTISTIC,AGE_CATEGORY,GROUP,PERCENT
 2018-19,Mechanical Ventilation,Ages 65-74,No        ,92.8
 2018-19,Pneumonia Diagnosis,Ages 65-74,Yes       ,29.1
 2018-19,Pneumonia Diagnosis,Ages 65-74,No        ,70.9
-2018-19,Antiviral Treatments,Ages 65-74,Yes       ,94.1
-2018-19,Antiviral Treatments,Ages 65-74,No        ,5.9
+2018-19,Antiviral Treatments,Ages 65-74,Yes       ,94.2
+2018-19,Antiviral Treatments,Ages 65-74,No        ,5.8
 2018-19,Deaths,Ages 65-74,Yes       ,3.1
 2018-19,Deaths,Ages 65-74,No        ,96.9
 2018-19,Deaths,Ages 75-84,Yes       ,3.7
 2018-19,Deaths,Ages 75-84,No        ,96.3
-2018-19,Antiviral Treatments,Ages 75-84,Yes       ,94.4
-2018-19,Antiviral Treatments,Ages 75-84,No        ,5.6
-2018-19,Pneumonia Diagnosis,Ages 75-84,Yes       ,27.1
-2018-19,Pneumonia Diagnosis,Ages 75-84,No        ,72.9
-2018-19,Mechanical Ventilation,Ages 75-84,Yes       ,4.8
-2018-19,Mechanical Ventilation,Ages 75-84,No        ,95.2
-2018-19,ICU Admission,Ages 75-84,Yes       ,15.5
-2018-19,ICU Admission,Ages 75-84,No        ,84.5
+2018-19,Antiviral Treatments,Ages 75-84,Yes       ,94.3
+2018-19,Antiviral Treatments,Ages 75-84,No        ,5.7
+2018-19,Pneumonia Diagnosis,Ages 75-84,Yes       ,27.2
+2018-19,Pneumonia Diagnosis,Ages 75-84,No        ,72.8
+2018-19,Mechanical Ventilation,Ages 75-84,Yes       ,4.9
+2018-19,Mechanical Ventilation,Ages 75-84,No        ,95.1
+2018-19,ICU Admission,Ages 75-84,Yes       ,15.6
+2018-19,ICU Admission,Ages 75-84,No        ,84.4
 2018-19,Sex,Ages 75-84,Male,44.7
 2018-19,Sex,Ages 75-84,Female,55.3
 2018-19,Race,Ages 75-84,White,70.8
@@ -2129,12 +2129,12 @@ SEASON,CHARACTERTISTIC,AGE_CATEGORY,GROUP,PERCENT
 2018-19,Race,Ages 85+,Other,4.5
 2018-19,Sex,Ages 85+,Male,39.0
 2018-19,Sex,Ages 85+,Female,61.0
-2018-19,ICU Admission,Ages 85+,Yes       ,11.1
-2018-19,ICU Admission,Ages 85+,No        ,88.9
-2018-19,Mechanical Ventilation,Ages 85+,Yes       ,2.2
-2018-19,Mechanical Ventilation,Ages 85+,No        ,97.8
-2018-19,Pneumonia Diagnosis,Ages 85+,Yes       ,31.0
-2018-19,Pneumonia Diagnosis,Ages 85+,No        ,69.0
+2018-19,ICU Admission,Ages 85+,Yes       ,11.3
+2018-19,ICU Admission,Ages 85+,No        ,88.7
+2018-19,Mechanical Ventilation,Ages 85+,Yes       ,2.1
+2018-19,Mechanical Ventilation,Ages 85+,No        ,97.9
+2018-19,Pneumonia Diagnosis,Ages 85+,Yes       ,31.1
+2018-19,Pneumonia Diagnosis,Ages 85+,No        ,68.9
 2018-19,Antiviral Treatments,Ages 85+,Yes       ,96.1
 2018-19,Antiviral Treatments,Ages 85+,No        ,3.9
 2018-19,Deaths,Ages 85+,Yes       ,5.0
@@ -2609,7 +2609,7 @@ SEASON,CHARACTERTISTIC,AGE_CATEGORY,GROUP,PERCENT
 2021-22,Age Group,Overall,18-49 yr,23.3
 2021-22,Age Group,Overall,50-64 yr,17.3
 2021-22,Age Group,Overall,65+ yr,44.0
-2022-23,Race,Ages 0-17,White,31.2
+2022-23,Race,Ages 0-17,White,31.3
 2022-23,Race,Ages 0-17,Black,28.6
 2022-23,Race,Ages 0-17,Hispanic/Latino,25.0
 2022-23,Race,Ages 0-17,Asian/Pacific Islander,6.0
@@ -2617,133 +2617,133 @@ SEASON,CHARACTERTISTIC,AGE_CATEGORY,GROUP,PERCENT
 2022-23,Race,Ages 0-17,Other,7.9
 2022-23,Sex,Ages 0-17,Male,57.0
 2022-23,Sex,Ages 0-17,Female,43.0
-2022-23,ICU Admission,Ages 0-17,Yes       ,18.4
-2022-23,ICU Admission,Ages 0-17,No        ,81.6
-2022-23,Mechanical Ventilation,Ages 0-17,Yes       ,4.7
-2022-23,Mechanical Ventilation,Ages 0-17,No        ,95.3
-2022-23,Pneumonia Diagnosis,Ages 0-17,Yes       ,22.4
-2022-23,Pneumonia Diagnosis,Ages 0-17,No        ,77.6
-2022-23,Antiviral Treatments,Ages 0-17,Yes       ,62.6
-2022-23,Antiviral Treatments,Ages 0-17,No        ,37.4
+2022-23,ICU Admission,Ages 0-17,Yes       ,18.7
+2022-23,ICU Admission,Ages 0-17,No        ,81.3
+2022-23,Mechanical Ventilation,Ages 0-17,Yes       ,4.9
+2022-23,Mechanical Ventilation,Ages 0-17,No        ,95.1
+2022-23,Pneumonia Diagnosis,Ages 0-17,Yes       ,25.4
+2022-23,Pneumonia Diagnosis,Ages 0-17,No        ,74.6
+2022-23,Antiviral Treatments,Ages 0-17,Yes       ,62.9
+2022-23,Antiviral Treatments,Ages 0-17,No        ,37.1
 2022-23,Deaths,Ages 0-17,Yes       ,0.4
 2022-23,Deaths,Ages 0-17,No        ,99.6
-2022-23,Pneumonia Diagnosis,Ages 18-49,Yes       ,20.8
-2022-23,Pneumonia Diagnosis,Ages 18-49,No        ,79.2
+2022-23,Pneumonia Diagnosis,Ages 18-49,Yes       ,23.4
+2022-23,Pneumonia Diagnosis,Ages 18-49,No        ,76.6
 2022-23,Deaths,Ages 18-49,Yes       ,0.9
 2022-23,Deaths,Ages 18-49,No        ,99.1
-2022-23,Antiviral Treatments,Ages 18-49,Yes       ,78.6
-2022-23,Antiviral Treatments,Ages 18-49,No        ,21.4
+2022-23,Antiviral Treatments,Ages 18-49,Yes       ,78.8
+2022-23,Antiviral Treatments,Ages 18-49,No        ,21.2
 2022-23,Mechanical Ventilation,Ages 18-49,Yes       ,5.5
 2022-23,Mechanical Ventilation,Ages 18-49,No        ,94.5
-2022-23,ICU Admission,Ages 18-49,Yes       ,13.9
-2022-23,ICU Admission,Ages 18-49,No        ,86.1
-2022-23,Race,Ages 18-49,White,35.0
-2022-23,Race,Ages 18-49,Black,33.4
+2022-23,ICU Admission,Ages 18-49,Yes       ,14.1
+2022-23,ICU Admission,Ages 18-49,No        ,85.9
+2022-23,Race,Ages 18-49,White,35.1
+2022-23,Race,Ages 18-49,Black,33.3
 2022-23,Race,Ages 18-49,Hispanic/Latino,20.6
 2022-23,Race,Ages 18-49,Asian/Pacific Islander,4.4
 2022-23,Race,Ages 18-49,American Indian/Alaska Native,1.3
 2022-23,Race,Ages 18-49,Other,5.2
 2022-23,Sex,Ages 18-49,Male,37.8
 2022-23,Sex,Ages 18-49,Female,62.2
-2022-23,Sex,Ages 50-64,Male,48.0
-2022-23,Sex,Ages 50-64,Female,52.0
-2022-23,Race,Ages 50-64,White,52.2
-2022-23,Race,Ages 50-64,Black,30.0
+2022-23,Sex,Ages 50-64,Male,48.1
+2022-23,Sex,Ages 50-64,Female,51.9
+2022-23,Race,Ages 50-64,White,52.3
+2022-23,Race,Ages 50-64,Black,29.8
 2022-23,Race,Ages 50-64,Hispanic/Latino,9.8
 2022-23,Race,Ages 50-64,Asian/Pacific Islander,2.9
 2022-23,Race,Ages 50-64,American Indian/Alaska Native,1.0
 2022-23,Race,Ages 50-64,Other,4.2
-2022-23,ICU Admission,Ages 50-64,Yes       ,17.9
-2022-23,ICU Admission,Ages 50-64,No        ,82.1
-2022-23,Mechanical Ventilation,Ages 50-64,Yes       ,7.6
-2022-23,Mechanical Ventilation,Ages 50-64,No        ,92.4
-2022-23,Antiviral Treatments,Ages 50-64,Yes       ,86.1
-2022-23,Antiviral Treatments,Ages 50-64,No        ,13.9
-2022-23,Deaths,Ages 50-64,Yes       ,3.2
-2022-23,Deaths,Ages 50-64,No        ,96.8
-2022-23,Pneumonia Diagnosis,Ages 50-64,Yes       ,28.9
-2022-23,Pneumonia Diagnosis,Ages 50-64,No        ,71.1
-2022-23,Pneumonia Diagnosis,Ages 65+,Yes       ,28.0
-2022-23,Pneumonia Diagnosis,Ages 65+,No        ,72.0
+2022-23,ICU Admission,Ages 50-64,Yes       ,20.3
+2022-23,ICU Admission,Ages 50-64,No        ,79.7
+2022-23,Mechanical Ventilation,Ages 50-64,Yes       ,8.6
+2022-23,Mechanical Ventilation,Ages 50-64,No        ,91.4
+2022-23,Antiviral Treatments,Ages 50-64,Yes       ,85.6
+2022-23,Antiviral Treatments,Ages 50-64,No        ,14.4
+2022-23,Deaths,Ages 50-64,Yes       ,3.1
+2022-23,Deaths,Ages 50-64,No        ,96.9
+2022-23,Pneumonia Diagnosis,Ages 50-64,Yes       ,33.0
+2022-23,Pneumonia Diagnosis,Ages 50-64,No        ,67.0
+2022-23,Pneumonia Diagnosis,Ages 65+,Yes       ,30.9
+2022-23,Pneumonia Diagnosis,Ages 65+,No        ,69.1
 2022-23,Deaths,Ages 65+,Yes       ,4.2
 2022-23,Deaths,Ages 65+,No        ,95.8
-2022-23,Antiviral Treatments,Ages 65+,Yes       ,87.0
-2022-23,Antiviral Treatments,Ages 65+,No        ,13.0
-2022-23,Mechanical Ventilation,Ages 65+,Yes       ,4.8
-2022-23,Mechanical Ventilation,Ages 65+,No        ,95.2
-2022-23,ICU Admission,Ages 65+,Yes       ,13.5
-2022-23,ICU Admission,Ages 65+,No        ,86.5
-2022-23,Race,Ages 65+,White,68.7
-2022-23,Race,Ages 65+,Black,15.0
+2022-23,Antiviral Treatments,Ages 65+,Yes       ,86.9
+2022-23,Antiviral Treatments,Ages 65+,No        ,13.1
+2022-23,Mechanical Ventilation,Ages 65+,Yes       ,5.0
+2022-23,Mechanical Ventilation,Ages 65+,No        ,95.0
+2022-23,ICU Admission,Ages 65+,Yes       ,14.0
+2022-23,ICU Admission,Ages 65+,No        ,86.0
+2022-23,Race,Ages 65+,White,68.8
+2022-23,Race,Ages 65+,Black,14.9
 2022-23,Race,Ages 65+,Hispanic/Latino,7.7
 2022-23,Race,Ages 65+,Asian/Pacific Islander,4.4
 2022-23,Race,Ages 65+,American Indian/Alaska Native,0.6
 2022-23,Race,Ages 65+,Other,3.6
-2022-23,Sex,Ages 65+,Male,44.0
-2022-23,Sex,Ages 65+,Female,56.0
+2022-23,Sex,Ages 65+,Male,43.9
+2022-23,Sex,Ages 65+,Female,56.1
 2022-23,Sex,Ages 65-74,Male,46.4
 2022-23,Sex,Ages 65-74,Female,53.6
-2022-23,Race,Ages 65-74,White,62.8
-2022-23,Race,Ages 65-74,Black,20.3
-2022-23,Race,Ages 65-74,Hispanic/Latino,8.7
-2022-23,Race,Ages 65-74,Asian/Pacific Islander,4.1
+2022-23,Race,Ages 65-74,White,62.9
+2022-23,Race,Ages 65-74,Black,20.2
+2022-23,Race,Ages 65-74,Hispanic/Latino,8.6
+2022-23,Race,Ages 65-74,Asian/Pacific Islander,4.2
 2022-23,Race,Ages 65-74,American Indian/Alaska Native,0.6
 2022-23,Race,Ages 65-74,Other,3.5
-2022-23,ICU Admission,Ages 65-74,Yes       ,17.4
-2022-23,ICU Admission,Ages 65-74,No        ,82.6
-2022-23,Mechanical Ventilation,Ages 65-74,Yes       ,7.1
-2022-23,Mechanical Ventilation,Ages 65-74,No        ,92.9
-2022-23,Antiviral Treatments,Ages 65-74,Yes       ,87.2
-2022-23,Antiviral Treatments,Ages 65-74,No        ,12.8
+2022-23,ICU Admission,Ages 65-74,Yes       ,17.9
+2022-23,ICU Admission,Ages 65-74,No        ,82.1
+2022-23,Mechanical Ventilation,Ages 65-74,Yes       ,7.3
+2022-23,Mechanical Ventilation,Ages 65-74,No        ,92.7
+2022-23,Antiviral Treatments,Ages 65-74,Yes       ,87.3
+2022-23,Antiviral Treatments,Ages 65-74,No        ,12.7
 2022-23,Deaths,Ages 65-74,Yes       ,3.4
 2022-23,Deaths,Ages 65-74,No        ,96.6
-2022-23,Pneumonia Diagnosis,Ages 65-74,Yes       ,27.1
-2022-23,Pneumonia Diagnosis,Ages 65-74,No        ,72.9
-2022-23,Pneumonia Diagnosis,Ages 75-84,Yes       ,26.9
-2022-23,Pneumonia Diagnosis,Ages 75-84,No        ,73.1
-2022-23,Deaths,Ages 75-84,Yes       ,4.7
-2022-23,Deaths,Ages 75-84,No        ,95.3
-2022-23,Antiviral Treatments,Ages 75-84,Yes       ,86.6
-2022-23,Antiviral Treatments,Ages 75-84,No        ,13.4
-2022-23,Mechanical Ventilation,Ages 75-84,Yes       ,3.5
-2022-23,Mechanical Ventilation,Ages 75-84,No        ,96.5
-2022-23,ICU Admission,Ages 75-84,Yes       ,12.0
-2022-23,ICU Admission,Ages 75-84,No        ,88.0
-2022-23,Race,Ages 75-84,White,71.9
-2022-23,Race,Ages 75-84,Black,12.4
+2022-23,Pneumonia Diagnosis,Ages 65-74,Yes       ,29.6
+2022-23,Pneumonia Diagnosis,Ages 65-74,No        ,70.4
+2022-23,Pneumonia Diagnosis,Ages 75-84,Yes       ,30.1
+2022-23,Pneumonia Diagnosis,Ages 75-84,No        ,69.9
+2022-23,Deaths,Ages 75-84,Yes       ,4.8
+2022-23,Deaths,Ages 75-84,No        ,95.2
+2022-23,Antiviral Treatments,Ages 75-84,Yes       ,87.1
+2022-23,Antiviral Treatments,Ages 75-84,No        ,12.9
+2022-23,Mechanical Ventilation,Ages 75-84,Yes       ,3.9
+2022-23,Mechanical Ventilation,Ages 75-84,No        ,96.1
+2022-23,ICU Admission,Ages 75-84,Yes       ,13.0
+2022-23,ICU Admission,Ages 75-84,No        ,87.0
+2022-23,Race,Ages 75-84,White,72.0
+2022-23,Race,Ages 75-84,Black,12.3
 2022-23,Race,Ages 75-84,Hispanic/Latino,6.7
 2022-23,Race,Ages 75-84,Asian/Pacific Islander,4.5
 2022-23,Race,Ages 75-84,American Indian/Alaska Native,0.8
 2022-23,Race,Ages 75-84,Other,3.6
 2022-23,Sex,Ages 75-84,Male,44.4
 2022-23,Sex,Ages 75-84,Female,55.6
-2022-23,Sex,Ages 85+,Male,38.6
-2022-23,Sex,Ages 85+,Female,61.4
+2022-23,Sex,Ages 85+,Male,38.5
+2022-23,Sex,Ages 85+,Female,61.5
 2022-23,Race,Ages 85+,White,74.7
 2022-23,Race,Ages 85+,Black,9.1
 2022-23,Race,Ages 85+,Hispanic/Latino,7.4
-2022-23,Race,Ages 85+,Asian/Pacific Islander,4.5
+2022-23,Race,Ages 85+,Asian/Pacific Islander,4.4
 2022-23,Race,Ages 85+,American Indian/Alaska Native,0.4
 2022-23,Race,Ages 85+,Other,3.9
-2022-23,ICU Admission,Ages 85+,Yes       ,8.8
-2022-23,ICU Admission,Ages 85+,No        ,91.2
-2022-23,Mechanical Ventilation,Ages 85+,Yes       ,2.7
-2022-23,Mechanical Ventilation,Ages 85+,No        ,97.3
-2022-23,Antiviral Treatments,Ages 85+,Yes       ,87.2
-2022-23,Antiviral Treatments,Ages 85+,No        ,12.8
+2022-23,ICU Admission,Ages 85+,Yes       ,9.1
+2022-23,ICU Admission,Ages 85+,No        ,90.9
+2022-23,Mechanical Ventilation,Ages 85+,Yes       ,2.8
+2022-23,Mechanical Ventilation,Ages 85+,No        ,97.2
+2022-23,Antiviral Treatments,Ages 85+,Yes       ,85.8
+2022-23,Antiviral Treatments,Ages 85+,No        ,14.2
 2022-23,Deaths,Ages 85+,Yes       ,4.9
 2022-23,Deaths,Ages 85+,No        ,95.1
-2022-23,Pneumonia Diagnosis,Ages 85+,Yes       ,31.6
-2022-23,Pneumonia Diagnosis,Ages 85+,No        ,68.4
-2022-23,Pneumonia Diagnosis,Overall,Yes       ,26.0
-2022-23,Pneumonia Diagnosis,Overall,No        ,74.0
-2022-23,Mechanical Ventilation,Overall,Yes       ,5.5
-2022-23,Mechanical Ventilation,Overall,No        ,94.5
-2022-23,ICU Admission,Overall,Yes       ,15.2
-2022-23,ICU Admission,Overall,No        ,84.8
+2022-23,Pneumonia Diagnosis,Ages 85+,Yes       ,34.3
+2022-23,Pneumonia Diagnosis,Ages 85+,No        ,65.7
+2022-23,Pneumonia Diagnosis,Overall,Yes       ,29.1
+2022-23,Pneumonia Diagnosis,Overall,No        ,70.9
+2022-23,Mechanical Ventilation,Overall,Yes       ,5.8
+2022-23,Mechanical Ventilation,Overall,No        ,94.2
+2022-23,ICU Admission,Overall,Yes       ,16.0
+2022-23,ICU Admission,Overall,No        ,84.0
 2022-23,Sex,Overall,Male,45.6
 2022-23,Sex,Overall,Female,54.4
-2022-23,Race,Overall,White,53.2
+2022-23,Race,Overall,White,53.3
 2022-23,Race,Overall,Black,23.6
 2022-23,Race,Overall,Hispanic/Latino,13.2
 2022-23,Race,Overall,Asian/Pacific Islander,4.3
@@ -2751,49 +2751,49 @@ SEASON,CHARACTERTISTIC,AGE_CATEGORY,GROUP,PERCENT
 2022-23,Race,Overall,Other,4.7
 2022-23,Deaths,Overall,Yes       ,2.8
 2022-23,Deaths,Overall,No        ,97.2
-2022-23,Antiviral Treatments,Overall,Yes       ,81.5
-2022-23,Antiviral Treatments,Overall,No        ,18.5
+2022-23,Antiviral Treatments,Overall,Yes       ,81.4
+2022-23,Antiviral Treatments,Overall,No        ,18.6
 2022-23,Age Group,Overall,0-4 yr,7.5
 2022-23,Age Group,Overall,5-17 yr,7.6
-2022-23,Age Group,Overall,18-49 yr,19.3
+2022-23,Age Group,Overall,18-49 yr,19.4
 2022-23,Age Group,Overall,50-64 yr,20.4
 2022-23,Age Group,Overall,65+ yr,45.2
-2023-24,Sex,Ages 0-17,Male,57.9
-2023-24,Sex,Ages 0-17,Female,42.1
-2023-24,Race,Ages 0-17,White,31.4
+2023-24,Sex,Ages 0-17,Male,57.8
+2023-24,Sex,Ages 0-17,Female,42.2
+2023-24,Race,Ages 0-17,White,31.5
 2023-24,Race,Ages 0-17,Black,31.4
-2023-24,Race,Ages 0-17,Hispanic/Latino,24.9
+2023-24,Race,Ages 0-17,Hispanic/Latino,24.8
 2023-24,Race,Ages 0-17,Asian/Pacific Islander,5.3
 2023-24,Race,Ages 0-17,American Indian/Alaska Native,1.1
-2023-24,Race,Ages 0-17,Other,5.8
-2023-24,ICU Admission,Ages 0-17,Yes       ,19.0
-2023-24,ICU Admission,Ages 0-17,No        ,81.0
-2023-24,Mechanical Ventilation,Ages 0-17,Yes       ,3.9
-2023-24,Mechanical Ventilation,Ages 0-17,No        ,96.1
-2023-24,Pneumonia Diagnosis,Ages 0-17,Yes       ,20.7
-2023-24,Pneumonia Diagnosis,Ages 0-17,No        ,79.3
+2023-24,Race,Ages 0-17,Other,5.9
+2023-24,ICU Admission,Ages 0-17,Yes       ,19.2
+2023-24,ICU Admission,Ages 0-17,No        ,80.8
+2023-24,Mechanical Ventilation,Ages 0-17,Yes       ,4.1
+2023-24,Mechanical Ventilation,Ages 0-17,No        ,95.9
+2023-24,Pneumonia Diagnosis,Ages 0-17,Yes       ,21.0
+2023-24,Pneumonia Diagnosis,Ages 0-17,No        ,79.0
 2023-24,Deaths,Ages 0-17,Yes       ,0.6
 2023-24,Deaths,Ages 0-17,No        ,99.4
-2023-24,Antiviral Treatments,Ages 0-17,Yes       ,59.5
-2023-24,Antiviral Treatments,Ages 0-17,No        ,40.5
-2023-24,Antiviral Treatments,Ages 18-49,Yes       ,83.5
-2023-24,Antiviral Treatments,Ages 18-49,No        ,16.5
+2023-24,Antiviral Treatments,Ages 0-17,Yes       ,60.0
+2023-24,Antiviral Treatments,Ages 0-17,No        ,40.0
+2023-24,Antiviral Treatments,Ages 18-49,Yes       ,83.8
+2023-24,Antiviral Treatments,Ages 18-49,No        ,16.2
 2023-24,Deaths,Ages 18-49,Yes       ,1.5
 2023-24,Deaths,Ages 18-49,No        ,98.5
-2023-24,Pneumonia Diagnosis,Ages 18-49,Yes       ,23.7
-2023-24,Pneumonia Diagnosis,Ages 18-49,No        ,76.3
-2023-24,ICU Admission,Ages 18-49,Yes       ,15.2
-2023-24,ICU Admission,Ages 18-49,No        ,84.8
-2023-24,Mechanical Ventilation,Ages 18-49,Yes       ,6.0
-2023-24,Mechanical Ventilation,Ages 18-49,No        ,94.0
+2023-24,Pneumonia Diagnosis,Ages 18-49,Yes       ,23.4
+2023-24,Pneumonia Diagnosis,Ages 18-49,No        ,76.6
+2023-24,ICU Admission,Ages 18-49,Yes       ,15.4
+2023-24,ICU Admission,Ages 18-49,No        ,84.6
+2023-24,Mechanical Ventilation,Ages 18-49,Yes       ,6.3
+2023-24,Mechanical Ventilation,Ages 18-49,No        ,93.7
 2023-24,Sex,Ages 18-49,Male,41.4
 2023-24,Sex,Ages 18-49,Female,58.6
-2023-24,Race,Ages 18-49,White,34.0
+2023-24,Race,Ages 18-49,White,34.1
 2023-24,Race,Ages 18-49,Black,38.1
 2023-24,Race,Ages 18-49,Hispanic/Latino,18.0
 2023-24,Race,Ages 18-49,Asian/Pacific Islander,4.1
 2023-24,Race,Ages 18-49,American Indian/Alaska Native,1.4
-2023-24,Race,Ages 18-49,Other,4.4
+2023-24,Race,Ages 18-49,Other,4.3
 2023-24,Race,Ages 50-64,White,50.1
 2023-24,Race,Ages 50-64,Black,32.2
 2023-24,Race,Ages 50-64,Hispanic/Latino,9.9
@@ -2802,29 +2802,29 @@ SEASON,CHARACTERTISTIC,AGE_CATEGORY,GROUP,PERCENT
 2023-24,Race,Ages 50-64,Other,3.6
 2023-24,Sex,Ages 50-64,Male,50.2
 2023-24,Sex,Ages 50-64,Female,49.8
-2023-24,Mechanical Ventilation,Ages 50-64,Yes       ,6.3
-2023-24,Mechanical Ventilation,Ages 50-64,No        ,93.7
-2023-24,ICU Admission,Ages 50-64,Yes       ,16.7
-2023-24,ICU Admission,Ages 50-64,No        ,83.3
-2023-24,Pneumonia Diagnosis,Ages 50-64,Yes       ,29.2
-2023-24,Pneumonia Diagnosis,Ages 50-64,No        ,70.8
+2023-24,Mechanical Ventilation,Ages 50-64,Yes       ,6.1
+2023-24,Mechanical Ventilation,Ages 50-64,No        ,93.9
+2023-24,ICU Admission,Ages 50-64,Yes       ,16.6
+2023-24,ICU Admission,Ages 50-64,No        ,83.4
+2023-24,Pneumonia Diagnosis,Ages 50-64,Yes       ,29.1
+2023-24,Pneumonia Diagnosis,Ages 50-64,No        ,70.9
 2023-24,Deaths,Ages 50-64,Yes       ,2.7
 2023-24,Deaths,Ages 50-64,No        ,97.3
-2023-24,Antiviral Treatments,Ages 50-64,Yes       ,85.7
-2023-24,Antiviral Treatments,Ages 50-64,No        ,14.3
-2023-24,Antiviral Treatments,Ages 65+,Yes       ,88.1
-2023-24,Antiviral Treatments,Ages 65+,No        ,11.9
+2023-24,Antiviral Treatments,Ages 50-64,Yes       ,85.9
+2023-24,Antiviral Treatments,Ages 50-64,No        ,14.1
+2023-24,Antiviral Treatments,Ages 65+,Yes       ,88.2
+2023-24,Antiviral Treatments,Ages 65+,No        ,11.8
 2023-24,Deaths,Ages 65+,Yes       ,4.3
 2023-24,Deaths,Ages 65+,No        ,95.7
-2023-24,Pneumonia Diagnosis,Ages 65+,Yes       ,29.8
-2023-24,Pneumonia Diagnosis,Ages 65+,No        ,70.2
+2023-24,Pneumonia Diagnosis,Ages 65+,Yes       ,29.4
+2023-24,Pneumonia Diagnosis,Ages 65+,No        ,70.6
 2023-24,ICU Admission,Ages 65+,Yes       ,14.3
 2023-24,ICU Admission,Ages 65+,No        ,85.7
-2023-24,Mechanical Ventilation,Ages 65+,Yes       ,4.9
-2023-24,Mechanical Ventilation,Ages 65+,No        ,95.1
+2023-24,Mechanical Ventilation,Ages 65+,Yes       ,4.7
+2023-24,Mechanical Ventilation,Ages 65+,No        ,95.3
 2023-24,Sex,Ages 65+,Male,45.3
 2023-24,Sex,Ages 65+,Female,54.7
-2023-24,Race,Ages 65+,White,66.4
+2023-24,Race,Ages 65+,White,66.5
 2023-24,Race,Ages 65+,Black,17.9
 2023-24,Race,Ages 65+,Hispanic/Latino,6.5
 2023-24,Race,Ages 65+,Asian/Pacific Islander,5.3
@@ -2832,234 +2832,384 @@ SEASON,CHARACTERTISTIC,AGE_CATEGORY,GROUP,PERCENT
 2023-24,Race,Ages 65+,Other,3.2
 2023-24,Race,Ages 65-74,White,60.6
 2023-24,Race,Ages 65-74,Black,23.6
-2023-24,Race,Ages 65-74,Hispanic/Latino,6.9
+2023-24,Race,Ages 65-74,Hispanic/Latino,7.0
 2023-24,Race,Ages 65-74,Asian/Pacific Islander,4.7
 2023-24,Race,Ages 65-74,American Indian/Alaska Native,0.8
 2023-24,Race,Ages 65-74,Other,3.4
-2023-24,Sex,Ages 65-74,Male,49.2
-2023-24,Sex,Ages 65-74,Female,50.8
-2023-24,Mechanical Ventilation,Ages 65-74,Yes       ,6.8
-2023-24,Mechanical Ventilation,Ages 65-74,No        ,93.2
-2023-24,ICU Admission,Ages 65-74,Yes       ,17.3
-2023-24,ICU Admission,Ages 65-74,No        ,82.7
-2023-24,Pneumonia Diagnosis,Ages 65-74,Yes       ,29.9
-2023-24,Pneumonia Diagnosis,Ages 65-74,No        ,70.1
+2023-24,Sex,Ages 65-74,Male,49.1
+2023-24,Sex,Ages 65-74,Female,50.9
+2023-24,Mechanical Ventilation,Ages 65-74,Yes       ,6.6
+2023-24,Mechanical Ventilation,Ages 65-74,No        ,93.4
+2023-24,ICU Admission,Ages 65-74,Yes       ,17.1
+2023-24,ICU Admission,Ages 65-74,No        ,82.9
+2023-24,Pneumonia Diagnosis,Ages 65-74,Yes       ,29.7
+2023-24,Pneumonia Diagnosis,Ages 65-74,No        ,70.3
 2023-24,Deaths,Ages 65-74,Yes       ,3.7
 2023-24,Deaths,Ages 65-74,No        ,96.3
-2023-24,Antiviral Treatments,Ages 65-74,Yes       ,88.4
-2023-24,Antiviral Treatments,Ages 65-74,No        ,11.6
-2023-24,Antiviral Treatments,Ages 75-84,Yes       ,87.2
-2023-24,Antiviral Treatments,Ages 75-84,No        ,12.8
+2023-24,Antiviral Treatments,Ages 65-74,Yes       ,88.3
+2023-24,Antiviral Treatments,Ages 65-74,No        ,11.7
+2023-24,Antiviral Treatments,Ages 75-84,Yes       ,87.3
+2023-24,Antiviral Treatments,Ages 75-84,No        ,12.7
 2023-24,Deaths,Ages 75-84,Yes       ,4.2
 2023-24,Deaths,Ages 75-84,No        ,95.8
-2023-24,Pneumonia Diagnosis,Ages 75-84,Yes       ,29.6
-2023-24,Pneumonia Diagnosis,Ages 75-84,No        ,70.4
-2023-24,ICU Admission,Ages 75-84,Yes       ,13.4
-2023-24,ICU Admission,Ages 75-84,No        ,86.6
-2023-24,Mechanical Ventilation,Ages 75-84,Yes       ,4.3
-2023-24,Mechanical Ventilation,Ages 75-84,No        ,95.7
-2023-24,Sex,Ages 75-84,Male,45.0
-2023-24,Sex,Ages 75-84,Female,55.0
-2023-24,Race,Ages 75-84,White,69.1
+2023-24,Pneumonia Diagnosis,Ages 75-84,Yes       ,29.3
+2023-24,Pneumonia Diagnosis,Ages 75-84,No        ,70.7
+2023-24,ICU Admission,Ages 75-84,Yes       ,13.2
+2023-24,ICU Admission,Ages 75-84,No        ,86.8
+2023-24,Mechanical Ventilation,Ages 75-84,Yes       ,4.2
+2023-24,Mechanical Ventilation,Ages 75-84,No        ,95.8
+2023-24,Sex,Ages 75-84,Male,45.1
+2023-24,Sex,Ages 75-84,Female,54.9
+2023-24,Race,Ages 75-84,White,69.2
 2023-24,Race,Ages 75-84,Black,15.3
-2023-24,Race,Ages 75-84,Hispanic/Latino,6.4
-2023-24,Race,Ages 75-84,Asian/Pacific Islander,5.6
+2023-24,Race,Ages 75-84,Hispanic/Latino,6.3
+2023-24,Race,Ages 75-84,Asian/Pacific Islander,5.5
 2023-24,Race,Ages 75-84,American Indian/Alaska Native,0.5
-2023-24,Race,Ages 75-84,Other,3.2
+2023-24,Race,Ages 75-84,Other,3.1
 2023-24,Race,Ages 85+,White,73.4
 2023-24,Race,Ages 85+,Black,11.0
 2023-24,Race,Ages 85+,Hispanic/Latino,6.0
 2023-24,Race,Ages 85+,Asian/Pacific Islander,6.3
 2023-24,Race,Ages 85+,American Indian/Alaska Native,0.3
 2023-24,Race,Ages 85+,Other,2.9
-2023-24,Sex,Ages 85+,Male,38.0
-2023-24,Sex,Ages 85+,Female,62.0
-2023-24,Mechanical Ventilation,Ages 85+,Yes       ,2.0
-2023-24,Mechanical Ventilation,Ages 85+,No        ,98.0
-2023-24,ICU Admission,Ages 85+,Yes       ,10.0
-2023-24,ICU Admission,Ages 85+,No        ,90.0
-2023-24,Pneumonia Diagnosis,Ages 85+,Yes       ,29.8
-2023-24,Pneumonia Diagnosis,Ages 85+,No        ,70.2
+2023-24,Sex,Ages 85+,Male,37.9
+2023-24,Sex,Ages 85+,Female,62.1
+2023-24,Mechanical Ventilation,Ages 85+,Yes       ,1.9
+2023-24,Mechanical Ventilation,Ages 85+,No        ,98.1
+2023-24,ICU Admission,Ages 85+,Yes       ,10.4
+2023-24,ICU Admission,Ages 85+,No        ,89.6
+2023-24,Pneumonia Diagnosis,Ages 85+,Yes       ,29.0
+2023-24,Pneumonia Diagnosis,Ages 85+,No        ,71.0
 2023-24,Deaths,Ages 85+,Yes       ,5.7
 2023-24,Deaths,Ages 85+,No        ,94.3
-2023-24,Antiviral Treatments,Ages 85+,Yes       ,89.3
-2023-24,Antiviral Treatments,Ages 85+,No        ,10.7
-2023-24,Antiviral Treatments,Overall,Yes       ,83.1
-2023-24,Antiviral Treatments,Overall,No        ,16.9
+2023-24,Antiviral Treatments,Ages 85+,Yes       ,89.4
+2023-24,Antiviral Treatments,Ages 85+,No        ,10.6
+2023-24,Antiviral Treatments,Overall,Yes       ,83.2
+2023-24,Antiviral Treatments,Overall,No        ,16.8
 2023-24,Deaths,Overall,Yes       ,2.9
 2023-24,Deaths,Overall,No        ,97.1
-2023-24,Pneumonia Diagnosis,Overall,Yes       ,27.2
-2023-24,Pneumonia Diagnosis,Overall,No        ,72.8
+2023-24,Pneumonia Diagnosis,Overall,Yes       ,27.0
+2023-24,Pneumonia Diagnosis,Overall,No        ,73.0
 2023-24,Mechanical Ventilation,Overall,Yes       ,5.3
 2023-24,Mechanical Ventilation,Overall,No        ,94.7
-2023-24,ICU Admission,Overall,Yes       ,15.6
-2023-24,ICU Admission,Overall,No        ,84.4
+2023-24,ICU Admission,Overall,Yes       ,15.7
+2023-24,ICU Admission,Overall,No        ,84.3
 2023-24,Age Group,Overall,0-4 yr,5.7
 2023-24,Age Group,Overall,5-17 yr,6.5
 2023-24,Age Group,Overall,18-49 yr,21.3
 2023-24,Age Group,Overall,50-64 yr,22.2
 2023-24,Age Group,Overall,65+ yr,44.4
-2023-24,Race,Overall,White,51.6
+2023-24,Race,Overall,White,51.7
 2023-24,Race,Overall,Black,27.0
-2023-24,Race,Overall,Hispanic/Latino,12.0
+2023-24,Race,Overall,Hispanic/Latino,11.9
 2023-24,Race,Overall,Asian/Pacific Islander,4.6
 2023-24,Race,Overall,American Indian/Alaska Native,0.9
-2023-24,Race,Overall,Other,3.9
+2023-24,Race,Overall,Other,3.8
 2023-24,Sex,Overall,Male,47.1
 2023-24,Sex,Overall,Female,52.9
-2024-25,Deaths,Ages 0-17,Yes       ,0.5
-2024-25,Deaths,Ages 0-17,No        ,99.5
-2024-25,Antiviral Treatments,Ages 0-17,Yes       ,64.4
-2024-25,Antiviral Treatments,Ages 0-17,No        ,35.6
-2024-25,Race,Ages 0-17,White,36.5
-2024-25,Race,Ages 0-17,Black,27.9
-2024-25,Race,Ages 0-17,Hispanic/Latino,22.5
-2024-25,Race,Ages 0-17,Asian/Pacific Islander,6.5
-2024-25,Race,Ages 0-17,American Indian/Alaska Native,1.6
-2024-25,Race,Ages 0-17,Other,5.1
-2024-25,Sex,Ages 0-17,Male,56.5
-2024-25,Sex,Ages 0-17,Female,43.5
-2024-25,ICU Admission,Ages 0-17,Yes       ,20.1
-2024-25,ICU Admission,Ages 0-17,No        ,79.9
-2024-25,Mechanical Ventilation,Ages 0-17,Yes       ,4.0
-2024-25,Mechanical Ventilation,Ages 0-17,No        ,96.0
-2024-25,Pneumonia Diagnosis,Ages 0-17,Yes       ,22.1
-2024-25,Pneumonia Diagnosis,Ages 0-17,No        ,77.9
+2024-25,Race,Ages 0-17,White,36.9
+2024-25,Race,Ages 0-17,Black,27.6
+2024-25,Race,Ages 0-17,Hispanic/Latino,22.3
+2024-25,Race,Ages 0-17,Asian/Pacific Islander,6.1
+2024-25,Race,Ages 0-17,American Indian/Alaska Native,1.4
+2024-25,Race,Ages 0-17,Other,5.6
+2024-25,Sex,Ages 0-17,Male,57.1
+2024-25,Sex,Ages 0-17,Female,42.9
+2024-25,ICU Admission,Ages 0-17,Yes       ,20.8
+2024-25,ICU Admission,Ages 0-17,No        ,79.2
+2024-25,Mechanical Ventilation,Ages 0-17,Yes       ,4.9
+2024-25,Mechanical Ventilation,Ages 0-17,No        ,95.1
+2024-25,Pneumonia Diagnosis,Ages 0-17,Yes       ,22.5
+2024-25,Pneumonia Diagnosis,Ages 0-17,No        ,77.5
+2024-25,Antiviral Treatments,Ages 0-17,Yes       ,63.4
+2024-25,Antiviral Treatments,Ages 0-17,No        ,36.6
+2024-25,Deaths,Ages 0-17,Yes       ,0.6
+2024-25,Deaths,Ages 0-17,No        ,99.4
+2024-25,Antiviral Treatments,Ages 18-49,Yes       ,83.8
+2024-25,Antiviral Treatments,Ages 18-49,No        ,16.2
 2024-25,Deaths,Ages 18-49,Yes       ,1.5
 2024-25,Deaths,Ages 18-49,No        ,98.5
-2024-25,Mechanical Ventilation,Ages 18-49,Yes       ,7.9
-2024-25,Mechanical Ventilation,Ages 18-49,No        ,92.1
-2024-25,Pneumonia Diagnosis,Ages 18-49,Yes       ,28.3
-2024-25,Pneumonia Diagnosis,Ages 18-49,No        ,71.7
-2024-25,ICU Admission,Ages 18-49,Yes       ,14.2
-2024-25,ICU Admission,Ages 18-49,No        ,85.8
-2024-25,Sex,Ages 18-49,Male,41.0
-2024-25,Sex,Ages 18-49,Female,59.0
-2024-25,Antiviral Treatments,Ages 18-49,Yes       ,81.3
-2024-25,Antiviral Treatments,Ages 18-49,No        ,18.7
-2024-25,Race,Ages 18-49,White,38.3
-2024-25,Race,Ages 18-49,Black,34.6
-2024-25,Race,Ages 18-49,Hispanic/Latino,16.7
-2024-25,Race,Ages 18-49,Asian/Pacific Islander,5.6
-2024-25,Race,Ages 18-49,American Indian/Alaska Native,1.1
-2024-25,Race,Ages 18-49,Other,3.6
+2024-25,Mechanical Ventilation,Ages 18-49,Yes       ,6.5
+2024-25,Mechanical Ventilation,Ages 18-49,No        ,93.5
+2024-25,Pneumonia Diagnosis,Ages 18-49,Yes       ,29.5
+2024-25,Pneumonia Diagnosis,Ages 18-49,No        ,70.5
+2024-25,ICU Admission,Ages 18-49,Yes       ,18.5
+2024-25,ICU Admission,Ages 18-49,No        ,81.5
+2024-25,Sex,Ages 18-49,Male,40.8
+2024-25,Sex,Ages 18-49,Female,59.2
+2024-25,Race,Ages 18-49,White,38.6
+2024-25,Race,Ages 18-49,Black,34.0
+2024-25,Race,Ages 18-49,Hispanic/Latino,16.9
+2024-25,Race,Ages 18-49,Asian/Pacific Islander,5.4
+2024-25,Race,Ages 18-49,American Indian/Alaska Native,1.2
+2024-25,Race,Ages 18-49,Other,3.9
 2024-25,Race,Ages 50-64,White,53.2
-2024-25,Race,Ages 50-64,Black,30.2
-2024-25,Race,Ages 50-64,Hispanic/Latino,9.3
+2024-25,Race,Ages 50-64,Black,29.7
+2024-25,Race,Ages 50-64,Hispanic/Latino,9.5
 2024-25,Race,Ages 50-64,Asian/Pacific Islander,3.5
-2024-25,Race,Ages 50-64,American Indian/Alaska Native,0.8
-2024-25,Race,Ages 50-64,Other,2.9
-2024-25,Antiviral Treatments,Ages 50-64,Yes       ,86.6
-2024-25,Antiviral Treatments,Ages 50-64,No        ,13.4
-2024-25,Sex,Ages 50-64,Male,49.3
-2024-25,Sex,Ages 50-64,Female,50.7
-2024-25,ICU Admission,Ages 50-64,Yes       ,16.1
-2024-25,ICU Admission,Ages 50-64,No        ,83.9
-2024-25,Pneumonia Diagnosis,Ages 50-64,Yes       ,31.0
-2024-25,Pneumonia Diagnosis,Ages 50-64,No        ,69.0
-2024-25,Mechanical Ventilation,Ages 50-64,Yes       ,8.5
-2024-25,Mechanical Ventilation,Ages 50-64,No        ,91.5
-2024-25,Deaths,Ages 50-64,Yes       ,3.9
-2024-25,Deaths,Ages 50-64,No        ,96.1
-2024-25,Deaths,Ages 65+,Yes       ,5.6
-2024-25,Deaths,Ages 65+,No        ,94.4
-2024-25,Mechanical Ventilation,Ages 65+,Yes       ,6.7
-2024-25,Mechanical Ventilation,Ages 65+,No        ,93.3
-2024-25,Pneumonia Diagnosis,Ages 65+,Yes       ,30.8
-2024-25,Pneumonia Diagnosis,Ages 65+,No        ,69.2
-2024-25,ICU Admission,Ages 65+,Yes       ,13.6
-2024-25,ICU Admission,Ages 65+,No        ,86.4
-2024-25,Sex,Ages 65+,Male,44.9
-2024-25,Sex,Ages 65+,Female,55.1
-2024-25,Antiviral Treatments,Ages 65+,Yes       ,88.3
-2024-25,Antiviral Treatments,Ages 65+,No        ,11.7
-2024-25,Race,Ages 65+,White,68.6
-2024-25,Race,Ages 65+,Black,18.1
-2024-25,Race,Ages 65+,Hispanic/Latino,5.6
-2024-25,Race,Ages 65+,Asian/Pacific Islander,5.2
+2024-25,Race,Ages 50-64,American Indian/Alaska Native,0.9
+2024-25,Race,Ages 50-64,Other,3.2
+2024-25,Sex,Ages 50-64,Male,49.4
+2024-25,Sex,Ages 50-64,Female,50.6
+2024-25,ICU Admission,Ages 50-64,Yes       ,17.8
+2024-25,ICU Admission,Ages 50-64,No        ,82.2
+2024-25,Pneumonia Diagnosis,Ages 50-64,Yes       ,35.1
+2024-25,Pneumonia Diagnosis,Ages 50-64,No        ,64.9
+2024-25,Mechanical Ventilation,Ages 50-64,Yes       ,7.5
+2024-25,Mechanical Ventilation,Ages 50-64,No        ,92.5
+2024-25,Deaths,Ages 50-64,Yes       ,3.3
+2024-25,Deaths,Ages 50-64,No        ,96.7
+2024-25,Antiviral Treatments,Ages 50-64,Yes       ,87.0
+2024-25,Antiviral Treatments,Ages 50-64,No        ,13.0
+2024-25,Antiviral Treatments,Ages 65+,Yes       ,88.0
+2024-25,Antiviral Treatments,Ages 65+,No        ,12.0
+2024-25,Deaths,Ages 65+,Yes       ,4.4
+2024-25,Deaths,Ages 65+,No        ,95.6
+2024-25,Mechanical Ventilation,Ages 65+,Yes       ,5.5
+2024-25,Mechanical Ventilation,Ages 65+,No        ,94.5
+2024-25,Pneumonia Diagnosis,Ages 65+,Yes       ,30.1
+2024-25,Pneumonia Diagnosis,Ages 65+,No        ,69.9
+2024-25,ICU Admission,Ages 65+,Yes       ,14.8
+2024-25,ICU Admission,Ages 65+,No        ,85.2
+2024-25,Sex,Ages 65+,Male,45.0
+2024-25,Sex,Ages 65+,Female,55.0
+2024-25,Race,Ages 65+,White,68.5
+2024-25,Race,Ages 65+,Black,17.8
+2024-25,Race,Ages 65+,Hispanic/Latino,5.8
+2024-25,Race,Ages 65+,Asian/Pacific Islander,5.1
 2024-25,Race,Ages 65+,American Indian/Alaska Native,0.4
-2024-25,Race,Ages 65+,Other,2.2
-2024-25,Race,Ages 65-74,White,62.8
-2024-25,Race,Ages 65-74,Black,23.8
-2024-25,Race,Ages 65-74,Hispanic/Latino,6.0
+2024-25,Race,Ages 65+,Other,2.3
+2024-25,Race,Ages 65-74,White,62.9
+2024-25,Race,Ages 65-74,Black,23.7
+2024-25,Race,Ages 65-74,Hispanic/Latino,6.2
 2024-25,Race,Ages 65-74,Asian/Pacific Islander,4.5
 2024-25,Race,Ages 65-74,American Indian/Alaska Native,0.6
-2024-25,Race,Ages 65-74,Other,2.2
-2024-25,Antiviral Treatments,Ages 65-74,Yes       ,87.8
-2024-25,Antiviral Treatments,Ages 65-74,No        ,12.2
-2024-25,Sex,Ages 65-74,Male,48.3
-2024-25,Sex,Ages 65-74,Female,51.7
-2024-25,ICU Admission,Ages 65-74,Yes       ,16.0
-2024-25,ICU Admission,Ages 65-74,No        ,84.0
-2024-25,Pneumonia Diagnosis,Ages 65-74,Yes       ,31.5
-2024-25,Pneumonia Diagnosis,Ages 65-74,No        ,68.5
-2024-25,Mechanical Ventilation,Ages 65-74,Yes       ,8.9
-2024-25,Mechanical Ventilation,Ages 65-74,No        ,91.1
-2024-25,Deaths,Ages 65-74,Yes       ,5.0
-2024-25,Deaths,Ages 65-74,No        ,95.0
-2024-25,Deaths,Ages 75-84,Yes       ,5.3
-2024-25,Deaths,Ages 75-84,No        ,94.7
-2024-25,Mechanical Ventilation,Ages 75-84,Yes       ,6.7
-2024-25,Mechanical Ventilation,Ages 75-84,No        ,93.3
-2024-25,Pneumonia Diagnosis,Ages 75-84,Yes       ,29.1
-2024-25,Pneumonia Diagnosis,Ages 75-84,No        ,70.9
-2024-25,ICU Admission,Ages 75-84,Yes       ,12.8
-2024-25,ICU Admission,Ages 75-84,No        ,87.2
-2024-25,Sex,Ages 75-84,Male,44.5
-2024-25,Sex,Ages 75-84,Female,55.5
-2024-25,Antiviral Treatments,Ages 75-84,Yes       ,88.1
-2024-25,Antiviral Treatments,Ages 75-84,No        ,11.9
-2024-25,Race,Ages 75-84,White,71.1
-2024-25,Race,Ages 75-84,Black,15.9
-2024-25,Race,Ages 75-84,Hispanic/Latino,5.3
-2024-25,Race,Ages 75-84,Asian/Pacific Islander,4.9
+2024-25,Race,Ages 65-74,Other,2.3
+2024-25,Sex,Ages 65-74,Male,48.5
+2024-25,Sex,Ages 65-74,Female,51.5
+2024-25,ICU Admission,Ages 65-74,Yes       ,17.3
+2024-25,ICU Admission,Ages 65-74,No        ,82.7
+2024-25,Pneumonia Diagnosis,Ages 65-74,Yes       ,27.4
+2024-25,Pneumonia Diagnosis,Ages 65-74,No        ,72.6
+2024-25,Mechanical Ventilation,Ages 65-74,Yes       ,7.4
+2024-25,Mechanical Ventilation,Ages 65-74,No        ,92.6
+2024-25,Deaths,Ages 65-74,Yes       ,3.8
+2024-25,Deaths,Ages 65-74,No        ,96.2
+2024-25,Antiviral Treatments,Ages 65-74,Yes       ,87.7
+2024-25,Antiviral Treatments,Ages 65-74,No        ,12.3
+2024-25,Antiviral Treatments,Ages 75-84,Yes       ,88.7
+2024-25,Antiviral Treatments,Ages 75-84,No        ,11.3
+2024-25,Deaths,Ages 75-84,Yes       ,4.2
+2024-25,Deaths,Ages 75-84,No        ,95.8
+2024-25,Mechanical Ventilation,Ages 75-84,Yes       ,5.4
+2024-25,Mechanical Ventilation,Ages 75-84,No        ,94.6
+2024-25,Pneumonia Diagnosis,Ages 75-84,Yes       ,30.8
+2024-25,Pneumonia Diagnosis,Ages 75-84,No        ,69.2
+2024-25,ICU Admission,Ages 75-84,Yes       ,14.4
+2024-25,ICU Admission,Ages 75-84,No        ,85.6
+2024-25,Sex,Ages 75-84,Male,44.7
+2024-25,Sex,Ages 75-84,Female,55.3
+2024-25,Race,Ages 75-84,White,71.0
+2024-25,Race,Ages 75-84,Black,15.6
+2024-25,Race,Ages 75-84,Hispanic/Latino,5.5
+2024-25,Race,Ages 75-84,Asian/Pacific Islander,5.0
 2024-25,Race,Ages 75-84,American Indian/Alaska Native,0.3
-2024-25,Race,Ages 75-84,Other,2.4
+2024-25,Race,Ages 75-84,Other,2.6
 2024-25,Race,Ages 85+,White,74.6
-2024-25,Race,Ages 85+,Black,11.3
-2024-25,Race,Ages 85+,Hispanic/Latino,5.4
-2024-25,Race,Ages 85+,Asian/Pacific Islander,6.7
-2024-25,Race,Ages 85+,American Indian/Alaska Native,0.3
-2024-25,Race,Ages 85+,Other,1.8
-2024-25,Antiviral Treatments,Ages 85+,Yes       ,89.5
-2024-25,Antiviral Treatments,Ages 85+,No        ,10.5
-2024-25,Sex,Ages 85+,Male,39.5
-2024-25,Sex,Ages 85+,Female,60.5
-2024-25,ICU Admission,Ages 85+,Yes       ,10.8
-2024-25,ICU Admission,Ages 85+,No        ,89.2
-2024-25,Pneumonia Diagnosis,Ages 85+,Yes       ,32.6
-2024-25,Pneumonia Diagnosis,Ages 85+,No        ,67.4
-2024-25,Mechanical Ventilation,Ages 85+,Yes       ,3.2
-2024-25,Mechanical Ventilation,Ages 85+,No        ,96.8
-2024-25,Deaths,Ages 85+,Yes       ,7.4
-2024-25,Deaths,Ages 85+,No        ,92.6
-2024-25,Pneumonia Diagnosis,Overall,Yes       ,27.9
-2024-25,Pneumonia Diagnosis,Overall,No        ,72.1
-2024-25,Mechanical Ventilation,Overall,Yes       ,6.5
-2024-25,Mechanical Ventilation,Overall,No        ,93.5
-2024-25,ICU Admission,Overall,Yes       ,15.3
-2024-25,ICU Admission,Overall,No        ,84.7
-2024-25,Sex,Overall,Male,46.2
-2024-25,Sex,Overall,Female,53.8
-2024-25,Race,Overall,White,56.9
-2024-25,Race,Overall,Black,24.6
-2024-25,Race,Overall,Hispanic/Latino,10.0
-2024-25,Race,Overall,Asian/Pacific Islander,5.0
+2024-25,Race,Ages 85+,Black,11.0
+2024-25,Race,Ages 85+,Hispanic/Latino,5.6
+2024-25,Race,Ages 85+,Asian/Pacific Islander,6.6
+2024-25,Race,Ages 85+,American Indian/Alaska Native,0.2
+2024-25,Race,Ages 85+,Other,2.1
+2024-25,Sex,Ages 85+,Male,39.2
+2024-25,Sex,Ages 85+,Female,60.8
+2024-25,ICU Admission,Ages 85+,Yes       ,11.2
+2024-25,ICU Admission,Ages 85+,No        ,88.8
+2024-25,Pneumonia Diagnosis,Ages 85+,Yes       ,33.6
+2024-25,Pneumonia Diagnosis,Ages 85+,No        ,66.4
+2024-25,Mechanical Ventilation,Ages 85+,Yes       ,2.3
+2024-25,Mechanical Ventilation,Ages 85+,No        ,97.7
+2024-25,Deaths,Ages 85+,Yes       ,5.7
+2024-25,Deaths,Ages 85+,No        ,94.3
+2024-25,Antiviral Treatments,Ages 85+,Yes       ,87.2
+2024-25,Antiviral Treatments,Ages 85+,No        ,12.8
+2024-25,Antiviral Treatments,Overall,Yes       ,84.6
+2024-25,Antiviral Treatments,Overall,No        ,15.4
+2024-25,Deaths,Overall,Yes       ,3.3
+2024-25,Deaths,Overall,No        ,96.7
+2024-25,Pneumonia Diagnosis,Overall,Yes       ,30.3
+2024-25,Pneumonia Diagnosis,Overall,No        ,69.7
+2024-25,Mechanical Ventilation,Overall,Yes       ,6.1
+2024-25,Mechanical Ventilation,Overall,No        ,93.9
+2024-25,ICU Admission,Overall,Yes       ,16.7
+2024-25,ICU Admission,Overall,No        ,83.3
+2024-25,Sex,Overall,Male,46.4
+2024-25,Sex,Overall,Female,53.6
+2024-25,Race,Overall,White,57.1
+2024-25,Race,Overall,Black,24.1
+2024-25,Race,Overall,Hispanic/Latino,10.1
+2024-25,Race,Overall,Asian/Pacific Islander,4.9
 2024-25,Race,Overall,American Indian/Alaska Native,0.7
-2024-25,Race,Overall,Other,2.9
-2024-25,Antiviral Treatments,Overall,Yes       ,80.2
-2024-25,Antiviral Treatments,Overall,No        ,19.8
-2024-25,Deaths,Overall,Yes       ,3.8
-2024-25,Deaths,Overall,No        ,96.2
+2024-25,Race,Overall,Other,3.1
 2024-25,Age Group,Overall,0-4 yr,4.4
 2024-25,Age Group,Overall,5-17 yr,5.0
-2024-25,Age Group,Overall,18-49 yr,17.9
-2024-25,Age Group,Overall,50-64 yr,21.5
-2024-25,Age Group,Overall,65+ yr,51.2
+2024-25,Age Group,Overall,18-49 yr,17.3
+2024-25,Age Group,Overall,50-64 yr,21.6
+2024-25,Age Group,Overall,65+ yr,51.7
+2025-26,Sex,Ages 0-17,Male,55.4
+2025-26,Sex,Ages 0-17,Female,44.6
+2025-26,Antiviral Treatments,Ages 0-17,Yes       ,62.6
+2025-26,Antiviral Treatments,Ages 0-17,No        ,37.4
+2025-26,Race,Ages 0-17,White,33.2
+2025-26,Race,Ages 0-17,Black,25.8
+2025-26,Race,Ages 0-17,Hispanic/Latino,24.9
+2025-26,Race,Ages 0-17,Asian/Pacific Islander,7.5
+2025-26,Race,Ages 0-17,American Indian/Alaska Native,0.9
+2025-26,Race,Ages 0-17,Other,7.7
+2025-26,ICU Admission,Ages 0-17,Yes       ,16.4
+2025-26,ICU Admission,Ages 0-17,No        ,83.6
+2025-26,Mechanical Ventilation,Ages 0-17,Yes       ,2.1
+2025-26,Mechanical Ventilation,Ages 0-17,No        ,97.9
+2025-26,Pneumonia Diagnosis,Ages 0-17,Yes       ,16.3
+2025-26,Pneumonia Diagnosis,Ages 0-17,No        ,83.7
+2025-26,Deaths,Ages 0-17,Yes       ,0.2
+2025-26,Deaths,Ages 0-17,No        ,99.8
+2025-26,Antiviral Treatments,Ages 18-49,Yes       ,86.6
+2025-26,Antiviral Treatments,Ages 18-49,No        ,13.4
+2025-26,Pneumonia Diagnosis,Ages 18-49,Yes       ,22.0
+2025-26,Pneumonia Diagnosis,Ages 18-49,No        ,78.0
+2025-26,Deaths,Ages 18-49,Yes       ,1.2
+2025-26,Deaths,Ages 18-49,No        ,98.8
+2025-26,Mechanical Ventilation,Ages 18-49,Yes       ,3.4
+2025-26,Mechanical Ventilation,Ages 18-49,No        ,96.6
+2025-26,ICU Admission,Ages 18-49,Yes       ,15.7
+2025-26,ICU Admission,Ages 18-49,No        ,84.3
+2025-26,Sex,Ages 18-49,Male,37.9
+2025-26,Sex,Ages 18-49,Female,62.1
+2025-26,Race,Ages 18-49,White,36.9
+2025-26,Race,Ages 18-49,Black,30.9
+2025-26,Race,Ages 18-49,Hispanic/Latino,20.4
+2025-26,Race,Ages 18-49,Asian/Pacific Islander,5.0
+2025-26,Race,Ages 18-49,American Indian/Alaska Native,1.5
+2025-26,Race,Ages 18-49,Other,5.3
+2025-26,Race,Ages 50-64,White,51.7
+2025-26,Race,Ages 50-64,Black,28.7
+2025-26,Race,Ages 50-64,Hispanic/Latino,10.8
+2025-26,Race,Ages 50-64,Asian/Pacific Islander,3.8
+2025-26,Race,Ages 50-64,American Indian/Alaska Native,1.0
+2025-26,Race,Ages 50-64,Other,3.9
+2025-26,Sex,Ages 50-64,Male,47.0
+2025-26,Sex,Ages 50-64,Female,53.0
+2025-26,ICU Admission,Ages 50-64,Yes       ,18.7
+2025-26,ICU Admission,Ages 50-64,No        ,81.3
+2025-26,Mechanical Ventilation,Ages 50-64,Yes       ,8.2
+2025-26,Mechanical Ventilation,Ages 50-64,No        ,91.8
+2025-26,Deaths,Ages 50-64,Yes       ,3.0
+2025-26,Deaths,Ages 50-64,No        ,97.0
+2025-26,Pneumonia Diagnosis,Ages 50-64,Yes       ,30.7
+2025-26,Pneumonia Diagnosis,Ages 50-64,No        ,69.3
+2025-26,Antiviral Treatments,Ages 50-64,Yes       ,86.5
+2025-26,Antiviral Treatments,Ages 50-64,No        ,13.5
+2025-26,Antiviral Treatments,Ages 65+,Yes       ,89.5
+2025-26,Antiviral Treatments,Ages 65+,No        ,10.5
+2025-26,Pneumonia Diagnosis,Ages 65+,Yes       ,32.9
+2025-26,Pneumonia Diagnosis,Ages 65+,No        ,67.1
+2025-26,Deaths,Ages 65+,Yes       ,3.9
+2025-26,Deaths,Ages 65+,No        ,96.1
+2025-26,Mechanical Ventilation,Ages 65+,Yes       ,4.3
+2025-26,Mechanical Ventilation,Ages 65+,No        ,95.7
+2025-26,ICU Admission,Ages 65+,Yes       ,12.6
+2025-26,ICU Admission,Ages 65+,No        ,87.4
+2025-26,Sex,Ages 65+,Male,44.9
+2025-26,Sex,Ages 65+,Female,55.1
+2025-26,Race,Ages 65+,White,69.8
+2025-26,Race,Ages 65+,Black,15.2
+2025-26,Race,Ages 65+,Hispanic/Latino,6.4
+2025-26,Race,Ages 65+,Asian/Pacific Islander,4.8
+2025-26,Race,Ages 65+,American Indian/Alaska Native,0.4
+2025-26,Race,Ages 65+,Other,3.3
+2025-26,Race,Ages 65-74,White,62.7
+2025-26,Race,Ages 65-74,Black,21.5
+2025-26,Race,Ages 65-74,Hispanic/Latino,7.0
+2025-26,Race,Ages 65-74,Asian/Pacific Islander,4.6
+2025-26,Race,Ages 65-74,American Indian/Alaska Native,0.5
+2025-26,Race,Ages 65-74,Other,3.7
+2025-26,Sex,Ages 65-74,Male,48.0
+2025-26,Sex,Ages 65-74,Female,52.0
+2025-26,ICU Admission,Ages 65-74,Yes       ,14.7
+2025-26,ICU Admission,Ages 65-74,No        ,85.3
+2025-26,Mechanical Ventilation,Ages 65-74,Yes       ,4.8
+2025-26,Mechanical Ventilation,Ages 65-74,No        ,95.2
+2025-26,Deaths,Ages 65-74,Yes       ,3.4
+2025-26,Deaths,Ages 65-74,No        ,96.6
+2025-26,Pneumonia Diagnosis,Ages 65-74,Yes       ,32.2
+2025-26,Pneumonia Diagnosis,Ages 65-74,No        ,67.8
+2025-26,Antiviral Treatments,Ages 65-74,Yes       ,92.6
+2025-26,Antiviral Treatments,Ages 65-74,No        ,7.4
+2025-26,Antiviral Treatments,Ages 75-84,Yes       ,91.4
+2025-26,Antiviral Treatments,Ages 75-84,No        ,8.6
+2025-26,Pneumonia Diagnosis,Ages 75-84,Yes       ,34.0
+2025-26,Pneumonia Diagnosis,Ages 75-84,No        ,66.0
+2025-26,Deaths,Ages 75-84,Yes       ,3.5
+2025-26,Deaths,Ages 75-84,No        ,96.5
+2025-26,Mechanical Ventilation,Ages 75-84,Yes       ,4.8
+2025-26,Mechanical Ventilation,Ages 75-84,No        ,95.2
+2025-26,ICU Admission,Ages 75-84,Yes       ,13.1
+2025-26,ICU Admission,Ages 75-84,No        ,86.9
+2025-26,Sex,Ages 75-84,Male,45.7
+2025-26,Sex,Ages 75-84,Female,54.3
+2025-26,Race,Ages 75-84,White,71.6
+2025-26,Race,Ages 75-84,Black,13.3
+2025-26,Race,Ages 75-84,Hispanic/Latino,6.3
+2025-26,Race,Ages 75-84,Asian/Pacific Islander,5.0
+2025-26,Race,Ages 75-84,American Indian/Alaska Native,0.3
+2025-26,Race,Ages 75-84,Other,3.4
+2025-26,Race,Ages 85+,White,77.4
+2025-26,Race,Ages 85+,Black,9.1
+2025-26,Race,Ages 85+,Hispanic/Latino,5.5
+2025-26,Race,Ages 85+,Asian/Pacific Islander,4.8
+2025-26,Race,Ages 85+,American Indian/Alaska Native,0.3
+2025-26,Race,Ages 85+,Other,2.8
+2025-26,Sex,Ages 85+,Male,39.2
+2025-26,Sex,Ages 85+,Female,60.8
+2025-26,ICU Admission,Ages 85+,Yes       ,8.7
+2025-26,ICU Admission,Ages 85+,No        ,91.3
+2025-26,Mechanical Ventilation,Ages 85+,Yes       ,2.9
+2025-26,Mechanical Ventilation,Ages 85+,No        ,97.1
+2025-26,Deaths,Ages 85+,Yes       ,5.2
+2025-26,Deaths,Ages 85+,No        ,94.8
+2025-26,Pneumonia Diagnosis,Ages 85+,Yes       ,32.2
+2025-26,Pneumonia Diagnosis,Ages 85+,No        ,67.8
+2025-26,Antiviral Treatments,Ages 85+,Yes       ,81.5
+2025-26,Antiviral Treatments,Ages 85+,No        ,18.5
+2025-26,Deaths,Overall,Yes       ,2.7
+2025-26,Deaths,Overall,No        ,97.3
+2025-26,Pneumonia Diagnosis,Overall,Yes       ,28.2
+2025-26,Pneumonia Diagnosis,Overall,No        ,71.8
+2025-26,Mechanical Ventilation,Overall,Yes       ,4.4
+2025-26,Mechanical Ventilation,Overall,No        ,95.6
+2025-26,ICU Admission,Overall,Yes       ,14.7
+2025-26,ICU Admission,Overall,No        ,85.3
+2025-26,Race,Overall,White,56.0
+2025-26,Race,Overall,Black,21.6
+2025-26,Race,Overall,Hispanic/Latino,12.1
+2025-26,Race,Overall,Asian/Pacific Islander,5.1
+2025-26,Race,Overall,American Indian/Alaska Native,0.8
+2025-26,Race,Overall,Other,4.4
+2025-26,Antiviral Treatments,Overall,Yes       ,84.7
+2025-26,Antiviral Treatments,Overall,No        ,15.3
+2025-26,Sex,Overall,Male,45.4
+2025-26,Sex,Overall,Female,54.6
+2025-26,Age Group,Overall,0-4 yr,6.1
+2025-26,Age Group,Overall,5-17 yr,7.6
+2025-26,Age Group,Overall,18-49 yr,18.0
+2025-26,Age Group,Overall,50-64 yr,15.8
+2025-26,Age Group,Overall,65+ yr,52.5
 
 "1. The Influenza Hospitalization Surveillance Network (FluSurv-NET) data are preliminary and subject to change as more data become available. "
 "2. The denominator for characteristic data (except for intensive care unit, mechanical ventilation, in-hospital mortality, and discharge diagnoses) is the total number of patients with non-missing data for that characteristic. The denominator for intensive care unit, mechanical ventilation, in-hospital mortality, and pneumonia diagnosis is restricted to cases who are no longer hospitalized and who have complete medical chart reviews. These data will be updated each week as additional chart reviews are completed."
 "3. White, Black, Asian/Pacific Islander and American Indian/Alaska Native all represent non-Hispanic ethnicity groups; Other includes persons in multiple race categories and persons for whom race is unknown. "
 "4. Starting with the 2017-18 season, due to the large numbers of identified cases, a sampling strategy was implemented in certain seasons and for certain age groups for medical chart abstractions. Due to the sampling methodology, weighted proportions are presented for seasons where sampling was implemented. More detailed information on sampling is described at: Influenza Hospitalization Surveillance Network (https://www.cdc.gov/fluview/overview/influenza-hospitalization-surveillance.html?CDC_AAref_Val=https://www.cdc.gov/flu/weekly/influenza-hospitalization-surveillance.htm)."
 "5. Due to the emergence of the COVID-19 pandemic, data are insufficient for select variables during the 2020-21 influenza seasons."
-"6. Data on Mechanical Ventilation, Pneumonia Diagnosis, and Antiviral Treatment not available for IA during 2021-2022. Data on Pneumonia Diagnosis and Antiviral Treatment not available for NC during the 2023-24 and 2024-25 seasons. Data on ICU, Mechanical Ventilation, Pneumonia Diagnosis and Antiviral Treatment not available for OH during 2024-25."
+"6. Data on Mechanical Ventilation, Pneumonia Diagnosis, and Antiviral Treatment not available for IA during 2021-2022. Data on ICU, Mechanical Ventilation, Pneumonia Diagnosis and Antiviral Treatment not available for OH during 2024-25. Data on Pneumonia Diagnosis and Antiviral Treatment not available for NC during the 2023-24,2024-25, and 2025-26 seasons and for WA during 2025-26."
+"7. Data on ICU admission, mechanical ventilation, pneumonia  diagnosis, and antiviral treatment are only available for cases hospitalized during October-April."

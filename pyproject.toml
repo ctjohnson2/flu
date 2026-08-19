@@ -1,0 +1,30 @@
+[project]
+name = "flu-forecast"
+version = "0.1.0"
+description = "Environment for running flu_forecast_new.ipynb"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "scipy",
+    "scikit-learn",
+    "statsmodels",
+    "torch",
+    "python-dateutil",
+    "jupyterlab",
+    "ipykernel",
+    "notebook",
+    "openpyxl>=3.1.5",
+]
+
+[project.optional-dependencies]
+# Only needed for the legacy SQL Server data-pull cells (require internal
+# VPN/DB access and a local ctj_tools.py on the Python path); not needed
+# for the rest of the notebook.
+sql = [
+    "pyodbc",
+]
+
+[tool.uv]
+package = false
